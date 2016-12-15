@@ -1,0 +1,34 @@
+<div class="small-6 small-offset-3 columns">
+
+  <div class="callout primary">
+    <h3>Location</h3>
+    <p>
+      <%= @geolocation.city %>,
+      <%= @geolocation.state %>,
+      <%= @geolocation.country %>
+    </p>
+  </div>
+  <div class="callout primary">
+    <h3>Current Temperature</h3>
+    <p>
+      <%= @weather.temp %>
+    </p>
+  </div>
+  <div class="callout primary">
+      <h3>Events in Boston</h3>
+      <p>
+        <% @events.event_list.each do |event_title| %>
+          <%= event_title %><br>
+        <% end %>
+      </p>
+    </div>
+  <div class="callout primary">
+    <h3>Top News Stories</h3>
+    <p>
+      <% @news.stories.each do |story| %>
+        <a href='<%= story[:url] %>'><%= story[:title] %></a><br>
+      <% end %>
+    </p>
+  </div>
+  </div>
+</div>

@@ -1,0 +1,1321 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.nytimes.com/svc/topstories/v1/home.json?api-key=60ab88cd172848b89847a03038949c16
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Accept-Ranges:
+      - none
+      Access-Control-Allow-Credentials:
+      - 'false'
+      Access-Control-Allow-Headers:
+      - "*"
+      Access-Control-Allow-Methods:
+      - GET
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Max-Age:
+      - '86400'
+      Cache-Control:
+      - max-age=5
+      Content-Type:
+      - text/json
+      Date:
+      - Thu, 15 Dec 2016 21:31:45 GMT
+      Etag:
+      - '"54da5de823a17cca250c38c6b77e3f5b"'
+      Expires:
+      - Thu, 15 Dec 2016 21:31:50 GMT
+      Last-Modified:
+      - Thu, 15 Dec 2016 21:22:33 GMT
+      Server:
+      - AmazonS3
+      Via:
+      - kong/0.9.5
+      X-Amz-Id-2:
+      - S7dTd2JyhMNbUFRGiOkWxKQamKqeqVqcht8aHR9gaXyfgmbJUPkqUeidov4lXj2jqhA8QobJ2UU=
+      X-Amz-Request-Id:
+      - CE7901CF1FA3AC74
+      X-Kong-Proxy-Latency:
+      - '47'
+      X-Kong-Upstream-Latency:
+      - '7'
+      X-Ratelimit-Limit-Day:
+      - '1000'
+      X-Ratelimit-Limit-Second:
+      - '5'
+      X-Ratelimit-Remaining-Day:
+      - '981'
+      X-Ratelimit-Remaining-Second:
+      - '3'
+      Content-Length:
+      - '77390'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"status":"OK","copyright":"Copyright (c) 2016 The New York Times Company.
+        All Rights Reserved.","section":"home","last_updated":"2016-12-15T16:22:02-05:00","num_results":30,"results":[{"section":"U.S.","subsection":"Politics","title":"U.S.
+        Struggles to Identify and Prosecute Russia Hackers","abstract":"Russia says
+        American efforts to capture hackers may violate international law and it has
+        shown that it will not be easily influenced by public shaming.\u201cYou can
+        indict 400 people. They don\u2019t care,\u201d a former F.B.I. senior executive
+        said.","url":"http:\/\/www.nytimes.com\/2016\/12\/15\/us\/politics\/russian-hackers-election.html","byline":"By
+        ADAM GOLDMAN and MATT APUZZO","item_type":"Article","updated_date":"2016-12-15T15:48:46-5:00","created_date":"2016-12-15T15:48:46-5:00","published_date":"2016-12-15T15:48:46-5:00","material_type_facet":"News","kicker":"","des_facet":["Cyberwarfare
+        and Defense","Computers and the Internet"],"org_facet":["Democratic National
+        Committee","Federal Bureau of Investigation","Federal Security Service","Justice
+        Department","LinkedIn Corporation"],"per_facet":["Nikulin, Yevgeniy Aleksandrovich"],"geo_facet":["Russia","Moscow
+        (Russia)"],"multimedia":[{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/16\/us\/16hackers1\/16hackers1-thumbStandard.jpg","format":"Standard
+        Thumbnail","height":75,"width":75,"type":"image","subtype":"photo","caption":"Robert
+        E. Anderson Jr., center, served until last year as the F.B.I.\u2019s most
+        senior executive overseeing computer investigations.","copyright":"Jim Lo
+        Scalzo\/European Pressphoto Agency"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/16\/us\/16hackers1\/16hackers1-thumbLarge.jpg","format":"thumbLarge","height":150,"width":150,"type":"image","subtype":"photo","caption":"Robert
+        E. Anderson Jr., center, served until last year as the F.B.I.\u2019s most
+        senior executive overseeing computer investigations.","copyright":"Jim Lo
+        Scalzo\/European Pressphoto Agency"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/16\/us\/16hackers1\/16hackers1-articleInline.jpg","format":"Normal","height":127,"width":190,"type":"image","subtype":"photo","caption":"Robert
+        E. Anderson Jr., center, served until last year as the F.B.I.\u2019s most
+        senior executive overseeing computer investigations.","copyright":"Jim Lo
+        Scalzo\/European Pressphoto Agency"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/16\/us\/16hackers1\/16hackers1-mediumThreeByTwo210.jpg","format":"mediumThreeByTwo210","height":140,"width":210,"type":"image","subtype":"photo","caption":"Robert
+        E. Anderson Jr., center, served until last year as the F.B.I.\u2019s most
+        senior executive overseeing computer investigations.","copyright":"Jim Lo
+        Scalzo\/European Pressphoto Agency"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/16\/us\/16hackers1\/16hackers1-superJumbo.jpg","format":"superJumbo","height":1365,"width":2048,"type":"image","subtype":"photo","caption":"Robert
+        E. Anderson Jr., center, served until last year as the F.B.I.\u2019s most
+        senior executive overseeing computer investigations.","copyright":"Jim Lo
+        Scalzo\/European Pressphoto Agency"}]},{"section":"N.Y. \/ Region","subsection":"","title":"Democrats
+        Eye G.O.P. Tactic: Sue the President","abstract":"Liberal state attorneys
+        general around the country have vowed to use their power to check and balance
+        Donald J. Trump\u2019s Washington.","url":"http:\/\/www.nytimes.com\/2016\/12\/14\/nyregion\/donald-trump-democrats-lawsuits.html","byline":"By
+        VIVIAN YEE","item_type":"Article","updated_date":"2016-12-14T20:50:37-5:00","created_date":"2016-12-14T20:50:38-5:00","published_date":"2016-12-14T20:50:38-5:00","material_type_facet":"News","kicker":"","des_facet":["United
+        States Politics and Government","Attorneys General","Suits and Litigation
+        (Civil)","States (US)","Federal-State Relations (US)"],"org_facet":"","per_facet":["Trump,
+        Donald J","Healey, Maura (1971- )","Schneiderman, Eric T","Mills, Janet T
+        (1947- )","Becerra, Xavier","Donovan, T J (1974- )","Obama, Barack"],"geo_facet":"","multimedia":[{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/11\/nyregion\/15AG1\/15AG1-thumbStandard.jpg","format":"Standard
+        Thumbnail","height":75,"width":75,"type":"image","subtype":"photo","caption":"Attorney
+        General Eric T. Schneiderman of New York last year in Brooklyn. He sued President-elect
+        Donald J. Trump over Trump University, negotiating a $25 million settlement,
+        and has promised to push the E.P.A. to uphold environmental laws.","copyright":"Sam
+        Hodgson for The New York Times"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/11\/nyregion\/15AG1\/15AG1-thumbLarge.jpg","format":"thumbLarge","height":150,"width":150,"type":"image","subtype":"photo","caption":"Attorney
+        General Eric T. Schneiderman of New York last year in Brooklyn. He sued President-elect
+        Donald J. Trump over Trump University, negotiating a $25 million settlement,
+        and has promised to push the E.P.A. to uphold environmental laws.","copyright":"Sam
+        Hodgson for The New York Times"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/11\/nyregion\/15AG1\/00AG1-articleInline.jpg","format":"Normal","height":127,"width":190,"type":"image","subtype":"photo","caption":"Attorney
+        General Eric T. Schneiderman of New York last year in Brooklyn. He sued President-elect
+        Donald J. Trump over Trump University, negotiating a $25 million settlement,
+        and has promised to push the E.P.A. to uphold environmental laws.","copyright":"Sam
+        Hodgson for The New York Times"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/11\/nyregion\/15AG1\/00AG1-mediumThreeByTwo210.jpg","format":"mediumThreeByTwo210","height":140,"width":210,"type":"image","subtype":"photo","caption":"Attorney
+        General Eric T. Schneiderman of New York last year in Brooklyn. He sued President-elect
+        Donald J. Trump over Trump University, negotiating a $25 million settlement,
+        and has promised to push the E.P.A. to uphold environmental laws.","copyright":"Sam
+        Hodgson for The New York Times"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/11\/nyregion\/15AG1\/00AG1-superJumbo.jpg","format":"superJumbo","height":1365,"width":2048,"type":"image","subtype":"photo","caption":"Attorney
+        General Eric T. Schneiderman of New York last year in Brooklyn. He sued President-elect
+        Donald J. Trump over Trump University, negotiating a $25 million settlement,
+        and has promised to push the E.P.A. to uphold environmental laws.","copyright":"Sam
+        Hodgson for The New York Times"}]},{"section":"U.S.","subsection":"Politics","title":"Trump
+        Falsely Says Claim of Hacking Came After Election","abstract":"Mr. Trump\u2019s
+        Twitter posts, while ignoring the facts, did raise substantive questions over
+        the Obama administration\u2019s response to the cyberattack by Russia.","url":"http:\/\/www.nytimes.com\/2016\/12\/15\/us\/politics\/russia-hack-election-trump-obama.html","byline":"By
+        JULIE HIRSCHFELD DAVIS and DAVID E. SANGER","item_type":"Article","updated_date":"2016-12-15T14:32:50-5:00","created_date":"2016-12-15T14:32:50-5:00","published_date":"2016-12-15T14:32:50-5:00","material_type_facet":"News","kicker":"","des_facet":["Cyberwarfare
+        and Defense","United States Politics and Government","Presidential Election
+        of 2016","United States International Relations"],"org_facet":"","per_facet":"","geo_facet":"","multimedia":[{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/16\/us\/16trumphack\/16trumphack-thumbStandard.jpg","format":"Standard
+        Thumbnail","height":75,"width":75,"type":"image","subtype":"photo","caption":"President-elect
+        Donald J. Trump at a \u201cthank you\u201d rally in West Allis, Wis., on Tuesday.","copyright":"Todd
+        Heisler\/The New York Times"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/16\/us\/16trumphack\/16trumphack-thumbLarge.jpg","format":"thumbLarge","height":150,"width":150,"type":"image","subtype":"photo","caption":"President-elect
+        Donald J. Trump at a \u201cthank you\u201d rally in West Allis, Wis., on Tuesday.","copyright":"Todd
+        Heisler\/The New York Times"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/16\/us\/16trumphack\/16trumphack-articleInline.jpg","format":"Normal","height":127,"width":190,"type":"image","subtype":"photo","caption":"President-elect
+        Donald J. Trump at a \u201cthank you\u201d rally in West Allis, Wis., on Tuesday.","copyright":"Todd
+        Heisler\/The New York Times"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/16\/us\/16trumphack\/16trumphack-mediumThreeByTwo210.jpg","format":"mediumThreeByTwo210","height":140,"width":210,"type":"image","subtype":"photo","caption":"President-elect
+        Donald J. Trump at a \u201cthank you\u201d rally in West Allis, Wis., on Tuesday.","copyright":"Todd
+        Heisler\/The New York Times"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/16\/us\/16trumphack\/16trumphack-superJumbo.jpg","format":"superJumbo","height":1365,"width":2048,"type":"image","subtype":"photo","caption":"President-elect
+        Donald J. Trump at a \u201cthank you\u201d rally in West Allis, Wis., on Tuesday.","copyright":"Todd
+        Heisler\/The New York Times"}]},{"section":"U.S.","subsection":"","title":"California
+        Today: Tracking the Bullet Train\u2019s Progress","abstract":"Thursday: An
+        update on the state\u2019s high-speed rail project, a billion hacked Yahoo
+        accounts, and some advice: grab an umbrella.","url":"http:\/\/www.nytimes.com\/2016\/12\/15\/us\/california-today-bullet-train.html","byline":"By
+        MIKE McPHATE","item_type":"Article","updated_date":"2016-12-15T08:46:48-5:00","created_date":"2016-12-15T08:46:49-5:00","published_date":"2016-12-15T08:46:49-5:00","material_type_facet":"briefing","kicker":"","des_facet":["California
+        Today"],"org_facet":"","per_facet":"","geo_facet":["California"],"multimedia":[{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/15\/us\/15California-Today-rail\/15California-Today-rail-thumbStandard.jpg","format":"Standard
+        Thumbnail","height":75,"width":75,"type":"image","subtype":"photo","caption":"Work
+        this month on the Cedar Viaduct, a bridge that would allow high-speed trains
+        to pass over Route 99 in Fresno.","copyright":"Courtesy of California High-Speed
+        Rail Authority"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/15\/us\/15California-Today-rail\/15California-Today-rail-thumbLarge.jpg","format":"thumbLarge","height":150,"width":150,"type":"image","subtype":"photo","caption":"Work
+        this month on the Cedar Viaduct, a bridge that would allow high-speed trains
+        to pass over Route 99 in Fresno.","copyright":"Courtesy of California High-Speed
+        Rail Authority"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/15\/us\/15California-Today-rail\/15California-Today-rail-articleInline.jpg","format":"Normal","height":126,"width":190,"type":"image","subtype":"photo","caption":"Work
+        this month on the Cedar Viaduct, a bridge that would allow high-speed trains
+        to pass over Route 99 in Fresno.","copyright":"Courtesy of California High-Speed
+        Rail Authority"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/15\/us\/15California-Today-rail\/15California-Today-rail-mediumThreeByTwo210.jpg","format":"mediumThreeByTwo210","height":140,"width":210,"type":"image","subtype":"photo","caption":"Work
+        this month on the Cedar Viaduct, a bridge that would allow high-speed trains
+        to pass over Route 99 in Fresno.","copyright":"Courtesy of California High-Speed
+        Rail Authority"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/15\/us\/15California-Today-rail\/15California-Today-rail-superJumbo.jpg","format":"superJumbo","height":1360,"width":2048,"type":"image","subtype":"photo","caption":"Work
+        this month on the Cedar Viaduct, a bridge that would allow high-speed trains
+        to pass over Route 99 in Fresno.","copyright":"Courtesy of California High-Speed
+        Rail Authority"}]},{"section":"U.S.","subsection":"Politics","title":"Transition
+        Briefing: White House Roles Seen for Ivanka Trump and Jared Kushner","abstract":"President-elect
+        Donald J. Trump was back on Twitter, questioning Russian hacking, lashing
+        out at Vanity Fair and cryptically defending his business interests.","url":"http:\/\/www.nytimes.com\/2016\/12\/15\/us\/politics\/donald-trump-transition.html","byline":"By
+        MAGGIE HABERMAN, THOMAS KAPLAN and CECILIA KANG","item_type":"Article","updated_date":"2016-12-15T12:30:29-5:00","created_date":"2016-12-15T07:25:59-5:00","published_date":"2016-12-15T07:25:59-5:00","material_type_facet":"News","kicker":"","des_facet":["United
+        States Politics and Government","Conflicts of Interest"],"org_facet":"","per_facet":["Trump,
+        Donald J","McMorris Rodgers, Cathy","Trump, Donald J Jr","Mulvaney, Mick"],"geo_facet":"","multimedia":[{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/16\/us\/16transitionbriefing\/16transitionbriefing-thumbStandard.jpg","format":"Standard
+        Thumbnail","height":75,"width":75,"type":"image","subtype":"photo","caption":"President-elect
+        Donald J. Trump and Vice President-elect Mike Pence met with leaders from
+        the technology industry in New York on Wednesday. They are now considering
+        candidates to lead the Office of Management and Budget.","copyright":"Kevin
+        Hagen for The New York Times"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/16\/us\/16transitionbriefing\/16transitionbriefing-thumbLarge.jpg","format":"thumbLarge","height":150,"width":150,"type":"image","subtype":"photo","caption":"President-elect
+        Donald J. Trump and Vice President-elect Mike Pence met with leaders from
+        the technology industry in New York on Wednesday. They are now considering
+        candidates to lead the Office of Management and Budget.","copyright":"Kevin
+        Hagen for The New York Times"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/16\/us\/16transitionbriefing\/16transitionbriefing-articleInline.jpg","format":"Normal","height":127,"width":190,"type":"image","subtype":"photo","caption":"President-elect
+        Donald J. Trump and Vice President-elect Mike Pence met with leaders from
+        the technology industry in New York on Wednesday. They are now considering
+        candidates to lead the Office of Management and Budget.","copyright":"Kevin
+        Hagen for The New York Times"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/16\/us\/16transitionbriefing\/16transitionbriefing-mediumThreeByTwo210.jpg","format":"mediumThreeByTwo210","height":140,"width":210,"type":"image","subtype":"photo","caption":"President-elect
+        Donald J. Trump and Vice President-elect Mike Pence met with leaders from
+        the technology industry in New York on Wednesday. They are now considering
+        candidates to lead the Office of Management and Budget.","copyright":"Kevin
+        Hagen for The New York Times"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/16\/us\/16transitionbriefing\/16transitionbriefing-superJumbo.jpg","format":"superJumbo","height":1366,"width":2048,"type":"image","subtype":"photo","caption":"President-elect
+        Donald J. Trump and Vice President-elect Mike Pence met with leaders from
+        the technology industry in New York on Wednesday. They are now considering
+        candidates to lead the Office of Management and Budget.","copyright":"Kevin
+        Hagen for The New York Times"}]},{"section":"U.S.","subsection":"Politics","title":"Republicans
+        in North Carolina Seek Caps on Governor\u2019s Power","abstract":"G.O.P. lawmakers
+        introduced measures to limit the power of Roy Cooper, the incoming Democratic
+        governor, to control election boards, and to require State Senate approval
+        of his cabinet members.","url":"http:\/\/www.nytimes.com\/2016\/12\/14\/us\/politics\/north-carolina-governor-roy-cooper-republicans.html","byline":"By
+        TRIP GABRIEL","item_type":"Article","updated_date":"2016-12-14T22:27:57-5:00","created_date":"2016-12-14T22:27:57-5:00","published_date":"2016-12-14T22:27:57-5:00","material_type_facet":"News","kicker":"","des_facet":["State
+        Legislatures","Elections, Governors"],"org_facet":["Republican Party"],"per_facet":["Cooper,
+        Roy A","McCrory, Pat"],"geo_facet":["North Carolina"],"multimedia":[{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/15\/us\/15carolina_web1\/15carolina_web1-thumbStandard.jpg","format":"Standard
+        Thumbnail","height":75,"width":75,"type":"image","subtype":"photo","caption":"Roy
+        Cooper speaking to a crowd of supporters in Raleigh, N.C., a day after his
+        opponent, Gov. Pat McCrory, conceded the governor\u2019s election.","copyright":"Ben
+        McKeown\/Associated Press"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/15\/us\/15carolina_web1\/15carolina_web1-thumbLarge.jpg","format":"thumbLarge","height":150,"width":150,"type":"image","subtype":"photo","caption":"Roy
+        Cooper speaking to a crowd of supporters in Raleigh, N.C., a day after his
+        opponent, Gov. Pat McCrory, conceded the governor\u2019s election.","copyright":"Ben
+        McKeown\/Associated Press"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/15\/us\/15carolina_web1\/15carolina_web1-articleInline.jpg","format":"Normal","height":127,"width":190,"type":"image","subtype":"photo","caption":"Roy
+        Cooper speaking to a crowd of supporters in Raleigh, N.C., a day after his
+        opponent, Gov. Pat McCrory, conceded the governor\u2019s election.","copyright":"Ben
+        McKeown\/Associated Press"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/15\/us\/15carolina_web1\/15carolina_web1-mediumThreeByTwo210.jpg","format":"mediumThreeByTwo210","height":140,"width":210,"type":"image","subtype":"photo","caption":"Roy
+        Cooper speaking to a crowd of supporters in Raleigh, N.C., a day after his
+        opponent, Gov. Pat McCrory, conceded the governor\u2019s election.","copyright":"Ben
+        McKeown\/Associated Press"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/15\/us\/15carolina_web1\/15carolina_web1-superJumbo.jpg","format":"superJumbo","height":1365,"width":2048,"type":"image","subtype":"photo","caption":"Roy
+        Cooper speaking to a crowd of supporters in Raleigh, N.C., a day after his
+        opponent, Gov. Pat McCrory, conceded the governor\u2019s election.","copyright":"Ben
+        McKeown\/Associated Press"}]},{"section":"U.S.","subsection":"Politics","title":"Are
+        Working-Class Whites a Lost Cause for Democrats?","abstract":"The party is
+        at odds over whether it should tailor its message to the young and nonwhite
+        constituencies that propelled President Obama, or make an effort to court
+        moderate voters.","url":"http:\/\/www.nytimes.com\/2016\/12\/15\/us\/politics\/democrats-joe-biden-hillary-clinton.html","byline":"By
+        JONATHAN MARTIN and ALEXANDER BURNS","item_type":"Article","updated_date":"2016-12-15T05:00:23-5:00","created_date":"2016-12-15T05:00:24-5:00","published_date":"2016-12-15T05:00:24-5:00","material_type_facet":"News","kicker":"","des_facet":["Presidential
+        Election of 2016","United States Politics and Government","Rural Areas","Whites"],"org_facet":["Democratic
+        Party"],"per_facet":["Biden, Joseph R Jr","Clinton, Hillary Rodham"],"geo_facet":"","multimedia":[{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/15\/us\/15DEMS\/15DEMS-thumbStandard.jpg","format":"Standard
+        Thumbnail","height":75,"width":75,"type":"image","subtype":"photo","caption":"Vice
+        President Joseph R. Biden Jr. in Washington on Tuesday. He lamented last week
+        that Hillary Clinton had not done enough to reach white working-class voters
+        during her bid for the White House.","copyright":"Al Drago\/The New York Times"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/15\/us\/15DEMS\/15DEMS-thumbLarge.jpg","format":"thumbLarge","height":150,"width":150,"type":"image","subtype":"photo","caption":"Vice
+        President Joseph R. Biden Jr. in Washington on Tuesday. He lamented last week
+        that Hillary Clinton had not done enough to reach white working-class voters
+        during her bid for the White House.","copyright":"Al Drago\/The New York Times"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/15\/us\/15DEMS\/15DEMS-articleInline.jpg","format":"Normal","height":127,"width":190,"type":"image","subtype":"photo","caption":"Vice
+        President Joseph R. Biden Jr. in Washington on Tuesday. He lamented last week
+        that Hillary Clinton had not done enough to reach white working-class voters
+        during her bid for the White House.","copyright":"Al Drago\/The New York Times"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/15\/us\/15DEMS\/15DEMS-mediumThreeByTwo210.jpg","format":"mediumThreeByTwo210","height":140,"width":210,"type":"image","subtype":"photo","caption":"Vice
+        President Joseph R. Biden Jr. in Washington on Tuesday. He lamented last week
+        that Hillary Clinton had not done enough to reach white working-class voters
+        during her bid for the White House.","copyright":"Al Drago\/The New York Times"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/15\/us\/15DEMS\/15DEMS-superJumbo.jpg","format":"superJumbo","height":1368,"width":2048,"type":"image","subtype":"photo","caption":"Vice
+        President Joseph R. Biden Jr. in Washington on Tuesday. He lamented last week
+        that Hillary Clinton had not done enough to reach white working-class voters
+        during her bid for the White House.","copyright":"Al Drago\/The New York Times"}]},{"section":"The
+        Upshot","subsection":"","title":"The Upshot: Obama Economy Has Unfinished
+        Business","abstract":"The economy is clearly in much better shape than it
+        was eight years ago \u2014 but that is a slightly misleading comparison.","url":"http:\/\/www.nytimes.com\/2016\/12\/15\/upshot\/heres-what-the-white-house-views-as-the-unfinished-business-of-the-obama-economy.html","byline":"By
+        NEIL IRWIN","item_type":"Article","updated_date":"2016-12-15T14:27:04-5:00","created_date":"2016-12-15T11:46:33-5:00","published_date":"2016-12-15T11:46:33-5:00","material_type_facet":"News","kicker":"","des_facet":["United
+        States Economy","Recession and Depression","Economic Conditions and Trends"],"org_facet":"","per_facet":["Clinton,
+        Hillary Rodham"],"geo_facet":"","multimedia":[{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/16\/upshot\/16up-econ\/16up-econ-thumbStandard-v3.jpg","format":"Standard
+        Thumbnail","height":75,"width":75,"type":"image","subtype":"photo","caption":"President
+        Obama is leaving behind an economy in much better shape than the one he inherited,
+        but also with long-term weaknesses that his Council of Economic Advisers acknowledge
+        in a new report.","copyright":"Chip Somodevilla\/Getty Images"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/16\/upshot\/16up-econ\/16up-econ-thumbLarge-v3.jpg","format":"thumbLarge","height":150,"width":150,"type":"image","subtype":"photo","caption":"President
+        Obama is leaving behind an economy in much better shape than the one he inherited,
+        but also with long-term weaknesses that his Council of Economic Advisers acknowledge
+        in a new report.","copyright":"Chip Somodevilla\/Getty Images"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/16\/upshot\/16up-econ\/16up-econ-articleInline.jpg","format":"Normal","height":127,"width":190,"type":"image","subtype":"photo","caption":"President
+        Obama is leaving behind an economy in much better shape than the one he inherited,
+        but also with long-term weaknesses that his Council of Economic Advisers acknowledge
+        in a new report.","copyright":"Chip Somodevilla\/Getty Images"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/16\/upshot\/16up-econ\/16up-econ-mediumThreeByTwo210.jpg","format":"mediumThreeByTwo210","height":140,"width":210,"type":"image","subtype":"photo","caption":"President
+        Obama is leaving behind an economy in much better shape than the one he inherited,
+        but also with long-term weaknesses that his Council of Economic Advisers acknowledge
+        in a new report.","copyright":"Chip Somodevilla\/Getty Images"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/16\/upshot\/16up-econ\/16up-econ-superJumbo.jpg","format":"superJumbo","height":1365,"width":2048,"type":"image","subtype":"photo","caption":"President
+        Obama is leaving behind an economy in much better shape than the one he inherited,
+        but also with long-term weaknesses that his Council of Economic Advisers acknowledge
+        in a new report.","copyright":"Chip Somodevilla\/Getty Images"}]},{"section":"Technology","subsection":"","title":"Facebook
+        Takes Steps to Limit the Tide of Fake News","abstract":"With help from groups
+        like Snopes and PolitiFact, Facebook said it has begun introducing a series
+        of experiments to limit misinformation and false articles on its site.","url":"http:\/\/www.nytimes.com\/2016\/12\/15\/technology\/facebook-fake-news.html","byline":"By
+        MIKE ISAAC","item_type":"Article","updated_date":"2016-12-15T13:00:27-5:00","created_date":"2016-12-15T13:00:28-5:00","published_date":"2016-12-15T13:00:28-5:00","material_type_facet":"News","kicker":"","des_facet":["News
+        and News Media","Computers and the Internet","Social Media"],"org_facet":["Facebook
+        Inc"],"per_facet":["Zuckerberg, Mark E"],"geo_facet":"","multimedia":[{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/15\/business\/15FACEBOOK2\/15FACEBOOK2-thumbStandard.jpg","format":"Standard
+        Thumbnail","height":75,"width":75,"type":"image","subtype":"photo","caption":"The
+        new fake news feature on Facebook, as the site makes an effort to flag articles
+        that are not true.","copyright":""},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/15\/business\/15FACEBOOK2\/15FACEBOOK2-thumbLarge.jpg","format":"thumbLarge","height":150,"width":150,"type":"image","subtype":"photo","caption":"The
+        new fake news feature on Facebook, as the site makes an effort to flag articles
+        that are not true.","copyright":""},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/15\/business\/15FACEBOOK2\/15FACEBOOK2-articleInline.jpg","format":"Normal","height":107,"width":190,"type":"image","subtype":"photo","caption":"The
+        new fake news feature on Facebook, as the site makes an effort to flag articles
+        that are not true.","copyright":""},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/15\/business\/15FACEBOOK2\/15FACEBOOK2-mediumThreeByTwo210.jpg","format":"mediumThreeByTwo210","height":140,"width":210,"type":"image","subtype":"photo","caption":"The
+        new fake news feature on Facebook, as the site makes an effort to flag articles
+        that are not true.","copyright":""},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/15\/business\/15FACEBOOK2\/15FACEBOOK2-superJumbo.jpg","format":"superJumbo","height":1080,"width":1919,"type":"image","subtype":"photo","caption":"The
+        new fake news feature on Facebook, as the site makes an effort to flag articles
+        that are not true.","copyright":""}]},{"section":"N.Y. \/ Region","subsection":"","title":"Young
+        Immigrants Fear Losing Work Status Under Trump","abstract":"More than 740,000
+        young undocumented immigrants are allowed to work under an Obama administration
+        directive, but Mr. Trump could take that away.","url":"http:\/\/www.nytimes.com\/2016\/12\/15\/nyregion\/once-accepted-soon-rejected-new-yorks-young-immigrants-uncertain-under-trump.html","byline":"By
+        LIZ ROBBINS","item_type":"Article","updated_date":"2016-12-15T05:00:22-5:00","created_date":"2016-12-15T05:00:22-5:00","published_date":"2016-12-15T05:00:22-5:00","material_type_facet":"News","kicker":"","des_facet":["Immigration
+        and Emigration","Deferred Action for Childhood Arrivals","Illegal Immigration"],"org_facet":["Citizenship
+        and Immigration Services (US)","Teach for America"],"per_facet":["Trump, Donald
+        J"],"geo_facet":["New York City"],"multimedia":[{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/07\/nyregion\/00DACA2\/00DACA2-thumbStandard.jpg","format":"Standard
+        Thumbnail","height":75,"width":75,"type":"image","subtype":"photo","caption":"Chandrapaul
+        Latchman, 23, fears he is at risk because he has a work permit under the Deferred
+        Action for Childhood Arrivals program. He works at JP MorganChase.","copyright":"Joshua
+        Bright for The New York Times"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/07\/nyregion\/00DACA2\/00DACA2-thumbLarge.jpg","format":"thumbLarge","height":150,"width":150,"type":"image","subtype":"photo","caption":"Chandrapaul
+        Latchman, 23, fears he is at risk because he has a work permit under the Deferred
+        Action for Childhood Arrivals program. He works at JP MorganChase.","copyright":"Joshua
+        Bright for The New York Times"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/07\/nyregion\/00DACA2\/00DACA2-articleInline.jpg","format":"Normal","height":121,"width":190,"type":"image","subtype":"photo","caption":"Chandrapaul
+        Latchman, 23, fears he is at risk because he has a work permit under the Deferred
+        Action for Childhood Arrivals program. He works at JP MorganChase.","copyright":"Joshua
+        Bright for The New York Times"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/07\/nyregion\/00DACA2\/00DACA2-mediumThreeByTwo210.jpg","format":"mediumThreeByTwo210","height":140,"width":210,"type":"image","subtype":"photo","caption":"Chandrapaul
+        Latchman, 23, fears he is at risk because he has a work permit under the Deferred
+        Action for Childhood Arrivals program. He works at JP MorganChase.","copyright":"Joshua
+        Bright for The New York Times"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/07\/nyregion\/00DACA2\/00DACA2-superJumbo.jpg","format":"superJumbo","height":1366,"width":2048,"type":"image","subtype":"photo","caption":"Chandrapaul
+        Latchman, 23, fears he is at risk because he has a work permit under the Deferred
+        Action for Childhood Arrivals program. He works at JP MorganChase.","copyright":"Joshua
+        Bright for The New York Times"}]},{"section":"Briefing","subsection":"","title":"Your
+        Morning Briefing","abstract":"Here\u2019s what you need to know to start your
+        day.","url":"http:\/\/www.nytimes.com\/2016\/12\/15\/briefing\/asia-briefing.html","byline":"By
+        CHARLES McDERMID","item_type":"Article","updated_date":"2016-12-15T16:17:12-5:00","created_date":"2016-12-15T13:57:11-5:00","published_date":"2016-12-15T13:57:11-5:00","material_type_facet":"briefing","kicker":"","des_facet":"","org_facet":"","per_facet":"","geo_facet":"","multimedia":[{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/16\/world\/asia\/1216asia-brief-slide-DU2P\/1216asia-brief-slide-DU2P-thumbStandard.jpg","format":"Standard
+        Thumbnail","height":75,"width":75,"type":"image","subtype":"photo","caption":"","copyright":"Liu
+        Rui\/Xinhua, via Associated Press.."},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/16\/world\/asia\/1216asia-brief-slide-DU2P\/1216asia-brief-slide-DU2P-thumbLarge.jpg","format":"thumbLarge","height":150,"width":150,"type":"image","subtype":"photo","caption":"","copyright":"Liu
+        Rui\/Xinhua, via Associated Press.."},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/16\/world\/asia\/1216asia-brief-slide-DU2P\/1216asia-brief-slide-DU2P-articleInline.jpg","format":"Normal","height":127,"width":190,"type":"image","subtype":"photo","caption":"","copyright":"Liu
+        Rui\/Xinhua, via Associated Press.."},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/16\/world\/asia\/1216asia-brief-slide-DU2P\/1216asia-brief-slide-DU2P-mediumThreeByTwo210.jpg","format":"mediumThreeByTwo210","height":140,"width":210,"type":"image","subtype":"photo","caption":"","copyright":"Liu
+        Rui\/Xinhua, via Associated Press.."},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/16\/world\/asia\/1216asia-brief-slide-DU2P\/1216asia-brief-slide-DU2P-superJumbo.jpg","format":"superJumbo","height":1365,"width":2048,"type":"image","subtype":"photo","caption":"","copyright":"Liu
+        Rui\/Xinhua, via Associated Press.."}]},{"section":"Business Day","subsection":"","title":"How
+        to Keep Your Office Holiday Party From Going Off the Rails","abstract":"The
+        office party can be a fun way for co-workers to get together to celebrate,
+        an opportunity to introduce yourself to executives or a memorable event for
+        all the wrong reasons.","url":"http:\/\/www.nytimes.com\/2016\/12\/14\/business\/holiday-party-tips.html","byline":"By
+        CHRISTOPHER MELE","item_type":"Article","updated_date":"2016-12-14T09:51:06-5:00","created_date":"2016-12-14T09:51:07-5:00","published_date":"2016-12-14T09:51:07-5:00","material_type_facet":"News","kicker":"","des_facet":["Parties
+        (Social)","Human Resources","Workplace Environment","Holidays and Special
+        Occasions"],"org_facet":"","per_facet":"","geo_facet":"","multimedia":[{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/08\/business\/00xp-holidayparties_web1\/00xp-holidayparties_web1-thumbStandard.jpg","format":"Standard
+        Thumbnail","height":75,"width":75,"type":"image","subtype":"photo","caption":"Experts
+        recommend limiting access to alcohol at office holiday parties.","copyright":"Joshua
+        Bright for The New York Times"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/08\/business\/00xp-holidayparties_web1\/00xp-holidayparties_web1-thumbLarge.jpg","format":"thumbLarge","height":150,"width":150,"type":"image","subtype":"photo","caption":"Experts
+        recommend limiting access to alcohol at office holiday parties.","copyright":"Joshua
+        Bright for The New York Times"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/08\/business\/00xp-holidayparties_web1\/00xp-holidayparties_web1-articleInline.jpg","format":"Normal","height":125,"width":190,"type":"image","subtype":"photo","caption":"Experts
+        recommend limiting access to alcohol at office holiday parties.","copyright":"Joshua
+        Bright for The New York Times"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/08\/business\/00xp-holidayparties_web1\/00xp-holidayparties_web1-mediumThreeByTwo210.jpg","format":"mediumThreeByTwo210","height":140,"width":210,"type":"image","subtype":"photo","caption":"Experts
+        recommend limiting access to alcohol at office holiday parties.","copyright":"Joshua
+        Bright for The New York Times"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/08\/business\/00xp-holidayparties_web1\/00xp-holidayparties_web1-superJumbo.jpg","format":"superJumbo","height":1343,"width":2048,"type":"image","subtype":"photo","caption":"Experts
+        recommend limiting access to alcohol at office holiday parties.","copyright":"Joshua
+        Bright for The New York Times"}]},{"section":"U.S.","subsection":"","title":"Dylann
+        Roof Is Guilty in Charleston Church Massacre","abstract":"The jury reached
+        its verdict after a few hours of deliberation in the case of Dylann S. Roof,
+        a white supremacist who killed nine black people at Emanuel African Methodist
+        Episcopal Church.","url":"http:\/\/www.nytimes.com\/2016\/12\/15\/us\/dylann-roof-trial.html","byline":"By
+        KEVIN SACK and ALAN BLINDER","item_type":"Article","updated_date":"2016-12-15T15:23:45-5:00","created_date":"2016-12-15T13:43:09-5:00","published_date":"2016-12-15T13:43:09-5:00","material_type_facet":"News","kicker":"","des_facet":["Charleston,
+        SC, Shooting (2015)"],"org_facet":["Emanuel African Methodist Episcopal Church
+        (Charleston, SC)"],"per_facet":["Roof, Dylann Storm"],"geo_facet":"","multimedia":""},{"section":"U.S.","subsection":"","title":"At
+        Dylann Roof Trial, Churchgoers Sit in Quiet Agony","abstract":"Family members
+        and friends of the nine victims of the massacre at Emanuel A.M.E. Church in
+        Charleston have endured the defendant\u2019s trial with stoicism and grace.","url":"http:\/\/www.nytimes.com\/2016\/12\/15\/us\/dylann-roof-trial-charleston-church-killings.html","byline":"By
+        KEVIN SACK","item_type":"Article","updated_date":"2016-12-15T05:00:23-5:00","created_date":"2016-12-15T05:00:24-5:00","published_date":"2016-12-15T05:00:24-5:00","material_type_facet":"News","kicker":"","des_facet":["Charleston,
+        SC, Shooting (2015)","Murders, Attempted Murders and Homicides"],"org_facet":["Emanuel
+        African Methodist Episcopal Church (Charleston, SC)"],"per_facet":["Pinckney,
+        Clementa C (1973-2015)","Roof, Dylann Storm"],"geo_facet":"","multimedia":[{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/15\/us\/15families-2\/15families-2-thumbStandard-v2.jpg","format":"Standard
+        Thumbnail","height":75,"width":75,"type":"image","subtype":"photo","caption":"The
+        Rev. Anthony B. Thompson, whose wife, Myra, was killed in the shooting. He
+        skipped the trial on the day when photographs of the carnage were shown.","copyright":"Travis
+        Dove for The New York Times"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/15\/us\/15families-2\/15families-2-thumbLarge-v2.jpg","format":"thumbLarge","height":150,"width":150,"type":"image","subtype":"photo","caption":"The
+        Rev. Anthony B. Thompson, whose wife, Myra, was killed in the shooting. He
+        skipped the trial on the day when photographs of the carnage were shown.","copyright":"Travis
+        Dove for The New York Times"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/15\/us\/15families-2\/15families-2-articleInline-v2.jpg","format":"Normal","height":127,"width":190,"type":"image","subtype":"photo","caption":"The
+        Rev. Anthony B. Thompson, whose wife, Myra, was killed in the shooting. He
+        skipped the trial on the day when photographs of the carnage were shown.","copyright":"Travis
+        Dove for The New York Times"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/15\/us\/15families-2\/15families-2-mediumThreeByTwo210-v2.jpg","format":"mediumThreeByTwo210","height":140,"width":210,"type":"image","subtype":"photo","caption":"The
+        Rev. Anthony B. Thompson, whose wife, Myra, was killed in the shooting. He
+        skipped the trial on the day when photographs of the carnage were shown.","copyright":"Travis
+        Dove for The New York Times"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/15\/us\/15families-2\/15families-2-superJumbo.jpg","format":"superJumbo","height":1365,"width":2048,"type":"image","subtype":"photo","caption":"The
+        Rev. Anthony B. Thompson, whose wife, Myra, was killed in the shooting. He
+        skipped the trial on the day when photographs of the carnage were shown.","copyright":"Travis
+        Dove for The New York Times"}]},{"section":"Books","subsection":"","title":"Book
+        Review: A Fictional Look at Aleppo\u2019s Despair Before the War","abstract":"Khaled
+        Khalifa\u2019s episodic novel focuses on one family in Aleppo, his native
+        city, and stops several years short of the Syrian civil war.","url":"http:\/\/www.nytimes.com\/2016\/12\/14\/books\/review-no-knives-in-the-kitchens-of-this-city-describes-a-syrian-hell.html","byline":"By
+        JENNIFER SENIOR","item_type":"Article","updated_date":"2016-12-14T18:25:11-5:00","created_date":"2016-12-14T18:25:12-5:00","published_date":"2016-12-14T18:25:12-5:00","material_type_facet":"Review","kicker":"","des_facet":["Books
+        and Literature","No Knives in the Kitchens of This City (Book)"],"org_facet":"","per_facet":["Khalifa,
+        Khaled"],"geo_facet":"","multimedia":[{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/15\/arts\/15BOOKKHALIFAJP\/15BOOKKHALIFAJP-thumbStandard-v3.jpg","format":"Standard
+        Thumbnail","height":75,"width":75,"type":"image","subtype":"photo","caption":"","copyright":"Sonny
+        Figueroa\/The New York Times"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/15\/arts\/15BOOKKHALIFAJP\/15BOOKKHALIFAJP-thumbLarge-v3.jpg","format":"thumbLarge","height":150,"width":150,"type":"image","subtype":"photo","caption":"","copyright":"Sonny
+        Figueroa\/The New York Times"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/15\/arts\/15BOOKKHALIFAJP\/15BOOKKHALIFAJP-articleInline-v3.jpg","format":"Normal","height":278,"width":190,"type":"image","subtype":"photo","caption":"","copyright":"Sonny
+        Figueroa\/The New York Times"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/15\/arts\/15BOOKKHALIFAJP\/15BOOKKHALIFAJP-mediumThreeByTwo210-v3.jpg","format":"mediumThreeByTwo210","height":140,"width":210,"type":"image","subtype":"photo","caption":"","copyright":"Sonny
+        Figueroa\/The New York Times"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/15\/arts\/15BOOKKHALIFAJP\/15BOOKKHALIFAJP-superJumbo-v3.jpg","format":"superJumbo","height":1470,"width":1004,"type":"image","subtype":"photo","caption":"","copyright":"Sonny
+        Figueroa\/The New York Times"}]},{"section":"World","subsection":"Middle East","title":"1,000
+        Syrian Civilians Evacuate Embattled Aleppo","abstract":"The evacuation from
+        rebel-held districts was hailed by President Bashar al-Assad as a historic
+        event on par with world wars.","url":"http:\/\/www.nytimes.com\/2016\/12\/15\/world\/middleeast\/aleppo-syria-evacuation-deal.html","byline":"By
+        BEN HUBBARD and HWAIDA SAAD","item_type":"Article","updated_date":"2016-12-15T13:06:17-5:00","created_date":"2016-12-15T05:42:21-5:00","published_date":"2016-12-15T05:42:21-5:00","material_type_facet":"News","kicker":"","des_facet":["International
+        Relations","Defense and Military Forces","Civilian Casualties"],"org_facet":"","per_facet":["Assad,
+        Bashar al-"],"geo_facet":["Aleppo (Syria)"],"multimedia":[{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/16\/world\/16Syria3\/16Syria3-thumbStandard.jpg","format":"Standard
+        Thumbnail","height":75,"width":75,"type":"image","subtype":"photo","caption":"An
+        older man was evacuated from a rebel-held neighborhood of Aleppo, Syria, on
+        Thursday.","copyright":"Karam Al-Masri\/Agence France-Presse \u2014 Getty
+        Images"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/16\/world\/16Syria3\/16Syria3-thumbLarge.jpg","format":"thumbLarge","height":150,"width":150,"type":"image","subtype":"photo","caption":"An
+        older man was evacuated from a rebel-held neighborhood of Aleppo, Syria, on
+        Thursday.","copyright":"Karam Al-Masri\/Agence France-Presse \u2014 Getty
+        Images"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/16\/world\/16Syria3\/16Syria3-articleInline.jpg","format":"Normal","height":127,"width":190,"type":"image","subtype":"photo","caption":"An
+        older man was evacuated from a rebel-held neighborhood of Aleppo, Syria, on
+        Thursday.","copyright":"Karam Al-Masri\/Agence France-Presse \u2014 Getty
+        Images"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/16\/world\/16Syria3\/16Syria3-mediumThreeByTwo210.jpg","format":"mediumThreeByTwo210","height":140,"width":210,"type":"image","subtype":"photo","caption":"An
+        older man was evacuated from a rebel-held neighborhood of Aleppo, Syria, on
+        Thursday.","copyright":"Karam Al-Masri\/Agence France-Presse \u2014 Getty
+        Images"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/16\/world\/16Syria3\/16Syria3-superJumbo.jpg","format":"superJumbo","height":1365,"width":2048,"type":"image","subtype":"photo","caption":"An
+        older man was evacuated from a rebel-held neighborhood of Aleppo, Syria, on
+        Thursday.","copyright":"Karam Al-Masri\/Agence France-Presse \u2014 Getty
+        Images"}]},{"section":"U.S.","subsection":"Politics","title":"How Moscow Aimed
+        a Perfect Weapon at the U.S. Election","abstract":"A Times investigation reveals
+        missed signals, slow responses and a continuing underestimation of the seriousness
+        of a campaign of cyberespionage to disrupt the presidential race.","url":"http:\/\/www.nytimes.com\/2016\/12\/13\/us\/politics\/russia-hack-election-dnc.html","byline":"By
+        ERIC LIPTON, DAVID E. SANGER and SCOTT SHANE","item_type":"Article","updated_date":"2016-12-13T20:36:58-5:00","created_date":"2016-12-13T14:43:38-5:00","published_date":"2016-12-13T14:43:38-5:00","material_type_facet":"News","kicker":"","des_facet":["Cyberwarfare
+        and Defense","Presidential Election of 2016","United States Politics and Government","Democratic
+        National Convention"],"org_facet":["Democratic National Committee","Federal
+        Bureau of Investigation","WikiLeaks","CrowdStrike Inc"],"per_facet":["Trump,
+        Donald J","Clinton, Hillary Rodham","Tanden, Neera","Assange, Julian P"],"geo_facet":["Russia"],"multimedia":[{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/14\/us\/14hack-top1-sub\/14hack-top1-sub-thumbStandard.jpg","format":"Standard
+        Thumbnail","height":75,"width":75,"type":"image","subtype":"photo","caption":"A
+        filing cabinet broken into in 1972 as part of the Watergate burglary sits
+        beside a computer server that Russian hackers breached during the 2016 presidential
+        campaign at the Democratic National Committee\u2019s headquarters in Washington.","copyright":"Justin
+        T. Gellerson for The New York Times"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/14\/us\/14hack-top1-sub\/14hack-top1-sub-thumbLarge.jpg","format":"thumbLarge","height":150,"width":150,"type":"image","subtype":"photo","caption":"A
+        filing cabinet broken into in 1972 as part of the Watergate burglary sits
+        beside a computer server that Russian hackers breached during the 2016 presidential
+        campaign at the Democratic National Committee\u2019s headquarters in Washington.","copyright":"Justin
+        T. Gellerson for The New York Times"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/14\/us\/14hack-top1-sub\/14hack-top1-sub-articleInline.jpg","format":"Normal","height":136,"width":190,"type":"image","subtype":"photo","caption":"A
+        filing cabinet broken into in 1972 as part of the Watergate burglary sits
+        beside a computer server that Russian hackers breached during the 2016 presidential
+        campaign at the Democratic National Committee\u2019s headquarters in Washington.","copyright":"Justin
+        T. Gellerson for The New York Times"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/14\/us\/14hack-top1-sub\/14hack-top1-sub-mediumThreeByTwo210.jpg","format":"mediumThreeByTwo210","height":140,"width":210,"type":"image","subtype":"photo","caption":"A
+        filing cabinet broken into in 1972 as part of the Watergate burglary sits
+        beside a computer server that Russian hackers breached during the 2016 presidential
+        campaign at the Democratic National Committee\u2019s headquarters in Washington.","copyright":"Justin
+        T. Gellerson for The New York Times"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/14\/us\/14hack-top1-sub\/14hack-top1-sub-superJumbo.jpg","format":"superJumbo","height":1463,"width":2048,"type":"image","subtype":"photo","caption":"A
+        filing cabinet broken into in 1972 as part of the Watergate burglary sits
+        beside a computer server that Russian hackers breached during the 2016 presidential
+        campaign at the Democratic National Committee\u2019s headquarters in Washington.","copyright":"Justin
+        T. Gellerson for The New York Times"}]},{"section":"U.S.","subsection":"Politics","title":"Democratic
+        House Candidates Were Also Targets","abstract":"The fallout for nearly a dozen
+        congressional candidates underscores the effect of the Russian influence operation.","url":"http:\/\/www.nytimes.com\/2016\/12\/13\/us\/politics\/house-democrats-hacking-dccc.html","byline":"By
+        ERIC LIPTON and SCOTT SHANE","item_type":"Article","updated_date":"2016-12-13T21:36:33-5:00","created_date":"2016-12-13T20:02:03-5:00","published_date":"2016-12-13T20:02:03-5:00","material_type_facet":"News","kicker":"","des_facet":["Cyberwarfare
+        and Defense","Presidential Election of 2016","Elections, House of Representatives"],"org_facet":["Democratic
+        Congressional Campaign Committee","Democratic National Committee"],"per_facet":["Taddeo,
+        Annette","Garcia, Joe (1963- )","Shea-Porter, Carol","Parrish, Mike (1963-
+        )","Lujan, Ben Ray"],"geo_facet":["Russia","Florida","New Hampshire","Pennsylvania","New
+        Mexico","United States"],"multimedia":[{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/14\/us\/HackDCCC1\/HackDCCC1-thumbStandard.jpg","format":"Standard
+        Thumbnail","height":75,"width":75,"type":"image","subtype":"photo","caption":"Annette
+        Taddeo lost a Democratic primary for a House seat in Florida after documents
+        uncovered by Russian hackers were published by reporters and bloggers.","copyright":"Scott
+        McIntyre for The New York Times"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/14\/us\/HackDCCC1\/HackDCCC1-thumbLarge.jpg","format":"thumbLarge","height":150,"width":150,"type":"image","subtype":"photo","caption":"Annette
+        Taddeo lost a Democratic primary for a House seat in Florida after documents
+        uncovered by Russian hackers were published by reporters and bloggers.","copyright":"Scott
+        McIntyre for The New York Times"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/14\/us\/HackDCCC1\/HackDCCC1-articleInline.jpg","format":"Normal","height":127,"width":190,"type":"image","subtype":"photo","caption":"Annette
+        Taddeo lost a Democratic primary for a House seat in Florida after documents
+        uncovered by Russian hackers were published by reporters and bloggers.","copyright":"Scott
+        McIntyre for The New York Times"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/14\/us\/HackDCCC1\/HackDCCC1-mediumThreeByTwo210.jpg","format":"mediumThreeByTwo210","height":140,"width":210,"type":"image","subtype":"photo","caption":"Annette
+        Taddeo lost a Democratic primary for a House seat in Florida after documents
+        uncovered by Russian hackers were published by reporters and bloggers.","copyright":"Scott
+        McIntyre for The New York Times"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/14\/us\/HackDCCC1\/HackDCCC1-superJumbo.jpg","format":"superJumbo","height":1365,"width":2048,"type":"image","subtype":"photo","caption":"Annette
+        Taddeo lost a Democratic primary for a House seat in Florida after documents
+        uncovered by Russian hackers were published by reporters and bloggers.","copyright":"Scott
+        McIntyre for The New York Times"}]},{"section":"U.S.","subsection":"Politics","title":"With
+        Election Near, Obama Delayed Blaming Russia","abstract":"The administration
+        was concerned that any statement by President Obama would be viewed as politicizing
+        intelligence, the White House said.","url":"http:\/\/www.nytimes.com\/2016\/12\/14\/us\/politics\/obama-russia-hack-democrats.html","byline":"By
+        GARDINER HARRIS","item_type":"Article","updated_date":"2016-12-14T20:05:00-5:00","created_date":"2016-12-14T20:05:01-5:00","published_date":"2016-12-14T20:05:01-5:00","material_type_facet":"News","kicker":"","des_facet":["Cyberwarfare
+        and Defense","Classified Information and State Secrets","Espionage and Intelligence
+        Services"],"org_facet":["Democratic National Committee","Federal Bureau of
+        Investigation"],"per_facet":["Trump, Donald J"],"geo_facet":["Russia"],"multimedia":[{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/15\/us\/15obama\/15obama-thumbStandard.jpg","format":"Standard
+        Thumbnail","height":75,"width":75,"type":"image","subtype":"photo","caption":"The
+        administration deliberated for months whether to blame Russia for a cyberattack
+        because President Obama did not want to be viewed as politicizing intelligence,
+        the White House said on Wednesday.","copyright":"Al Drago\/The New York Times"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/15\/us\/15obama\/15obama-thumbLarge.jpg","format":"thumbLarge","height":150,"width":150,"type":"image","subtype":"photo","caption":"The
+        administration deliberated for months whether to blame Russia for a cyberattack
+        because President Obama did not want to be viewed as politicizing intelligence,
+        the White House said on Wednesday.","copyright":"Al Drago\/The New York Times"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/15\/us\/15obama\/15obama-articleInline.jpg","format":"Normal","height":127,"width":190,"type":"image","subtype":"photo","caption":"The
+        administration deliberated for months whether to blame Russia for a cyberattack
+        because President Obama did not want to be viewed as politicizing intelligence,
+        the White House said on Wednesday.","copyright":"Al Drago\/The New York Times"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/15\/us\/15obama\/15obama-mediumThreeByTwo210.jpg","format":"mediumThreeByTwo210","height":140,"width":210,"type":"image","subtype":"photo","caption":"The
+        administration deliberated for months whether to blame Russia for a cyberattack
+        because President Obama did not want to be viewed as politicizing intelligence,
+        the White House said on Wednesday.","copyright":"Al Drago\/The New York Times"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/15\/us\/15obama\/15obama-superJumbo.jpg","format":"superJumbo","height":1366,"width":2048,"type":"image","subtype":"photo","caption":"The
+        administration deliberated for months whether to blame Russia for a cyberattack
+        because President Obama did not want to be viewed as politicizing intelligence,
+        the White House said on Wednesday.","copyright":"Al Drago\/The New York Times"}]},{"section":"Business
+        Day","subsection":"","title":"Generic Drug Giants Charged in Price-Fixing
+        Schemes","abstract":"Teva and Mylan are among those named in what officials
+        said was a broad investigation that could produce more charges.","url":"http:\/\/www.nytimes.com\/2016\/12\/15\/business\/generic-drug-price-lawsuit-teva-mylan.html","byline":"By
+        KATIE THOMAS","item_type":"Article","updated_date":"2016-12-15T12:48:27-5:00","created_date":"2016-12-15T12:48:28-5:00","published_date":"2016-12-15T12:48:28-5:00","material_type_facet":"News","kicker":"","des_facet":["Suits
+        and Litigation (Civil)","Antitrust Laws and Competition Issues","Prices (Fares,
+        Fees and Rates)","Drugs (Pharmaceuticals)","Generic Brands and Products"],"org_facet":["Mylan
+        Inc","Heritage Pharmaceuticals Inc","Teva Pharmaceutical Industries Ltd"],"per_facet":"","geo_facet":"","multimedia":[{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/16\/business\/16DRUG\/16DRUG-thumbStandard.jpg","format":"Standard
+        Thumbnail","height":75,"width":75,"type":"image","subtype":"photo","caption":"A
+        Teva pharmaceutical factory in Godollo, Hungary. Teva, the world\u2019s largest
+        generic-drug maker, is among the six companies accused of price fixing.","copyright":"Akos
+        Stiller\/Bloomberg"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/16\/business\/16DRUG\/16DRUG-thumbLarge.jpg","format":"thumbLarge","height":150,"width":150,"type":"image","subtype":"photo","caption":"A
+        Teva pharmaceutical factory in Godollo, Hungary. Teva, the world\u2019s largest
+        generic-drug maker, is among the six companies accused of price fixing.","copyright":"Akos
+        Stiller\/Bloomberg"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/16\/business\/16DRUG\/16DRUG-articleInline.jpg","format":"Normal","height":128,"width":190,"type":"image","subtype":"photo","caption":"A
+        Teva pharmaceutical factory in Godollo, Hungary. Teva, the world\u2019s largest
+        generic-drug maker, is among the six companies accused of price fixing.","copyright":"Akos
+        Stiller\/Bloomberg"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/16\/business\/16DRUG\/16DRUG-mediumThreeByTwo210.jpg","format":"mediumThreeByTwo210","height":140,"width":210,"type":"image","subtype":"photo","caption":"A
+        Teva pharmaceutical factory in Godollo, Hungary. Teva, the world\u2019s largest
+        generic-drug maker, is among the six companies accused of price fixing.","copyright":"Akos
+        Stiller\/Bloomberg"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/16\/business\/16DRUG\/16DRUG-superJumbo.jpg","format":"superJumbo","height":1381,"width":2048,"type":"image","subtype":"photo","caption":"A
+        Teva pharmaceutical factory in Godollo, Hungary. Teva, the world\u2019s largest
+        generic-drug maker, is among the six companies accused of price fixing.","copyright":"Akos
+        Stiller\/Bloomberg"}]},{"section":"N.Y. \/ Region","subsection":"","title":"A
+        Man Is Shot, and Only the Police Are Kept in the Dark","abstract":"Adrian
+        Maldonado was killed after a drug deal at a Bronx housing complex. Rumors
+        focused on a spurned lover, but witnesses were reluctant to come forward over
+        fears of reprisals.","url":"http:\/\/www.nytimes.com\/2016\/12\/14\/nyregion\/bronx-murder-40th-precinct-adrian-maldonado.html","byline":"By
+        JAMES C. McKINLEY Jr., ASHLEY SOUTHALL and AL BAKER","item_type":"Article","updated_date":"2016-12-14T19:23:55-5:00","created_date":"2016-12-14T19:23:56-5:00","published_date":"2016-12-14T19:23:56-5:00","material_type_facet":"News","kicker":"","des_facet":["Murders,
+        Attempted Murders and Homicides","Series","Public and Subsidized Housing","Gangs","Murder
+        in the 4-0 (Series)"],"org_facet":"","per_facet":["Maldonado, Adrian (1992-2016)"],"geo_facet":["South
+        Bronx (Bronx, NY)","New York City","Bronx (NYC)"],"multimedia":[{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/14\/nyregion\/00BXMURDER1\/00BXMURDER1-thumbStandard.jpg","format":"Standard
+        Thumbnail","height":75,"width":75,"type":"image","subtype":"photo","caption":"A
+        memorial to Adrian Maldonado on Courtlandt Avenue and East 151st Street in
+        the Bronx. Mr. Maldonado was fatally shot after a drug deal at a nearby housing
+        complex in July.","copyright":"Edwin J. Torres for The New York Times"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/14\/nyregion\/00BXMURDER1\/00BXMURDER1-thumbLarge.jpg","format":"thumbLarge","height":150,"width":150,"type":"image","subtype":"photo","caption":"A
+        memorial to Adrian Maldonado on Courtlandt Avenue and East 151st Street in
+        the Bronx. Mr. Maldonado was fatally shot after a drug deal at a nearby housing
+        complex in July.","copyright":"Edwin J. Torres for The New York Times"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/14\/nyregion\/00BXMURDER1\/00BXMURDER1-articleInline-v4.jpg","format":"Normal","height":149,"width":190,"type":"image","subtype":"photo","caption":"A
+        memorial to Adrian Maldonado on Courtlandt Avenue and East 151st Street in
+        the Bronx. Mr. Maldonado was fatally shot after a drug deal at a nearby housing
+        complex in July.","copyright":"Edwin J. Torres for The New York Times"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/14\/nyregion\/00BXMURDER1\/00BXMURDER1-mediumThreeByTwo210.jpg","format":"mediumThreeByTwo210","height":140,"width":210,"type":"image","subtype":"photo","caption":"A
+        memorial to Adrian Maldonado on Courtlandt Avenue and East 151st Street in
+        the Bronx. Mr. Maldonado was fatally shot after a drug deal at a nearby housing
+        complex in July.","copyright":"Edwin J. Torres for The New York Times"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/14\/nyregion\/00BXMURDER1\/00BXMURDER1-superJumbo.jpg","format":"superJumbo","height":1367,"width":2048,"type":"image","subtype":"photo","caption":"A
+        memorial to Adrian Maldonado on Courtlandt Avenue and East 151st Street in
+        the Bronx. Mr. Maldonado was fatally shot after a drug deal at a nearby housing
+        complex in July.","copyright":"Edwin J. Torres for The New York Times"}]},{"section":"N.Y.
+        \/ Region","subsection":"","title":"Drug 85 Times as Potent as Marijuana Spawned
+        \u2018Zombies\u2019","abstract":"A new study offers the first detailed look
+        at a drug that has caused dozens in Brooklyn to overdose and offers a window
+        into the evolving world of synthetic drugs.","url":"http:\/\/www.nytimes.com\/2016\/12\/14\/nyregion\/zombielike-state-was-caused-by-synthetic-marijuana.html","byline":"By
+        MARC SANTORA","item_type":"Article","updated_date":"2016-12-14T17:18:33-5:00","created_date":"2016-12-14T17:18:34-5:00","published_date":"2016-12-14T17:18:34-5:00","material_type_facet":"News","kicker":"","des_facet":["Synthetic
+        Cannabinoids","Drug Abuse and Traffic","Drugs (Pharmaceuticals)"],"org_facet":["New
+        England Journal of Medicine","Pfizer Inc"],"per_facet":"","geo_facet":["Brooklyn
+        (NYC)"],"multimedia":[{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/15\/nyregion\/15ZOMBIE1\/15ZOMBIE1-thumbStandard.jpg","format":"Standard
+        Thumbnail","height":75,"width":75,"type":"image","subtype":"photo","caption":"Emergency
+        workers treated a woman in Brooklyn in July in an area where people overdosed
+        on a synthetic cannabinoid more potent than marijuana.","copyright":"Christopher
+        Lee for The New York Times"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/15\/nyregion\/15ZOMBIE1\/15ZOMBIE1-thumbLarge.jpg","format":"thumbLarge","height":150,"width":150,"type":"image","subtype":"photo","caption":"Emergency
+        workers treated a woman in Brooklyn in July in an area where people overdosed
+        on a synthetic cannabinoid more potent than marijuana.","copyright":"Christopher
+        Lee for The New York Times"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/15\/nyregion\/15ZOMBIE1\/15ZOMBIE1-articleInline.jpg","format":"Normal","height":127,"width":190,"type":"image","subtype":"photo","caption":"Emergency
+        workers treated a woman in Brooklyn in July in an area where people overdosed
+        on a synthetic cannabinoid more potent than marijuana.","copyright":"Christopher
+        Lee for The New York Times"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/15\/nyregion\/15ZOMBIE1\/15ZOMBIE1-mediumThreeByTwo210.jpg","format":"mediumThreeByTwo210","height":140,"width":210,"type":"image","subtype":"photo","caption":"Emergency
+        workers treated a woman in Brooklyn in July in an area where people overdosed
+        on a synthetic cannabinoid more potent than marijuana.","copyright":"Christopher
+        Lee for The New York Times"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/15\/nyregion\/15ZOMBIE1\/15ZOMBIE1-superJumbo.jpg","format":"superJumbo","height":1365,"width":2048,"type":"image","subtype":"photo","caption":"Emergency
+        workers treated a woman in Brooklyn in July in an area where people overdosed
+        on a synthetic cannabinoid more potent than marijuana.","copyright":"Christopher
+        Lee for The New York Times"}]},{"section":"World","subsection":"Europe","title":"Ruling
+        Paves Way for Transfer of Art Trove Including Nazi-Looted Works","abstract":"The
+        German owner of the 1,500 artworks was of sound mind when he bequeathed them
+        to a museum in Switzerland, a court in Munich ruled.","url":"http:\/\/www.nytimes.com\/2016\/12\/15\/world\/europe\/cornelius-gurlitt-nazi-art-court.html","byline":"By
+        MELISSA EDDY and ALISON SMALE","item_type":"Article","updated_date":"2016-12-15T07:12:08-5:00","created_date":"2016-12-15T07:12:08-5:00","published_date":"2016-12-15T07:12:08-5:00","material_type_facet":"News","kicker":"","des_facet":["Arts
+        and Antiquities Looting","Holocaust and the Nazi Era","Decisions and Verdicts"],"org_facet":["Kunstmuseum
+        Bern"],"per_facet":["Gurlitt, Cornelius","Matisse, Henri","Werner, Uta"],"geo_facet":"","multimedia":[{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/16\/world\/16GURLITT\/16GURLITT-thumbStandard.jpg","format":"Standard
+        Thumbnail","height":75,"width":75,"type":"image","subtype":"photo","caption":"Some
+        of the roughly 1,500 artworks Cornelius Gurlitt kept for years in his Munich
+        apartment.","copyright":"Staatsanwaltschaft Augsburg, via Agence France-Presse
+        \u2014 Getty Images"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/16\/world\/16GURLITT\/16GURLITT-thumbLarge.jpg","format":"thumbLarge","height":150,"width":150,"type":"image","subtype":"photo","caption":"Some
+        of the roughly 1,500 artworks Cornelius Gurlitt kept for years in his Munich
+        apartment.","copyright":"Staatsanwaltschaft Augsburg, via Agence France-Presse
+        \u2014 Getty Images"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/16\/world\/16GURLITT\/16GURLITT-articleInline.jpg","format":"Normal","height":201,"width":190,"type":"image","subtype":"photo","caption":"Some
+        of the roughly 1,500 artworks Cornelius Gurlitt kept for years in his Munich
+        apartment.","copyright":"Staatsanwaltschaft Augsburg, via Agence France-Presse
+        \u2014 Getty Images"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/16\/world\/16GURLITT\/16GURLITT-mediumThreeByTwo210.jpg","format":"mediumThreeByTwo210","height":140,"width":210,"type":"image","subtype":"photo","caption":"Some
+        of the roughly 1,500 artworks Cornelius Gurlitt kept for years in his Munich
+        apartment.","copyright":"Staatsanwaltschaft Augsburg, via Agence France-Presse
+        \u2014 Getty Images"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/16\/world\/16GURLITT\/16GURLITT-superJumbo.jpg","format":"superJumbo","height":2048,"width":1939,"type":"image","subtype":"photo","caption":"Some
+        of the roughly 1,500 artworks Cornelius Gurlitt kept for years in his Munich
+        apartment.","copyright":"Staatsanwaltschaft Augsburg, via Agence France-Presse
+        \u2014 Getty Images"}]},{"section":"World","subsection":"Europe","title":"Rodents
+        Run Wild in Paris. Blame the European Union.","abstract":"Rat invasion is
+        an old problem in Paris, and also a new one. New methods of poisoning the
+        creatures aren\u2019t working so well.","url":"http:\/\/www.nytimes.com\/2016\/12\/15\/world\/europe\/paris-rats.html","byline":"By
+        ALISSA J. RUBIN","item_type":"Article","updated_date":"2016-12-15T09:53:31-5:00","created_date":"2016-12-15T09:53:31-5:00","published_date":"2016-12-15T09:53:31-5:00","material_type_facet":"News","kicker":"","des_facet":["Rats","Poisoning
+        and Poisons","Pesticides"],"org_facet":"","per_facet":"","geo_facet":["Paris
+        (France)"],"multimedia":[{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/15\/world\/16Parisrats3\/16Parisrats3-thumbStandard-v2.jpg","format":"Standard
+        Thumbnail","height":75,"width":75,"type":"image","subtype":"photo","caption":"Nine
+        parks and green spaces in Paris have been closed either partly or entirely
+        because of a rat problem.","copyright":"Pierre Terdjman for The New York Times"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/15\/world\/16Parisrats3\/16Parisrats3-thumbLarge.jpg","format":"thumbLarge","height":150,"width":150,"type":"image","subtype":"photo","caption":"Nine
+        parks and green spaces in Paris have been closed either partly or entirely
+        because of a rat problem.","copyright":"Pierre Terdjman for The New York Times"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/15\/world\/16Parisrats3\/16Parisrats3-articleInline.jpg","format":"Normal","height":127,"width":190,"type":"image","subtype":"photo","caption":"Nine
+        parks and green spaces in Paris have been closed either partly or entirely
+        because of a rat problem.","copyright":"Pierre Terdjman for The New York Times"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/15\/world\/16Parisrats3\/16Parisrats3-mediumThreeByTwo210.jpg","format":"mediumThreeByTwo210","height":140,"width":210,"type":"image","subtype":"photo","caption":"Nine
+        parks and green spaces in Paris have been closed either partly or entirely
+        because of a rat problem.","copyright":"Pierre Terdjman for The New York Times"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/15\/world\/16Parisrats3\/16Parisrats3-superJumbo.jpg","format":"superJumbo","height":1366,"width":2048,"type":"image","subtype":"photo","caption":"Nine
+        parks and green spaces in Paris have been closed either partly or entirely
+        because of a rat problem.","copyright":"Pierre Terdjman for The New York Times"}]},{"section":"World","subsection":"Middle
+        East","title":"Israel\u2019s Parliament Draws a Line on Short Hemlines","abstract":"Dozens
+        of female employees arrived at the Knesset in above-the-knee outfits to protest
+        what they said was a sudden shift in enforcing a longstanding dress code.","url":"http:\/\/www.nytimes.com\/2016\/12\/14\/world\/middleeast\/israel-parliament-short-skirts-protest-women.html","byline":"By
+        ISABEL KERSHNER","item_type":"Article","updated_date":"2016-12-14T13:13:52-5:00","created_date":"2016-12-14T13:13:53-5:00","published_date":"2016-12-14T13:13:53-5:00","material_type_facet":"News","kicker":"","des_facet":["Politics
+        and Government","Dresses","Women and Girls","Demonstrations, Protests and
+        Riots"],"org_facet":"","per_facet":"","geo_facet":["Israel","Jerusalem (Israel)"],"multimedia":""},{"section":"N.Y.
+        \/ Region","subsection":"","title":"Unusual New Resident of Manhattan Has
+        People Talking","abstract":"A male deer who has settled in Jackie Robinson
+        Park in Harlem, a block from a subway entrance, has his new neighbors worried
+        about his safety.","url":"http:\/\/www.nytimes.com\/2016\/12\/14\/nyregion\/harlem-jackie-robinson-park-reindeer.html","byline":"By
+        ANDY NEWMAN","item_type":"Article","updated_date":"2016-12-14T22:49:09-5:00","created_date":"2016-12-14T22:49:10-5:00","published_date":"2016-12-14T22:49:10-5:00","material_type_facet":"News","kicker":"","des_facet":["Deer"],"org_facet":["Parks
+        and Recreation Department (NYC)"],"per_facet":"","geo_facet":["Harlem (Manhattan,
+        NY)"],"multimedia":[{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/15\/nyregion\/15DEER1\/15DEER1-thumbStandard.jpg","format":"Standard
+        Thumbnail","height":75,"width":75,"type":"image","subtype":"photo","caption":"A
+        male deer who has settled in Jackie Robinson Park in Harlem is drawing delighted,
+        and concerned, crowds.","copyright":"Emon Hassan for The New York Times"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/15\/nyregion\/15DEER1\/15DEER1-thumbLarge.jpg","format":"thumbLarge","height":150,"width":150,"type":"image","subtype":"photo","caption":"A
+        male deer who has settled in Jackie Robinson Park in Harlem is drawing delighted,
+        and concerned, crowds.","copyright":"Emon Hassan for The New York Times"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/15\/nyregion\/15DEER1\/15DEER1-articleInline.jpg","format":"Normal","height":130,"width":190,"type":"image","subtype":"photo","caption":"A
+        male deer who has settled in Jackie Robinson Park in Harlem is drawing delighted,
+        and concerned, crowds.","copyright":"Emon Hassan for The New York Times"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/15\/nyregion\/15DEER1\/15DEER1-mediumThreeByTwo210.jpg","format":"mediumThreeByTwo210","height":140,"width":210,"type":"image","subtype":"photo","caption":"A
+        male deer who has settled in Jackie Robinson Park in Harlem is drawing delighted,
+        and concerned, crowds.","copyright":"Emon Hassan for The New York Times"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/15\/nyregion\/15DEER1\/15DEER1-superJumbo.jpg","format":"superJumbo","height":1365,"width":2048,"type":"image","subtype":"photo","caption":"A
+        male deer who has settled in Jackie Robinson Park in Harlem is drawing delighted,
+        and concerned, crowds.","copyright":"Emon Hassan for The New York Times"}]},{"section":"World","subsection":"Asia
+        Pacific","title":"Miss World Contestant Who Challenged China Is Allowed to
+        Speak Once More","abstract":"Pageant organizers gave Anastasia Lin permission
+        on Wednesday to speak to the news media, ending a three-week standoff over
+        her criticism of human rights abuses in China.","url":"http:\/\/www.nytimes.com\/2016\/12\/14\/world\/asia\/anastasia-lin-miss-world-china-canada.html","byline":"By
+        ANDREW JACOBS","item_type":"Article","updated_date":"2016-12-14T20:27:14-5:00","created_date":"2016-12-14T20:27:15-5:00","published_date":"2016-12-14T20:27:15-5:00","material_type_facet":"News","kicker":"","des_facet":["Human
+        Rights and Human Rights Violations","Censorship","Beauty Contests","Transplants"],"org_facet":["Miss
+        World Ltd"],"per_facet":["Lin, Anastasia (1990- )"],"geo_facet":["China","Canada"],"multimedia":[{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/15\/world\/14pageant\/14pageant-thumbStandard.jpg","format":"Standard
+        Thumbnail","height":75,"width":75,"type":"image","subtype":"photo","caption":"Anastasia
+        Lin, Canada\u2019s Miss World entrant, spoke out about murky, government-sanctioned
+        organ transplant programs in China.","copyright":"Pablo Martinez Monsivais\/Associated
+        Press"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/15\/world\/14pageant\/14pageant-thumbLarge.jpg","format":"thumbLarge","height":150,"width":150,"type":"image","subtype":"photo","caption":"Anastasia
+        Lin, Canada\u2019s Miss World entrant, spoke out about murky, government-sanctioned
+        organ transplant programs in China.","copyright":"Pablo Martinez Monsivais\/Associated
+        Press"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/15\/world\/14pageant\/14pageant-articleInline.jpg","format":"Normal","height":130,"width":190,"type":"image","subtype":"photo","caption":"Anastasia
+        Lin, Canada\u2019s Miss World entrant, spoke out about murky, government-sanctioned
+        organ transplant programs in China.","copyright":"Pablo Martinez Monsivais\/Associated
+        Press"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/15\/world\/14pageant\/14pageant-mediumThreeByTwo210.jpg","format":"mediumThreeByTwo210","height":140,"width":210,"type":"image","subtype":"photo","caption":"Anastasia
+        Lin, Canada\u2019s Miss World entrant, spoke out about murky, government-sanctioned
+        organ transplant programs in China.","copyright":"Pablo Martinez Monsivais\/Associated
+        Press"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/15\/world\/14pageant\/14pageant-superJumbo.jpg","format":"superJumbo","height":1397,"width":2048,"type":"image","subtype":"photo","caption":"Anastasia
+        Lin, Canada\u2019s Miss World entrant, spoke out about murky, government-sanctioned
+        organ transplant programs in China.","copyright":"Pablo Martinez Monsivais\/Associated
+        Press"}]},{"section":"N.Y. \/ Region","subsection":"","title":"Muslim Woman
+        Made Up Hate Crime on Subway, Police Say","abstract":"The woman, 18, claimed
+        that three men attacked her on a Manhattan subway on Dec. 1 and tried to pull
+        off her hijab. The police said the story was false.","url":"http:\/\/www.nytimes.com\/2016\/12\/14\/nyregion\/manhattan-yasmin-seweid-false-hate-crime.html","byline":"By
+        CHRISTOPHER MELE","item_type":"Article","updated_date":"2016-12-14T19:45:26-5:00","created_date":"2016-12-14T19:45:26-5:00","published_date":"2016-12-14T19:45:26-5:00","material_type_facet":"News","kicker":"","des_facet":["Muslim
+        Veiling","Hate Crimes","Assaults","Discrimination","Muslim Americans"],"org_facet":"","per_facet":["Seweid,
+        Yasmin"],"geo_facet":["Manhattan (NYC)"],"multimedia":[{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/15\/nyregion\/15xp-false-mobile\/15xp-false-mobile-thumbStandard.jpg","format":"Standard
+        Thumbnail","height":75,"width":75,"type":"image","subtype":"photo","caption":"","copyright":""},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/15\/nyregion\/15xp-false-mobile\/15xp-false-mobile-thumbLarge.jpg","format":"thumbLarge","height":150,"width":150,"type":"image","subtype":"photo","caption":"","copyright":""},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/15\/nyregion\/15xp-false-mobile\/15xp-false-mobile-articleInline.jpg","format":"Normal","height":190,"width":190,"type":"image","subtype":"photo","caption":"","copyright":""},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/15\/nyregion\/15xp-false-mobile\/15xp-false-mobile-mediumThreeByTwo210-v2.jpg","format":"mediumThreeByTwo210","height":140,"width":210,"type":"image","subtype":"photo","caption":"","copyright":""},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/15\/nyregion\/15xp-false-mobile\/15xp-false-mobile-superJumbo.jpg","format":"superJumbo","height":420,"width":420,"type":"image","subtype":"photo","caption":"","copyright":""}]},{"section":"Fashion
+        & Style","subsection":"","title":"How to Have a Dinner Party: Friends Not
+        Required","abstract":"Flummoxed by the old-fashioned pastime of entertaining
+        at home, our reporter tries out online services designed to bring together
+        strangers.","url":"http:\/\/www.nytimes.com\/2016\/12\/14\/fashion\/dinner-party-apps.html","byline":"By
+        HANNAH SELIGSON","item_type":"Article","updated_date":"2016-12-15T09:22:31-5:00","created_date":"2016-12-14T14:44:14-5:00","published_date":"2016-12-14T14:44:14-5:00","material_type_facet":"News","kicker":"","des_facet":["Parties
+        (Social)","Food","Computers and the Internet","Mobile Applications","Millennial
+        Generation"],"org_facet":["Feastly Inc","10 Chairs NYC","EatWith Media Ltd","OneTable"],"per_facet":"","geo_facet":"","multimedia":[{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/15\/fashion\/15DINNER\/15DINNER-thumbStandard.jpg","format":"Standard
+        Thumbnail","height":75,"width":75,"type":"image","subtype":"photo","caption":"Enjoying
+        soup and wine at a dinner in Harlem organized by EatWith, a communal dining
+        service that is now in more than 200 cities around the world.","copyright":"Andrew
+        White for The New York Times"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/15\/fashion\/15DINNER\/15DINNER-thumbLarge.jpg","format":"thumbLarge","height":150,"width":150,"type":"image","subtype":"photo","caption":"Enjoying
+        soup and wine at a dinner in Harlem organized by EatWith, a communal dining
+        service that is now in more than 200 cities around the world.","copyright":"Andrew
+        White for The New York Times"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/15\/fashion\/15DINNER\/15DINNER-articleInline.jpg","format":"Normal","height":127,"width":190,"type":"image","subtype":"photo","caption":"Enjoying
+        soup and wine at a dinner in Harlem organized by EatWith, a communal dining
+        service that is now in more than 200 cities around the world.","copyright":"Andrew
+        White for The New York Times"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/15\/fashion\/15DINNER\/15DINNER-mediumThreeByTwo210.jpg","format":"mediumThreeByTwo210","height":140,"width":210,"type":"image","subtype":"photo","caption":"Enjoying
+        soup and wine at a dinner in Harlem organized by EatWith, a communal dining
+        service that is now in more than 200 cities around the world.","copyright":"Andrew
+        White for The New York Times"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/15\/fashion\/15DINNER\/15DINNER-superJumbo.jpg","format":"superJumbo","height":1365,"width":2048,"type":"image","subtype":"photo","caption":"Enjoying
+        soup and wine at a dinner in Harlem organized by EatWith, a communal dining
+        service that is now in more than 200 cities around the world.","copyright":"Andrew
+        White for The New York Times"}]},{"section":"World","subsection":"Africa","title":"Egypt
+        Says Traces of Explosives Found on EgyptAir Crash Victims","abstract":"The
+        announcement offered the strongest suggestion yet that a bomb might have brought
+        down the airliner in May.","url":"http:\/\/www.nytimes.com\/2016\/12\/15\/world\/africa\/egyptair-804-crash-explosives-bomb.html","byline":"By
+        DECLAN WALSH","item_type":"Article","updated_date":"2016-12-15T13:18:22-5:00","created_date":"2016-12-15T11:02:53-5:00","published_date":"2016-12-15T11:02:53-5:00","material_type_facet":"News","kicker":"","des_facet":["Airlines
+        and Airplanes"],"org_facet":["Islamic State in Iraq and Syria (ISIS)"],"per_facet":"","geo_facet":["Egypt"],"multimedia":""}]}'
+    http_version: 
+  recorded_at: Thu, 15 Dec 2016 21:31:45 GMT
+- request:
+    method: get
+    uri: http://api.nytimes.com/svc/topstories/v1/home.json?api-key=60ab88cd172848b89847a03038949c16
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Accept-Ranges:
+      - none
+      Access-Control-Allow-Credentials:
+      - 'false'
+      Access-Control-Allow-Headers:
+      - "*"
+      Access-Control-Allow-Methods:
+      - GET
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Max-Age:
+      - '86400'
+      Cache-Control:
+      - max-age=59
+      Content-Type:
+      - text/json
+      Date:
+      - Thu, 15 Dec 2016 21:31:45 GMT
+      Etag:
+      - '"54da5de823a17cca250c38c6b77e3f5b"'
+      Expires:
+      - Thu, 15 Dec 2016 21:32:44 GMT
+      Last-Modified:
+      - Thu, 15 Dec 2016 21:22:33 GMT
+      Server:
+      - AmazonS3
+      Via:
+      - kong/0.9.5
+      X-Amz-Id-2:
+      - dkUVWnWqfCSNDerJnRKixLl1w4vEb5STtR5ccMr45RkG+0R8lXyL5kFh6iKW2hQO50zVbmk9/m8=
+      X-Amz-Request-Id:
+      - 65A565D79BCF9348
+      X-Kong-Proxy-Latency:
+      - '42'
+      X-Kong-Upstream-Latency:
+      - '55'
+      X-Ratelimit-Limit-Day:
+      - '1000'
+      X-Ratelimit-Limit-Second:
+      - '5'
+      X-Ratelimit-Remaining-Day:
+      - '980'
+      X-Ratelimit-Remaining-Second:
+      - '2'
+      Content-Length:
+      - '77390'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"status":"OK","copyright":"Copyright (c) 2016 The New York Times Company.
+        All Rights Reserved.","section":"home","last_updated":"2016-12-15T16:22:02-05:00","num_results":30,"results":[{"section":"U.S.","subsection":"Politics","title":"U.S.
+        Struggles to Identify and Prosecute Russia Hackers","abstract":"Russia says
+        American efforts to capture hackers may violate international law and it has
+        shown that it will not be easily influenced by public shaming.\u201cYou can
+        indict 400 people. They don\u2019t care,\u201d a former F.B.I. senior executive
+        said.","url":"http:\/\/www.nytimes.com\/2016\/12\/15\/us\/politics\/russian-hackers-election.html","byline":"By
+        ADAM GOLDMAN and MATT APUZZO","item_type":"Article","updated_date":"2016-12-15T15:48:46-5:00","created_date":"2016-12-15T15:48:46-5:00","published_date":"2016-12-15T15:48:46-5:00","material_type_facet":"News","kicker":"","des_facet":["Cyberwarfare
+        and Defense","Computers and the Internet"],"org_facet":["Democratic National
+        Committee","Federal Bureau of Investigation","Federal Security Service","Justice
+        Department","LinkedIn Corporation"],"per_facet":["Nikulin, Yevgeniy Aleksandrovich"],"geo_facet":["Russia","Moscow
+        (Russia)"],"multimedia":[{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/16\/us\/16hackers1\/16hackers1-thumbStandard.jpg","format":"Standard
+        Thumbnail","height":75,"width":75,"type":"image","subtype":"photo","caption":"Robert
+        E. Anderson Jr., center, served until last year as the F.B.I.\u2019s most
+        senior executive overseeing computer investigations.","copyright":"Jim Lo
+        Scalzo\/European Pressphoto Agency"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/16\/us\/16hackers1\/16hackers1-thumbLarge.jpg","format":"thumbLarge","height":150,"width":150,"type":"image","subtype":"photo","caption":"Robert
+        E. Anderson Jr., center, served until last year as the F.B.I.\u2019s most
+        senior executive overseeing computer investigations.","copyright":"Jim Lo
+        Scalzo\/European Pressphoto Agency"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/16\/us\/16hackers1\/16hackers1-articleInline.jpg","format":"Normal","height":127,"width":190,"type":"image","subtype":"photo","caption":"Robert
+        E. Anderson Jr., center, served until last year as the F.B.I.\u2019s most
+        senior executive overseeing computer investigations.","copyright":"Jim Lo
+        Scalzo\/European Pressphoto Agency"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/16\/us\/16hackers1\/16hackers1-mediumThreeByTwo210.jpg","format":"mediumThreeByTwo210","height":140,"width":210,"type":"image","subtype":"photo","caption":"Robert
+        E. Anderson Jr., center, served until last year as the F.B.I.\u2019s most
+        senior executive overseeing computer investigations.","copyright":"Jim Lo
+        Scalzo\/European Pressphoto Agency"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/16\/us\/16hackers1\/16hackers1-superJumbo.jpg","format":"superJumbo","height":1365,"width":2048,"type":"image","subtype":"photo","caption":"Robert
+        E. Anderson Jr., center, served until last year as the F.B.I.\u2019s most
+        senior executive overseeing computer investigations.","copyright":"Jim Lo
+        Scalzo\/European Pressphoto Agency"}]},{"section":"N.Y. \/ Region","subsection":"","title":"Democrats
+        Eye G.O.P. Tactic: Sue the President","abstract":"Liberal state attorneys
+        general around the country have vowed to use their power to check and balance
+        Donald J. Trump\u2019s Washington.","url":"http:\/\/www.nytimes.com\/2016\/12\/14\/nyregion\/donald-trump-democrats-lawsuits.html","byline":"By
+        VIVIAN YEE","item_type":"Article","updated_date":"2016-12-14T20:50:37-5:00","created_date":"2016-12-14T20:50:38-5:00","published_date":"2016-12-14T20:50:38-5:00","material_type_facet":"News","kicker":"","des_facet":["United
+        States Politics and Government","Attorneys General","Suits and Litigation
+        (Civil)","States (US)","Federal-State Relations (US)"],"org_facet":"","per_facet":["Trump,
+        Donald J","Healey, Maura (1971- )","Schneiderman, Eric T","Mills, Janet T
+        (1947- )","Becerra, Xavier","Donovan, T J (1974- )","Obama, Barack"],"geo_facet":"","multimedia":[{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/11\/nyregion\/15AG1\/15AG1-thumbStandard.jpg","format":"Standard
+        Thumbnail","height":75,"width":75,"type":"image","subtype":"photo","caption":"Attorney
+        General Eric T. Schneiderman of New York last year in Brooklyn. He sued President-elect
+        Donald J. Trump over Trump University, negotiating a $25 million settlement,
+        and has promised to push the E.P.A. to uphold environmental laws.","copyright":"Sam
+        Hodgson for The New York Times"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/11\/nyregion\/15AG1\/15AG1-thumbLarge.jpg","format":"thumbLarge","height":150,"width":150,"type":"image","subtype":"photo","caption":"Attorney
+        General Eric T. Schneiderman of New York last year in Brooklyn. He sued President-elect
+        Donald J. Trump over Trump University, negotiating a $25 million settlement,
+        and has promised to push the E.P.A. to uphold environmental laws.","copyright":"Sam
+        Hodgson for The New York Times"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/11\/nyregion\/15AG1\/00AG1-articleInline.jpg","format":"Normal","height":127,"width":190,"type":"image","subtype":"photo","caption":"Attorney
+        General Eric T. Schneiderman of New York last year in Brooklyn. He sued President-elect
+        Donald J. Trump over Trump University, negotiating a $25 million settlement,
+        and has promised to push the E.P.A. to uphold environmental laws.","copyright":"Sam
+        Hodgson for The New York Times"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/11\/nyregion\/15AG1\/00AG1-mediumThreeByTwo210.jpg","format":"mediumThreeByTwo210","height":140,"width":210,"type":"image","subtype":"photo","caption":"Attorney
+        General Eric T. Schneiderman of New York last year in Brooklyn. He sued President-elect
+        Donald J. Trump over Trump University, negotiating a $25 million settlement,
+        and has promised to push the E.P.A. to uphold environmental laws.","copyright":"Sam
+        Hodgson for The New York Times"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/11\/nyregion\/15AG1\/00AG1-superJumbo.jpg","format":"superJumbo","height":1365,"width":2048,"type":"image","subtype":"photo","caption":"Attorney
+        General Eric T. Schneiderman of New York last year in Brooklyn. He sued President-elect
+        Donald J. Trump over Trump University, negotiating a $25 million settlement,
+        and has promised to push the E.P.A. to uphold environmental laws.","copyright":"Sam
+        Hodgson for The New York Times"}]},{"section":"U.S.","subsection":"Politics","title":"Trump
+        Falsely Says Claim of Hacking Came After Election","abstract":"Mr. Trump\u2019s
+        Twitter posts, while ignoring the facts, did raise substantive questions over
+        the Obama administration\u2019s response to the cyberattack by Russia.","url":"http:\/\/www.nytimes.com\/2016\/12\/15\/us\/politics\/russia-hack-election-trump-obama.html","byline":"By
+        JULIE HIRSCHFELD DAVIS and DAVID E. SANGER","item_type":"Article","updated_date":"2016-12-15T14:32:50-5:00","created_date":"2016-12-15T14:32:50-5:00","published_date":"2016-12-15T14:32:50-5:00","material_type_facet":"News","kicker":"","des_facet":["Cyberwarfare
+        and Defense","United States Politics and Government","Presidential Election
+        of 2016","United States International Relations"],"org_facet":"","per_facet":"","geo_facet":"","multimedia":[{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/16\/us\/16trumphack\/16trumphack-thumbStandard.jpg","format":"Standard
+        Thumbnail","height":75,"width":75,"type":"image","subtype":"photo","caption":"President-elect
+        Donald J. Trump at a \u201cthank you\u201d rally in West Allis, Wis., on Tuesday.","copyright":"Todd
+        Heisler\/The New York Times"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/16\/us\/16trumphack\/16trumphack-thumbLarge.jpg","format":"thumbLarge","height":150,"width":150,"type":"image","subtype":"photo","caption":"President-elect
+        Donald J. Trump at a \u201cthank you\u201d rally in West Allis, Wis., on Tuesday.","copyright":"Todd
+        Heisler\/The New York Times"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/16\/us\/16trumphack\/16trumphack-articleInline.jpg","format":"Normal","height":127,"width":190,"type":"image","subtype":"photo","caption":"President-elect
+        Donald J. Trump at a \u201cthank you\u201d rally in West Allis, Wis., on Tuesday.","copyright":"Todd
+        Heisler\/The New York Times"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/16\/us\/16trumphack\/16trumphack-mediumThreeByTwo210.jpg","format":"mediumThreeByTwo210","height":140,"width":210,"type":"image","subtype":"photo","caption":"President-elect
+        Donald J. Trump at a \u201cthank you\u201d rally in West Allis, Wis., on Tuesday.","copyright":"Todd
+        Heisler\/The New York Times"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/16\/us\/16trumphack\/16trumphack-superJumbo.jpg","format":"superJumbo","height":1365,"width":2048,"type":"image","subtype":"photo","caption":"President-elect
+        Donald J. Trump at a \u201cthank you\u201d rally in West Allis, Wis., on Tuesday.","copyright":"Todd
+        Heisler\/The New York Times"}]},{"section":"U.S.","subsection":"","title":"California
+        Today: Tracking the Bullet Train\u2019s Progress","abstract":"Thursday: An
+        update on the state\u2019s high-speed rail project, a billion hacked Yahoo
+        accounts, and some advice: grab an umbrella.","url":"http:\/\/www.nytimes.com\/2016\/12\/15\/us\/california-today-bullet-train.html","byline":"By
+        MIKE McPHATE","item_type":"Article","updated_date":"2016-12-15T08:46:48-5:00","created_date":"2016-12-15T08:46:49-5:00","published_date":"2016-12-15T08:46:49-5:00","material_type_facet":"briefing","kicker":"","des_facet":["California
+        Today"],"org_facet":"","per_facet":"","geo_facet":["California"],"multimedia":[{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/15\/us\/15California-Today-rail\/15California-Today-rail-thumbStandard.jpg","format":"Standard
+        Thumbnail","height":75,"width":75,"type":"image","subtype":"photo","caption":"Work
+        this month on the Cedar Viaduct, a bridge that would allow high-speed trains
+        to pass over Route 99 in Fresno.","copyright":"Courtesy of California High-Speed
+        Rail Authority"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/15\/us\/15California-Today-rail\/15California-Today-rail-thumbLarge.jpg","format":"thumbLarge","height":150,"width":150,"type":"image","subtype":"photo","caption":"Work
+        this month on the Cedar Viaduct, a bridge that would allow high-speed trains
+        to pass over Route 99 in Fresno.","copyright":"Courtesy of California High-Speed
+        Rail Authority"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/15\/us\/15California-Today-rail\/15California-Today-rail-articleInline.jpg","format":"Normal","height":126,"width":190,"type":"image","subtype":"photo","caption":"Work
+        this month on the Cedar Viaduct, a bridge that would allow high-speed trains
+        to pass over Route 99 in Fresno.","copyright":"Courtesy of California High-Speed
+        Rail Authority"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/15\/us\/15California-Today-rail\/15California-Today-rail-mediumThreeByTwo210.jpg","format":"mediumThreeByTwo210","height":140,"width":210,"type":"image","subtype":"photo","caption":"Work
+        this month on the Cedar Viaduct, a bridge that would allow high-speed trains
+        to pass over Route 99 in Fresno.","copyright":"Courtesy of California High-Speed
+        Rail Authority"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/15\/us\/15California-Today-rail\/15California-Today-rail-superJumbo.jpg","format":"superJumbo","height":1360,"width":2048,"type":"image","subtype":"photo","caption":"Work
+        this month on the Cedar Viaduct, a bridge that would allow high-speed trains
+        to pass over Route 99 in Fresno.","copyright":"Courtesy of California High-Speed
+        Rail Authority"}]},{"section":"U.S.","subsection":"Politics","title":"Transition
+        Briefing: White House Roles Seen for Ivanka Trump and Jared Kushner","abstract":"President-elect
+        Donald J. Trump was back on Twitter, questioning Russian hacking, lashing
+        out at Vanity Fair and cryptically defending his business interests.","url":"http:\/\/www.nytimes.com\/2016\/12\/15\/us\/politics\/donald-trump-transition.html","byline":"By
+        MAGGIE HABERMAN, THOMAS KAPLAN and CECILIA KANG","item_type":"Article","updated_date":"2016-12-15T12:30:29-5:00","created_date":"2016-12-15T07:25:59-5:00","published_date":"2016-12-15T07:25:59-5:00","material_type_facet":"News","kicker":"","des_facet":["United
+        States Politics and Government","Conflicts of Interest"],"org_facet":"","per_facet":["Trump,
+        Donald J","McMorris Rodgers, Cathy","Trump, Donald J Jr","Mulvaney, Mick"],"geo_facet":"","multimedia":[{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/16\/us\/16transitionbriefing\/16transitionbriefing-thumbStandard.jpg","format":"Standard
+        Thumbnail","height":75,"width":75,"type":"image","subtype":"photo","caption":"President-elect
+        Donald J. Trump and Vice President-elect Mike Pence met with leaders from
+        the technology industry in New York on Wednesday. They are now considering
+        candidates to lead the Office of Management and Budget.","copyright":"Kevin
+        Hagen for The New York Times"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/16\/us\/16transitionbriefing\/16transitionbriefing-thumbLarge.jpg","format":"thumbLarge","height":150,"width":150,"type":"image","subtype":"photo","caption":"President-elect
+        Donald J. Trump and Vice President-elect Mike Pence met with leaders from
+        the technology industry in New York on Wednesday. They are now considering
+        candidates to lead the Office of Management and Budget.","copyright":"Kevin
+        Hagen for The New York Times"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/16\/us\/16transitionbriefing\/16transitionbriefing-articleInline.jpg","format":"Normal","height":127,"width":190,"type":"image","subtype":"photo","caption":"President-elect
+        Donald J. Trump and Vice President-elect Mike Pence met with leaders from
+        the technology industry in New York on Wednesday. They are now considering
+        candidates to lead the Office of Management and Budget.","copyright":"Kevin
+        Hagen for The New York Times"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/16\/us\/16transitionbriefing\/16transitionbriefing-mediumThreeByTwo210.jpg","format":"mediumThreeByTwo210","height":140,"width":210,"type":"image","subtype":"photo","caption":"President-elect
+        Donald J. Trump and Vice President-elect Mike Pence met with leaders from
+        the technology industry in New York on Wednesday. They are now considering
+        candidates to lead the Office of Management and Budget.","copyright":"Kevin
+        Hagen for The New York Times"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/16\/us\/16transitionbriefing\/16transitionbriefing-superJumbo.jpg","format":"superJumbo","height":1366,"width":2048,"type":"image","subtype":"photo","caption":"President-elect
+        Donald J. Trump and Vice President-elect Mike Pence met with leaders from
+        the technology industry in New York on Wednesday. They are now considering
+        candidates to lead the Office of Management and Budget.","copyright":"Kevin
+        Hagen for The New York Times"}]},{"section":"U.S.","subsection":"Politics","title":"Republicans
+        in North Carolina Seek Caps on Governor\u2019s Power","abstract":"G.O.P. lawmakers
+        introduced measures to limit the power of Roy Cooper, the incoming Democratic
+        governor, to control election boards, and to require State Senate approval
+        of his cabinet members.","url":"http:\/\/www.nytimes.com\/2016\/12\/14\/us\/politics\/north-carolina-governor-roy-cooper-republicans.html","byline":"By
+        TRIP GABRIEL","item_type":"Article","updated_date":"2016-12-14T22:27:57-5:00","created_date":"2016-12-14T22:27:57-5:00","published_date":"2016-12-14T22:27:57-5:00","material_type_facet":"News","kicker":"","des_facet":["State
+        Legislatures","Elections, Governors"],"org_facet":["Republican Party"],"per_facet":["Cooper,
+        Roy A","McCrory, Pat"],"geo_facet":["North Carolina"],"multimedia":[{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/15\/us\/15carolina_web1\/15carolina_web1-thumbStandard.jpg","format":"Standard
+        Thumbnail","height":75,"width":75,"type":"image","subtype":"photo","caption":"Roy
+        Cooper speaking to a crowd of supporters in Raleigh, N.C., a day after his
+        opponent, Gov. Pat McCrory, conceded the governor\u2019s election.","copyright":"Ben
+        McKeown\/Associated Press"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/15\/us\/15carolina_web1\/15carolina_web1-thumbLarge.jpg","format":"thumbLarge","height":150,"width":150,"type":"image","subtype":"photo","caption":"Roy
+        Cooper speaking to a crowd of supporters in Raleigh, N.C., a day after his
+        opponent, Gov. Pat McCrory, conceded the governor\u2019s election.","copyright":"Ben
+        McKeown\/Associated Press"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/15\/us\/15carolina_web1\/15carolina_web1-articleInline.jpg","format":"Normal","height":127,"width":190,"type":"image","subtype":"photo","caption":"Roy
+        Cooper speaking to a crowd of supporters in Raleigh, N.C., a day after his
+        opponent, Gov. Pat McCrory, conceded the governor\u2019s election.","copyright":"Ben
+        McKeown\/Associated Press"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/15\/us\/15carolina_web1\/15carolina_web1-mediumThreeByTwo210.jpg","format":"mediumThreeByTwo210","height":140,"width":210,"type":"image","subtype":"photo","caption":"Roy
+        Cooper speaking to a crowd of supporters in Raleigh, N.C., a day after his
+        opponent, Gov. Pat McCrory, conceded the governor\u2019s election.","copyright":"Ben
+        McKeown\/Associated Press"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/15\/us\/15carolina_web1\/15carolina_web1-superJumbo.jpg","format":"superJumbo","height":1365,"width":2048,"type":"image","subtype":"photo","caption":"Roy
+        Cooper speaking to a crowd of supporters in Raleigh, N.C., a day after his
+        opponent, Gov. Pat McCrory, conceded the governor\u2019s election.","copyright":"Ben
+        McKeown\/Associated Press"}]},{"section":"U.S.","subsection":"Politics","title":"Are
+        Working-Class Whites a Lost Cause for Democrats?","abstract":"The party is
+        at odds over whether it should tailor its message to the young and nonwhite
+        constituencies that propelled President Obama, or make an effort to court
+        moderate voters.","url":"http:\/\/www.nytimes.com\/2016\/12\/15\/us\/politics\/democrats-joe-biden-hillary-clinton.html","byline":"By
+        JONATHAN MARTIN and ALEXANDER BURNS","item_type":"Article","updated_date":"2016-12-15T05:00:23-5:00","created_date":"2016-12-15T05:00:24-5:00","published_date":"2016-12-15T05:00:24-5:00","material_type_facet":"News","kicker":"","des_facet":["Presidential
+        Election of 2016","United States Politics and Government","Rural Areas","Whites"],"org_facet":["Democratic
+        Party"],"per_facet":["Biden, Joseph R Jr","Clinton, Hillary Rodham"],"geo_facet":"","multimedia":[{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/15\/us\/15DEMS\/15DEMS-thumbStandard.jpg","format":"Standard
+        Thumbnail","height":75,"width":75,"type":"image","subtype":"photo","caption":"Vice
+        President Joseph R. Biden Jr. in Washington on Tuesday. He lamented last week
+        that Hillary Clinton had not done enough to reach white working-class voters
+        during her bid for the White House.","copyright":"Al Drago\/The New York Times"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/15\/us\/15DEMS\/15DEMS-thumbLarge.jpg","format":"thumbLarge","height":150,"width":150,"type":"image","subtype":"photo","caption":"Vice
+        President Joseph R. Biden Jr. in Washington on Tuesday. He lamented last week
+        that Hillary Clinton had not done enough to reach white working-class voters
+        during her bid for the White House.","copyright":"Al Drago\/The New York Times"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/15\/us\/15DEMS\/15DEMS-articleInline.jpg","format":"Normal","height":127,"width":190,"type":"image","subtype":"photo","caption":"Vice
+        President Joseph R. Biden Jr. in Washington on Tuesday. He lamented last week
+        that Hillary Clinton had not done enough to reach white working-class voters
+        during her bid for the White House.","copyright":"Al Drago\/The New York Times"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/15\/us\/15DEMS\/15DEMS-mediumThreeByTwo210.jpg","format":"mediumThreeByTwo210","height":140,"width":210,"type":"image","subtype":"photo","caption":"Vice
+        President Joseph R. Biden Jr. in Washington on Tuesday. He lamented last week
+        that Hillary Clinton had not done enough to reach white working-class voters
+        during her bid for the White House.","copyright":"Al Drago\/The New York Times"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/15\/us\/15DEMS\/15DEMS-superJumbo.jpg","format":"superJumbo","height":1368,"width":2048,"type":"image","subtype":"photo","caption":"Vice
+        President Joseph R. Biden Jr. in Washington on Tuesday. He lamented last week
+        that Hillary Clinton had not done enough to reach white working-class voters
+        during her bid for the White House.","copyright":"Al Drago\/The New York Times"}]},{"section":"The
+        Upshot","subsection":"","title":"The Upshot: Obama Economy Has Unfinished
+        Business","abstract":"The economy is clearly in much better shape than it
+        was eight years ago \u2014 but that is a slightly misleading comparison.","url":"http:\/\/www.nytimes.com\/2016\/12\/15\/upshot\/heres-what-the-white-house-views-as-the-unfinished-business-of-the-obama-economy.html","byline":"By
+        NEIL IRWIN","item_type":"Article","updated_date":"2016-12-15T14:27:04-5:00","created_date":"2016-12-15T11:46:33-5:00","published_date":"2016-12-15T11:46:33-5:00","material_type_facet":"News","kicker":"","des_facet":["United
+        States Economy","Recession and Depression","Economic Conditions and Trends"],"org_facet":"","per_facet":["Clinton,
+        Hillary Rodham"],"geo_facet":"","multimedia":[{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/16\/upshot\/16up-econ\/16up-econ-thumbStandard-v3.jpg","format":"Standard
+        Thumbnail","height":75,"width":75,"type":"image","subtype":"photo","caption":"President
+        Obama is leaving behind an economy in much better shape than the one he inherited,
+        but also with long-term weaknesses that his Council of Economic Advisers acknowledge
+        in a new report.","copyright":"Chip Somodevilla\/Getty Images"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/16\/upshot\/16up-econ\/16up-econ-thumbLarge-v3.jpg","format":"thumbLarge","height":150,"width":150,"type":"image","subtype":"photo","caption":"President
+        Obama is leaving behind an economy in much better shape than the one he inherited,
+        but also with long-term weaknesses that his Council of Economic Advisers acknowledge
+        in a new report.","copyright":"Chip Somodevilla\/Getty Images"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/16\/upshot\/16up-econ\/16up-econ-articleInline.jpg","format":"Normal","height":127,"width":190,"type":"image","subtype":"photo","caption":"President
+        Obama is leaving behind an economy in much better shape than the one he inherited,
+        but also with long-term weaknesses that his Council of Economic Advisers acknowledge
+        in a new report.","copyright":"Chip Somodevilla\/Getty Images"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/16\/upshot\/16up-econ\/16up-econ-mediumThreeByTwo210.jpg","format":"mediumThreeByTwo210","height":140,"width":210,"type":"image","subtype":"photo","caption":"President
+        Obama is leaving behind an economy in much better shape than the one he inherited,
+        but also with long-term weaknesses that his Council of Economic Advisers acknowledge
+        in a new report.","copyright":"Chip Somodevilla\/Getty Images"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/16\/upshot\/16up-econ\/16up-econ-superJumbo.jpg","format":"superJumbo","height":1365,"width":2048,"type":"image","subtype":"photo","caption":"President
+        Obama is leaving behind an economy in much better shape than the one he inherited,
+        but also with long-term weaknesses that his Council of Economic Advisers acknowledge
+        in a new report.","copyright":"Chip Somodevilla\/Getty Images"}]},{"section":"Technology","subsection":"","title":"Facebook
+        Takes Steps to Limit the Tide of Fake News","abstract":"With help from groups
+        like Snopes and PolitiFact, Facebook said it has begun introducing a series
+        of experiments to limit misinformation and false articles on its site.","url":"http:\/\/www.nytimes.com\/2016\/12\/15\/technology\/facebook-fake-news.html","byline":"By
+        MIKE ISAAC","item_type":"Article","updated_date":"2016-12-15T13:00:27-5:00","created_date":"2016-12-15T13:00:28-5:00","published_date":"2016-12-15T13:00:28-5:00","material_type_facet":"News","kicker":"","des_facet":["News
+        and News Media","Computers and the Internet","Social Media"],"org_facet":["Facebook
+        Inc"],"per_facet":["Zuckerberg, Mark E"],"geo_facet":"","multimedia":[{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/15\/business\/15FACEBOOK2\/15FACEBOOK2-thumbStandard.jpg","format":"Standard
+        Thumbnail","height":75,"width":75,"type":"image","subtype":"photo","caption":"The
+        new fake news feature on Facebook, as the site makes an effort to flag articles
+        that are not true.","copyright":""},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/15\/business\/15FACEBOOK2\/15FACEBOOK2-thumbLarge.jpg","format":"thumbLarge","height":150,"width":150,"type":"image","subtype":"photo","caption":"The
+        new fake news feature on Facebook, as the site makes an effort to flag articles
+        that are not true.","copyright":""},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/15\/business\/15FACEBOOK2\/15FACEBOOK2-articleInline.jpg","format":"Normal","height":107,"width":190,"type":"image","subtype":"photo","caption":"The
+        new fake news feature on Facebook, as the site makes an effort to flag articles
+        that are not true.","copyright":""},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/15\/business\/15FACEBOOK2\/15FACEBOOK2-mediumThreeByTwo210.jpg","format":"mediumThreeByTwo210","height":140,"width":210,"type":"image","subtype":"photo","caption":"The
+        new fake news feature on Facebook, as the site makes an effort to flag articles
+        that are not true.","copyright":""},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/15\/business\/15FACEBOOK2\/15FACEBOOK2-superJumbo.jpg","format":"superJumbo","height":1080,"width":1919,"type":"image","subtype":"photo","caption":"The
+        new fake news feature on Facebook, as the site makes an effort to flag articles
+        that are not true.","copyright":""}]},{"section":"N.Y. \/ Region","subsection":"","title":"Young
+        Immigrants Fear Losing Work Status Under Trump","abstract":"More than 740,000
+        young undocumented immigrants are allowed to work under an Obama administration
+        directive, but Mr. Trump could take that away.","url":"http:\/\/www.nytimes.com\/2016\/12\/15\/nyregion\/once-accepted-soon-rejected-new-yorks-young-immigrants-uncertain-under-trump.html","byline":"By
+        LIZ ROBBINS","item_type":"Article","updated_date":"2016-12-15T05:00:22-5:00","created_date":"2016-12-15T05:00:22-5:00","published_date":"2016-12-15T05:00:22-5:00","material_type_facet":"News","kicker":"","des_facet":["Immigration
+        and Emigration","Deferred Action for Childhood Arrivals","Illegal Immigration"],"org_facet":["Citizenship
+        and Immigration Services (US)","Teach for America"],"per_facet":["Trump, Donald
+        J"],"geo_facet":["New York City"],"multimedia":[{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/07\/nyregion\/00DACA2\/00DACA2-thumbStandard.jpg","format":"Standard
+        Thumbnail","height":75,"width":75,"type":"image","subtype":"photo","caption":"Chandrapaul
+        Latchman, 23, fears he is at risk because he has a work permit under the Deferred
+        Action for Childhood Arrivals program. He works at JP MorganChase.","copyright":"Joshua
+        Bright for The New York Times"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/07\/nyregion\/00DACA2\/00DACA2-thumbLarge.jpg","format":"thumbLarge","height":150,"width":150,"type":"image","subtype":"photo","caption":"Chandrapaul
+        Latchman, 23, fears he is at risk because he has a work permit under the Deferred
+        Action for Childhood Arrivals program. He works at JP MorganChase.","copyright":"Joshua
+        Bright for The New York Times"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/07\/nyregion\/00DACA2\/00DACA2-articleInline.jpg","format":"Normal","height":121,"width":190,"type":"image","subtype":"photo","caption":"Chandrapaul
+        Latchman, 23, fears he is at risk because he has a work permit under the Deferred
+        Action for Childhood Arrivals program. He works at JP MorganChase.","copyright":"Joshua
+        Bright for The New York Times"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/07\/nyregion\/00DACA2\/00DACA2-mediumThreeByTwo210.jpg","format":"mediumThreeByTwo210","height":140,"width":210,"type":"image","subtype":"photo","caption":"Chandrapaul
+        Latchman, 23, fears he is at risk because he has a work permit under the Deferred
+        Action for Childhood Arrivals program. He works at JP MorganChase.","copyright":"Joshua
+        Bright for The New York Times"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/07\/nyregion\/00DACA2\/00DACA2-superJumbo.jpg","format":"superJumbo","height":1366,"width":2048,"type":"image","subtype":"photo","caption":"Chandrapaul
+        Latchman, 23, fears he is at risk because he has a work permit under the Deferred
+        Action for Childhood Arrivals program. He works at JP MorganChase.","copyright":"Joshua
+        Bright for The New York Times"}]},{"section":"Briefing","subsection":"","title":"Your
+        Morning Briefing","abstract":"Here\u2019s what you need to know to start your
+        day.","url":"http:\/\/www.nytimes.com\/2016\/12\/15\/briefing\/asia-briefing.html","byline":"By
+        CHARLES McDERMID","item_type":"Article","updated_date":"2016-12-15T16:17:12-5:00","created_date":"2016-12-15T13:57:11-5:00","published_date":"2016-12-15T13:57:11-5:00","material_type_facet":"briefing","kicker":"","des_facet":"","org_facet":"","per_facet":"","geo_facet":"","multimedia":[{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/16\/world\/asia\/1216asia-brief-slide-DU2P\/1216asia-brief-slide-DU2P-thumbStandard.jpg","format":"Standard
+        Thumbnail","height":75,"width":75,"type":"image","subtype":"photo","caption":"","copyright":"Liu
+        Rui\/Xinhua, via Associated Press.."},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/16\/world\/asia\/1216asia-brief-slide-DU2P\/1216asia-brief-slide-DU2P-thumbLarge.jpg","format":"thumbLarge","height":150,"width":150,"type":"image","subtype":"photo","caption":"","copyright":"Liu
+        Rui\/Xinhua, via Associated Press.."},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/16\/world\/asia\/1216asia-brief-slide-DU2P\/1216asia-brief-slide-DU2P-articleInline.jpg","format":"Normal","height":127,"width":190,"type":"image","subtype":"photo","caption":"","copyright":"Liu
+        Rui\/Xinhua, via Associated Press.."},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/16\/world\/asia\/1216asia-brief-slide-DU2P\/1216asia-brief-slide-DU2P-mediumThreeByTwo210.jpg","format":"mediumThreeByTwo210","height":140,"width":210,"type":"image","subtype":"photo","caption":"","copyright":"Liu
+        Rui\/Xinhua, via Associated Press.."},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/16\/world\/asia\/1216asia-brief-slide-DU2P\/1216asia-brief-slide-DU2P-superJumbo.jpg","format":"superJumbo","height":1365,"width":2048,"type":"image","subtype":"photo","caption":"","copyright":"Liu
+        Rui\/Xinhua, via Associated Press.."}]},{"section":"Business Day","subsection":"","title":"How
+        to Keep Your Office Holiday Party From Going Off the Rails","abstract":"The
+        office party can be a fun way for co-workers to get together to celebrate,
+        an opportunity to introduce yourself to executives or a memorable event for
+        all the wrong reasons.","url":"http:\/\/www.nytimes.com\/2016\/12\/14\/business\/holiday-party-tips.html","byline":"By
+        CHRISTOPHER MELE","item_type":"Article","updated_date":"2016-12-14T09:51:06-5:00","created_date":"2016-12-14T09:51:07-5:00","published_date":"2016-12-14T09:51:07-5:00","material_type_facet":"News","kicker":"","des_facet":["Parties
+        (Social)","Human Resources","Workplace Environment","Holidays and Special
+        Occasions"],"org_facet":"","per_facet":"","geo_facet":"","multimedia":[{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/08\/business\/00xp-holidayparties_web1\/00xp-holidayparties_web1-thumbStandard.jpg","format":"Standard
+        Thumbnail","height":75,"width":75,"type":"image","subtype":"photo","caption":"Experts
+        recommend limiting access to alcohol at office holiday parties.","copyright":"Joshua
+        Bright for The New York Times"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/08\/business\/00xp-holidayparties_web1\/00xp-holidayparties_web1-thumbLarge.jpg","format":"thumbLarge","height":150,"width":150,"type":"image","subtype":"photo","caption":"Experts
+        recommend limiting access to alcohol at office holiday parties.","copyright":"Joshua
+        Bright for The New York Times"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/08\/business\/00xp-holidayparties_web1\/00xp-holidayparties_web1-articleInline.jpg","format":"Normal","height":125,"width":190,"type":"image","subtype":"photo","caption":"Experts
+        recommend limiting access to alcohol at office holiday parties.","copyright":"Joshua
+        Bright for The New York Times"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/08\/business\/00xp-holidayparties_web1\/00xp-holidayparties_web1-mediumThreeByTwo210.jpg","format":"mediumThreeByTwo210","height":140,"width":210,"type":"image","subtype":"photo","caption":"Experts
+        recommend limiting access to alcohol at office holiday parties.","copyright":"Joshua
+        Bright for The New York Times"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/08\/business\/00xp-holidayparties_web1\/00xp-holidayparties_web1-superJumbo.jpg","format":"superJumbo","height":1343,"width":2048,"type":"image","subtype":"photo","caption":"Experts
+        recommend limiting access to alcohol at office holiday parties.","copyright":"Joshua
+        Bright for The New York Times"}]},{"section":"U.S.","subsection":"","title":"Dylann
+        Roof Is Guilty in Charleston Church Massacre","abstract":"The jury reached
+        its verdict after a few hours of deliberation in the case of Dylann S. Roof,
+        a white supremacist who killed nine black people at Emanuel African Methodist
+        Episcopal Church.","url":"http:\/\/www.nytimes.com\/2016\/12\/15\/us\/dylann-roof-trial.html","byline":"By
+        KEVIN SACK and ALAN BLINDER","item_type":"Article","updated_date":"2016-12-15T15:23:45-5:00","created_date":"2016-12-15T13:43:09-5:00","published_date":"2016-12-15T13:43:09-5:00","material_type_facet":"News","kicker":"","des_facet":["Charleston,
+        SC, Shooting (2015)"],"org_facet":["Emanuel African Methodist Episcopal Church
+        (Charleston, SC)"],"per_facet":["Roof, Dylann Storm"],"geo_facet":"","multimedia":""},{"section":"U.S.","subsection":"","title":"At
+        Dylann Roof Trial, Churchgoers Sit in Quiet Agony","abstract":"Family members
+        and friends of the nine victims of the massacre at Emanuel A.M.E. Church in
+        Charleston have endured the defendant\u2019s trial with stoicism and grace.","url":"http:\/\/www.nytimes.com\/2016\/12\/15\/us\/dylann-roof-trial-charleston-church-killings.html","byline":"By
+        KEVIN SACK","item_type":"Article","updated_date":"2016-12-15T05:00:23-5:00","created_date":"2016-12-15T05:00:24-5:00","published_date":"2016-12-15T05:00:24-5:00","material_type_facet":"News","kicker":"","des_facet":["Charleston,
+        SC, Shooting (2015)","Murders, Attempted Murders and Homicides"],"org_facet":["Emanuel
+        African Methodist Episcopal Church (Charleston, SC)"],"per_facet":["Pinckney,
+        Clementa C (1973-2015)","Roof, Dylann Storm"],"geo_facet":"","multimedia":[{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/15\/us\/15families-2\/15families-2-thumbStandard-v2.jpg","format":"Standard
+        Thumbnail","height":75,"width":75,"type":"image","subtype":"photo","caption":"The
+        Rev. Anthony B. Thompson, whose wife, Myra, was killed in the shooting. He
+        skipped the trial on the day when photographs of the carnage were shown.","copyright":"Travis
+        Dove for The New York Times"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/15\/us\/15families-2\/15families-2-thumbLarge-v2.jpg","format":"thumbLarge","height":150,"width":150,"type":"image","subtype":"photo","caption":"The
+        Rev. Anthony B. Thompson, whose wife, Myra, was killed in the shooting. He
+        skipped the trial on the day when photographs of the carnage were shown.","copyright":"Travis
+        Dove for The New York Times"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/15\/us\/15families-2\/15families-2-articleInline-v2.jpg","format":"Normal","height":127,"width":190,"type":"image","subtype":"photo","caption":"The
+        Rev. Anthony B. Thompson, whose wife, Myra, was killed in the shooting. He
+        skipped the trial on the day when photographs of the carnage were shown.","copyright":"Travis
+        Dove for The New York Times"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/15\/us\/15families-2\/15families-2-mediumThreeByTwo210-v2.jpg","format":"mediumThreeByTwo210","height":140,"width":210,"type":"image","subtype":"photo","caption":"The
+        Rev. Anthony B. Thompson, whose wife, Myra, was killed in the shooting. He
+        skipped the trial on the day when photographs of the carnage were shown.","copyright":"Travis
+        Dove for The New York Times"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/15\/us\/15families-2\/15families-2-superJumbo.jpg","format":"superJumbo","height":1365,"width":2048,"type":"image","subtype":"photo","caption":"The
+        Rev. Anthony B. Thompson, whose wife, Myra, was killed in the shooting. He
+        skipped the trial on the day when photographs of the carnage were shown.","copyright":"Travis
+        Dove for The New York Times"}]},{"section":"Books","subsection":"","title":"Book
+        Review: A Fictional Look at Aleppo\u2019s Despair Before the War","abstract":"Khaled
+        Khalifa\u2019s episodic novel focuses on one family in Aleppo, his native
+        city, and stops several years short of the Syrian civil war.","url":"http:\/\/www.nytimes.com\/2016\/12\/14\/books\/review-no-knives-in-the-kitchens-of-this-city-describes-a-syrian-hell.html","byline":"By
+        JENNIFER SENIOR","item_type":"Article","updated_date":"2016-12-14T18:25:11-5:00","created_date":"2016-12-14T18:25:12-5:00","published_date":"2016-12-14T18:25:12-5:00","material_type_facet":"Review","kicker":"","des_facet":["Books
+        and Literature","No Knives in the Kitchens of This City (Book)"],"org_facet":"","per_facet":["Khalifa,
+        Khaled"],"geo_facet":"","multimedia":[{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/15\/arts\/15BOOKKHALIFAJP\/15BOOKKHALIFAJP-thumbStandard-v3.jpg","format":"Standard
+        Thumbnail","height":75,"width":75,"type":"image","subtype":"photo","caption":"","copyright":"Sonny
+        Figueroa\/The New York Times"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/15\/arts\/15BOOKKHALIFAJP\/15BOOKKHALIFAJP-thumbLarge-v3.jpg","format":"thumbLarge","height":150,"width":150,"type":"image","subtype":"photo","caption":"","copyright":"Sonny
+        Figueroa\/The New York Times"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/15\/arts\/15BOOKKHALIFAJP\/15BOOKKHALIFAJP-articleInline-v3.jpg","format":"Normal","height":278,"width":190,"type":"image","subtype":"photo","caption":"","copyright":"Sonny
+        Figueroa\/The New York Times"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/15\/arts\/15BOOKKHALIFAJP\/15BOOKKHALIFAJP-mediumThreeByTwo210-v3.jpg","format":"mediumThreeByTwo210","height":140,"width":210,"type":"image","subtype":"photo","caption":"","copyright":"Sonny
+        Figueroa\/The New York Times"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/15\/arts\/15BOOKKHALIFAJP\/15BOOKKHALIFAJP-superJumbo-v3.jpg","format":"superJumbo","height":1470,"width":1004,"type":"image","subtype":"photo","caption":"","copyright":"Sonny
+        Figueroa\/The New York Times"}]},{"section":"World","subsection":"Middle East","title":"1,000
+        Syrian Civilians Evacuate Embattled Aleppo","abstract":"The evacuation from
+        rebel-held districts was hailed by President Bashar al-Assad as a historic
+        event on par with world wars.","url":"http:\/\/www.nytimes.com\/2016\/12\/15\/world\/middleeast\/aleppo-syria-evacuation-deal.html","byline":"By
+        BEN HUBBARD and HWAIDA SAAD","item_type":"Article","updated_date":"2016-12-15T13:06:17-5:00","created_date":"2016-12-15T05:42:21-5:00","published_date":"2016-12-15T05:42:21-5:00","material_type_facet":"News","kicker":"","des_facet":["International
+        Relations","Defense and Military Forces","Civilian Casualties"],"org_facet":"","per_facet":["Assad,
+        Bashar al-"],"geo_facet":["Aleppo (Syria)"],"multimedia":[{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/16\/world\/16Syria3\/16Syria3-thumbStandard.jpg","format":"Standard
+        Thumbnail","height":75,"width":75,"type":"image","subtype":"photo","caption":"An
+        older man was evacuated from a rebel-held neighborhood of Aleppo, Syria, on
+        Thursday.","copyright":"Karam Al-Masri\/Agence France-Presse \u2014 Getty
+        Images"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/16\/world\/16Syria3\/16Syria3-thumbLarge.jpg","format":"thumbLarge","height":150,"width":150,"type":"image","subtype":"photo","caption":"An
+        older man was evacuated from a rebel-held neighborhood of Aleppo, Syria, on
+        Thursday.","copyright":"Karam Al-Masri\/Agence France-Presse \u2014 Getty
+        Images"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/16\/world\/16Syria3\/16Syria3-articleInline.jpg","format":"Normal","height":127,"width":190,"type":"image","subtype":"photo","caption":"An
+        older man was evacuated from a rebel-held neighborhood of Aleppo, Syria, on
+        Thursday.","copyright":"Karam Al-Masri\/Agence France-Presse \u2014 Getty
+        Images"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/16\/world\/16Syria3\/16Syria3-mediumThreeByTwo210.jpg","format":"mediumThreeByTwo210","height":140,"width":210,"type":"image","subtype":"photo","caption":"An
+        older man was evacuated from a rebel-held neighborhood of Aleppo, Syria, on
+        Thursday.","copyright":"Karam Al-Masri\/Agence France-Presse \u2014 Getty
+        Images"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/16\/world\/16Syria3\/16Syria3-superJumbo.jpg","format":"superJumbo","height":1365,"width":2048,"type":"image","subtype":"photo","caption":"An
+        older man was evacuated from a rebel-held neighborhood of Aleppo, Syria, on
+        Thursday.","copyright":"Karam Al-Masri\/Agence France-Presse \u2014 Getty
+        Images"}]},{"section":"U.S.","subsection":"Politics","title":"How Moscow Aimed
+        a Perfect Weapon at the U.S. Election","abstract":"A Times investigation reveals
+        missed signals, slow responses and a continuing underestimation of the seriousness
+        of a campaign of cyberespionage to disrupt the presidential race.","url":"http:\/\/www.nytimes.com\/2016\/12\/13\/us\/politics\/russia-hack-election-dnc.html","byline":"By
+        ERIC LIPTON, DAVID E. SANGER and SCOTT SHANE","item_type":"Article","updated_date":"2016-12-13T20:36:58-5:00","created_date":"2016-12-13T14:43:38-5:00","published_date":"2016-12-13T14:43:38-5:00","material_type_facet":"News","kicker":"","des_facet":["Cyberwarfare
+        and Defense","Presidential Election of 2016","United States Politics and Government","Democratic
+        National Convention"],"org_facet":["Democratic National Committee","Federal
+        Bureau of Investigation","WikiLeaks","CrowdStrike Inc"],"per_facet":["Trump,
+        Donald J","Clinton, Hillary Rodham","Tanden, Neera","Assange, Julian P"],"geo_facet":["Russia"],"multimedia":[{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/14\/us\/14hack-top1-sub\/14hack-top1-sub-thumbStandard.jpg","format":"Standard
+        Thumbnail","height":75,"width":75,"type":"image","subtype":"photo","caption":"A
+        filing cabinet broken into in 1972 as part of the Watergate burglary sits
+        beside a computer server that Russian hackers breached during the 2016 presidential
+        campaign at the Democratic National Committee\u2019s headquarters in Washington.","copyright":"Justin
+        T. Gellerson for The New York Times"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/14\/us\/14hack-top1-sub\/14hack-top1-sub-thumbLarge.jpg","format":"thumbLarge","height":150,"width":150,"type":"image","subtype":"photo","caption":"A
+        filing cabinet broken into in 1972 as part of the Watergate burglary sits
+        beside a computer server that Russian hackers breached during the 2016 presidential
+        campaign at the Democratic National Committee\u2019s headquarters in Washington.","copyright":"Justin
+        T. Gellerson for The New York Times"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/14\/us\/14hack-top1-sub\/14hack-top1-sub-articleInline.jpg","format":"Normal","height":136,"width":190,"type":"image","subtype":"photo","caption":"A
+        filing cabinet broken into in 1972 as part of the Watergate burglary sits
+        beside a computer server that Russian hackers breached during the 2016 presidential
+        campaign at the Democratic National Committee\u2019s headquarters in Washington.","copyright":"Justin
+        T. Gellerson for The New York Times"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/14\/us\/14hack-top1-sub\/14hack-top1-sub-mediumThreeByTwo210.jpg","format":"mediumThreeByTwo210","height":140,"width":210,"type":"image","subtype":"photo","caption":"A
+        filing cabinet broken into in 1972 as part of the Watergate burglary sits
+        beside a computer server that Russian hackers breached during the 2016 presidential
+        campaign at the Democratic National Committee\u2019s headquarters in Washington.","copyright":"Justin
+        T. Gellerson for The New York Times"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/14\/us\/14hack-top1-sub\/14hack-top1-sub-superJumbo.jpg","format":"superJumbo","height":1463,"width":2048,"type":"image","subtype":"photo","caption":"A
+        filing cabinet broken into in 1972 as part of the Watergate burglary sits
+        beside a computer server that Russian hackers breached during the 2016 presidential
+        campaign at the Democratic National Committee\u2019s headquarters in Washington.","copyright":"Justin
+        T. Gellerson for The New York Times"}]},{"section":"U.S.","subsection":"Politics","title":"Democratic
+        House Candidates Were Also Targets","abstract":"The fallout for nearly a dozen
+        congressional candidates underscores the effect of the Russian influence operation.","url":"http:\/\/www.nytimes.com\/2016\/12\/13\/us\/politics\/house-democrats-hacking-dccc.html","byline":"By
+        ERIC LIPTON and SCOTT SHANE","item_type":"Article","updated_date":"2016-12-13T21:36:33-5:00","created_date":"2016-12-13T20:02:03-5:00","published_date":"2016-12-13T20:02:03-5:00","material_type_facet":"News","kicker":"","des_facet":["Cyberwarfare
+        and Defense","Presidential Election of 2016","Elections, House of Representatives"],"org_facet":["Democratic
+        Congressional Campaign Committee","Democratic National Committee"],"per_facet":["Taddeo,
+        Annette","Garcia, Joe (1963- )","Shea-Porter, Carol","Parrish, Mike (1963-
+        )","Lujan, Ben Ray"],"geo_facet":["Russia","Florida","New Hampshire","Pennsylvania","New
+        Mexico","United States"],"multimedia":[{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/14\/us\/HackDCCC1\/HackDCCC1-thumbStandard.jpg","format":"Standard
+        Thumbnail","height":75,"width":75,"type":"image","subtype":"photo","caption":"Annette
+        Taddeo lost a Democratic primary for a House seat in Florida after documents
+        uncovered by Russian hackers were published by reporters and bloggers.","copyright":"Scott
+        McIntyre for The New York Times"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/14\/us\/HackDCCC1\/HackDCCC1-thumbLarge.jpg","format":"thumbLarge","height":150,"width":150,"type":"image","subtype":"photo","caption":"Annette
+        Taddeo lost a Democratic primary for a House seat in Florida after documents
+        uncovered by Russian hackers were published by reporters and bloggers.","copyright":"Scott
+        McIntyre for The New York Times"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/14\/us\/HackDCCC1\/HackDCCC1-articleInline.jpg","format":"Normal","height":127,"width":190,"type":"image","subtype":"photo","caption":"Annette
+        Taddeo lost a Democratic primary for a House seat in Florida after documents
+        uncovered by Russian hackers were published by reporters and bloggers.","copyright":"Scott
+        McIntyre for The New York Times"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/14\/us\/HackDCCC1\/HackDCCC1-mediumThreeByTwo210.jpg","format":"mediumThreeByTwo210","height":140,"width":210,"type":"image","subtype":"photo","caption":"Annette
+        Taddeo lost a Democratic primary for a House seat in Florida after documents
+        uncovered by Russian hackers were published by reporters and bloggers.","copyright":"Scott
+        McIntyre for The New York Times"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/14\/us\/HackDCCC1\/HackDCCC1-superJumbo.jpg","format":"superJumbo","height":1365,"width":2048,"type":"image","subtype":"photo","caption":"Annette
+        Taddeo lost a Democratic primary for a House seat in Florida after documents
+        uncovered by Russian hackers were published by reporters and bloggers.","copyright":"Scott
+        McIntyre for The New York Times"}]},{"section":"U.S.","subsection":"Politics","title":"With
+        Election Near, Obama Delayed Blaming Russia","abstract":"The administration
+        was concerned that any statement by President Obama would be viewed as politicizing
+        intelligence, the White House said.","url":"http:\/\/www.nytimes.com\/2016\/12\/14\/us\/politics\/obama-russia-hack-democrats.html","byline":"By
+        GARDINER HARRIS","item_type":"Article","updated_date":"2016-12-14T20:05:00-5:00","created_date":"2016-12-14T20:05:01-5:00","published_date":"2016-12-14T20:05:01-5:00","material_type_facet":"News","kicker":"","des_facet":["Cyberwarfare
+        and Defense","Classified Information and State Secrets","Espionage and Intelligence
+        Services"],"org_facet":["Democratic National Committee","Federal Bureau of
+        Investigation"],"per_facet":["Trump, Donald J"],"geo_facet":["Russia"],"multimedia":[{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/15\/us\/15obama\/15obama-thumbStandard.jpg","format":"Standard
+        Thumbnail","height":75,"width":75,"type":"image","subtype":"photo","caption":"The
+        administration deliberated for months whether to blame Russia for a cyberattack
+        because President Obama did not want to be viewed as politicizing intelligence,
+        the White House said on Wednesday.","copyright":"Al Drago\/The New York Times"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/15\/us\/15obama\/15obama-thumbLarge.jpg","format":"thumbLarge","height":150,"width":150,"type":"image","subtype":"photo","caption":"The
+        administration deliberated for months whether to blame Russia for a cyberattack
+        because President Obama did not want to be viewed as politicizing intelligence,
+        the White House said on Wednesday.","copyright":"Al Drago\/The New York Times"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/15\/us\/15obama\/15obama-articleInline.jpg","format":"Normal","height":127,"width":190,"type":"image","subtype":"photo","caption":"The
+        administration deliberated for months whether to blame Russia for a cyberattack
+        because President Obama did not want to be viewed as politicizing intelligence,
+        the White House said on Wednesday.","copyright":"Al Drago\/The New York Times"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/15\/us\/15obama\/15obama-mediumThreeByTwo210.jpg","format":"mediumThreeByTwo210","height":140,"width":210,"type":"image","subtype":"photo","caption":"The
+        administration deliberated for months whether to blame Russia for a cyberattack
+        because President Obama did not want to be viewed as politicizing intelligence,
+        the White House said on Wednesday.","copyright":"Al Drago\/The New York Times"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/15\/us\/15obama\/15obama-superJumbo.jpg","format":"superJumbo","height":1366,"width":2048,"type":"image","subtype":"photo","caption":"The
+        administration deliberated for months whether to blame Russia for a cyberattack
+        because President Obama did not want to be viewed as politicizing intelligence,
+        the White House said on Wednesday.","copyright":"Al Drago\/The New York Times"}]},{"section":"Business
+        Day","subsection":"","title":"Generic Drug Giants Charged in Price-Fixing
+        Schemes","abstract":"Teva and Mylan are among those named in what officials
+        said was a broad investigation that could produce more charges.","url":"http:\/\/www.nytimes.com\/2016\/12\/15\/business\/generic-drug-price-lawsuit-teva-mylan.html","byline":"By
+        KATIE THOMAS","item_type":"Article","updated_date":"2016-12-15T12:48:27-5:00","created_date":"2016-12-15T12:48:28-5:00","published_date":"2016-12-15T12:48:28-5:00","material_type_facet":"News","kicker":"","des_facet":["Suits
+        and Litigation (Civil)","Antitrust Laws and Competition Issues","Prices (Fares,
+        Fees and Rates)","Drugs (Pharmaceuticals)","Generic Brands and Products"],"org_facet":["Mylan
+        Inc","Heritage Pharmaceuticals Inc","Teva Pharmaceutical Industries Ltd"],"per_facet":"","geo_facet":"","multimedia":[{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/16\/business\/16DRUG\/16DRUG-thumbStandard.jpg","format":"Standard
+        Thumbnail","height":75,"width":75,"type":"image","subtype":"photo","caption":"A
+        Teva pharmaceutical factory in Godollo, Hungary. Teva, the world\u2019s largest
+        generic-drug maker, is among the six companies accused of price fixing.","copyright":"Akos
+        Stiller\/Bloomberg"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/16\/business\/16DRUG\/16DRUG-thumbLarge.jpg","format":"thumbLarge","height":150,"width":150,"type":"image","subtype":"photo","caption":"A
+        Teva pharmaceutical factory in Godollo, Hungary. Teva, the world\u2019s largest
+        generic-drug maker, is among the six companies accused of price fixing.","copyright":"Akos
+        Stiller\/Bloomberg"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/16\/business\/16DRUG\/16DRUG-articleInline.jpg","format":"Normal","height":128,"width":190,"type":"image","subtype":"photo","caption":"A
+        Teva pharmaceutical factory in Godollo, Hungary. Teva, the world\u2019s largest
+        generic-drug maker, is among the six companies accused of price fixing.","copyright":"Akos
+        Stiller\/Bloomberg"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/16\/business\/16DRUG\/16DRUG-mediumThreeByTwo210.jpg","format":"mediumThreeByTwo210","height":140,"width":210,"type":"image","subtype":"photo","caption":"A
+        Teva pharmaceutical factory in Godollo, Hungary. Teva, the world\u2019s largest
+        generic-drug maker, is among the six companies accused of price fixing.","copyright":"Akos
+        Stiller\/Bloomberg"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/16\/business\/16DRUG\/16DRUG-superJumbo.jpg","format":"superJumbo","height":1381,"width":2048,"type":"image","subtype":"photo","caption":"A
+        Teva pharmaceutical factory in Godollo, Hungary. Teva, the world\u2019s largest
+        generic-drug maker, is among the six companies accused of price fixing.","copyright":"Akos
+        Stiller\/Bloomberg"}]},{"section":"N.Y. \/ Region","subsection":"","title":"A
+        Man Is Shot, and Only the Police Are Kept in the Dark","abstract":"Adrian
+        Maldonado was killed after a drug deal at a Bronx housing complex. Rumors
+        focused on a spurned lover, but witnesses were reluctant to come forward over
+        fears of reprisals.","url":"http:\/\/www.nytimes.com\/2016\/12\/14\/nyregion\/bronx-murder-40th-precinct-adrian-maldonado.html","byline":"By
+        JAMES C. McKINLEY Jr., ASHLEY SOUTHALL and AL BAKER","item_type":"Article","updated_date":"2016-12-14T19:23:55-5:00","created_date":"2016-12-14T19:23:56-5:00","published_date":"2016-12-14T19:23:56-5:00","material_type_facet":"News","kicker":"","des_facet":["Murders,
+        Attempted Murders and Homicides","Series","Public and Subsidized Housing","Gangs","Murder
+        in the 4-0 (Series)"],"org_facet":"","per_facet":["Maldonado, Adrian (1992-2016)"],"geo_facet":["South
+        Bronx (Bronx, NY)","New York City","Bronx (NYC)"],"multimedia":[{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/14\/nyregion\/00BXMURDER1\/00BXMURDER1-thumbStandard.jpg","format":"Standard
+        Thumbnail","height":75,"width":75,"type":"image","subtype":"photo","caption":"A
+        memorial to Adrian Maldonado on Courtlandt Avenue and East 151st Street in
+        the Bronx. Mr. Maldonado was fatally shot after a drug deal at a nearby housing
+        complex in July.","copyright":"Edwin J. Torres for The New York Times"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/14\/nyregion\/00BXMURDER1\/00BXMURDER1-thumbLarge.jpg","format":"thumbLarge","height":150,"width":150,"type":"image","subtype":"photo","caption":"A
+        memorial to Adrian Maldonado on Courtlandt Avenue and East 151st Street in
+        the Bronx. Mr. Maldonado was fatally shot after a drug deal at a nearby housing
+        complex in July.","copyright":"Edwin J. Torres for The New York Times"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/14\/nyregion\/00BXMURDER1\/00BXMURDER1-articleInline-v4.jpg","format":"Normal","height":149,"width":190,"type":"image","subtype":"photo","caption":"A
+        memorial to Adrian Maldonado on Courtlandt Avenue and East 151st Street in
+        the Bronx. Mr. Maldonado was fatally shot after a drug deal at a nearby housing
+        complex in July.","copyright":"Edwin J. Torres for The New York Times"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/14\/nyregion\/00BXMURDER1\/00BXMURDER1-mediumThreeByTwo210.jpg","format":"mediumThreeByTwo210","height":140,"width":210,"type":"image","subtype":"photo","caption":"A
+        memorial to Adrian Maldonado on Courtlandt Avenue and East 151st Street in
+        the Bronx. Mr. Maldonado was fatally shot after a drug deal at a nearby housing
+        complex in July.","copyright":"Edwin J. Torres for The New York Times"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/14\/nyregion\/00BXMURDER1\/00BXMURDER1-superJumbo.jpg","format":"superJumbo","height":1367,"width":2048,"type":"image","subtype":"photo","caption":"A
+        memorial to Adrian Maldonado on Courtlandt Avenue and East 151st Street in
+        the Bronx. Mr. Maldonado was fatally shot after a drug deal at a nearby housing
+        complex in July.","copyright":"Edwin J. Torres for The New York Times"}]},{"section":"N.Y.
+        \/ Region","subsection":"","title":"Drug 85 Times as Potent as Marijuana Spawned
+        \u2018Zombies\u2019","abstract":"A new study offers the first detailed look
+        at a drug that has caused dozens in Brooklyn to overdose and offers a window
+        into the evolving world of synthetic drugs.","url":"http:\/\/www.nytimes.com\/2016\/12\/14\/nyregion\/zombielike-state-was-caused-by-synthetic-marijuana.html","byline":"By
+        MARC SANTORA","item_type":"Article","updated_date":"2016-12-14T17:18:33-5:00","created_date":"2016-12-14T17:18:34-5:00","published_date":"2016-12-14T17:18:34-5:00","material_type_facet":"News","kicker":"","des_facet":["Synthetic
+        Cannabinoids","Drug Abuse and Traffic","Drugs (Pharmaceuticals)"],"org_facet":["New
+        England Journal of Medicine","Pfizer Inc"],"per_facet":"","geo_facet":["Brooklyn
+        (NYC)"],"multimedia":[{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/15\/nyregion\/15ZOMBIE1\/15ZOMBIE1-thumbStandard.jpg","format":"Standard
+        Thumbnail","height":75,"width":75,"type":"image","subtype":"photo","caption":"Emergency
+        workers treated a woman in Brooklyn in July in an area where people overdosed
+        on a synthetic cannabinoid more potent than marijuana.","copyright":"Christopher
+        Lee for The New York Times"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/15\/nyregion\/15ZOMBIE1\/15ZOMBIE1-thumbLarge.jpg","format":"thumbLarge","height":150,"width":150,"type":"image","subtype":"photo","caption":"Emergency
+        workers treated a woman in Brooklyn in July in an area where people overdosed
+        on a synthetic cannabinoid more potent than marijuana.","copyright":"Christopher
+        Lee for The New York Times"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/15\/nyregion\/15ZOMBIE1\/15ZOMBIE1-articleInline.jpg","format":"Normal","height":127,"width":190,"type":"image","subtype":"photo","caption":"Emergency
+        workers treated a woman in Brooklyn in July in an area where people overdosed
+        on a synthetic cannabinoid more potent than marijuana.","copyright":"Christopher
+        Lee for The New York Times"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/15\/nyregion\/15ZOMBIE1\/15ZOMBIE1-mediumThreeByTwo210.jpg","format":"mediumThreeByTwo210","height":140,"width":210,"type":"image","subtype":"photo","caption":"Emergency
+        workers treated a woman in Brooklyn in July in an area where people overdosed
+        on a synthetic cannabinoid more potent than marijuana.","copyright":"Christopher
+        Lee for The New York Times"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/15\/nyregion\/15ZOMBIE1\/15ZOMBIE1-superJumbo.jpg","format":"superJumbo","height":1365,"width":2048,"type":"image","subtype":"photo","caption":"Emergency
+        workers treated a woman in Brooklyn in July in an area where people overdosed
+        on a synthetic cannabinoid more potent than marijuana.","copyright":"Christopher
+        Lee for The New York Times"}]},{"section":"World","subsection":"Europe","title":"Ruling
+        Paves Way for Transfer of Art Trove Including Nazi-Looted Works","abstract":"The
+        German owner of the 1,500 artworks was of sound mind when he bequeathed them
+        to a museum in Switzerland, a court in Munich ruled.","url":"http:\/\/www.nytimes.com\/2016\/12\/15\/world\/europe\/cornelius-gurlitt-nazi-art-court.html","byline":"By
+        MELISSA EDDY and ALISON SMALE","item_type":"Article","updated_date":"2016-12-15T07:12:08-5:00","created_date":"2016-12-15T07:12:08-5:00","published_date":"2016-12-15T07:12:08-5:00","material_type_facet":"News","kicker":"","des_facet":["Arts
+        and Antiquities Looting","Holocaust and the Nazi Era","Decisions and Verdicts"],"org_facet":["Kunstmuseum
+        Bern"],"per_facet":["Gurlitt, Cornelius","Matisse, Henri","Werner, Uta"],"geo_facet":"","multimedia":[{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/16\/world\/16GURLITT\/16GURLITT-thumbStandard.jpg","format":"Standard
+        Thumbnail","height":75,"width":75,"type":"image","subtype":"photo","caption":"Some
+        of the roughly 1,500 artworks Cornelius Gurlitt kept for years in his Munich
+        apartment.","copyright":"Staatsanwaltschaft Augsburg, via Agence France-Presse
+        \u2014 Getty Images"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/16\/world\/16GURLITT\/16GURLITT-thumbLarge.jpg","format":"thumbLarge","height":150,"width":150,"type":"image","subtype":"photo","caption":"Some
+        of the roughly 1,500 artworks Cornelius Gurlitt kept for years in his Munich
+        apartment.","copyright":"Staatsanwaltschaft Augsburg, via Agence France-Presse
+        \u2014 Getty Images"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/16\/world\/16GURLITT\/16GURLITT-articleInline.jpg","format":"Normal","height":201,"width":190,"type":"image","subtype":"photo","caption":"Some
+        of the roughly 1,500 artworks Cornelius Gurlitt kept for years in his Munich
+        apartment.","copyright":"Staatsanwaltschaft Augsburg, via Agence France-Presse
+        \u2014 Getty Images"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/16\/world\/16GURLITT\/16GURLITT-mediumThreeByTwo210.jpg","format":"mediumThreeByTwo210","height":140,"width":210,"type":"image","subtype":"photo","caption":"Some
+        of the roughly 1,500 artworks Cornelius Gurlitt kept for years in his Munich
+        apartment.","copyright":"Staatsanwaltschaft Augsburg, via Agence France-Presse
+        \u2014 Getty Images"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/16\/world\/16GURLITT\/16GURLITT-superJumbo.jpg","format":"superJumbo","height":2048,"width":1939,"type":"image","subtype":"photo","caption":"Some
+        of the roughly 1,500 artworks Cornelius Gurlitt kept for years in his Munich
+        apartment.","copyright":"Staatsanwaltschaft Augsburg, via Agence France-Presse
+        \u2014 Getty Images"}]},{"section":"World","subsection":"Europe","title":"Rodents
+        Run Wild in Paris. Blame the European Union.","abstract":"Rat invasion is
+        an old problem in Paris, and also a new one. New methods of poisoning the
+        creatures aren\u2019t working so well.","url":"http:\/\/www.nytimes.com\/2016\/12\/15\/world\/europe\/paris-rats.html","byline":"By
+        ALISSA J. RUBIN","item_type":"Article","updated_date":"2016-12-15T09:53:31-5:00","created_date":"2016-12-15T09:53:31-5:00","published_date":"2016-12-15T09:53:31-5:00","material_type_facet":"News","kicker":"","des_facet":["Rats","Poisoning
+        and Poisons","Pesticides"],"org_facet":"","per_facet":"","geo_facet":["Paris
+        (France)"],"multimedia":[{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/15\/world\/16Parisrats3\/16Parisrats3-thumbStandard-v2.jpg","format":"Standard
+        Thumbnail","height":75,"width":75,"type":"image","subtype":"photo","caption":"Nine
+        parks and green spaces in Paris have been closed either partly or entirely
+        because of a rat problem.","copyright":"Pierre Terdjman for The New York Times"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/15\/world\/16Parisrats3\/16Parisrats3-thumbLarge.jpg","format":"thumbLarge","height":150,"width":150,"type":"image","subtype":"photo","caption":"Nine
+        parks and green spaces in Paris have been closed either partly or entirely
+        because of a rat problem.","copyright":"Pierre Terdjman for The New York Times"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/15\/world\/16Parisrats3\/16Parisrats3-articleInline.jpg","format":"Normal","height":127,"width":190,"type":"image","subtype":"photo","caption":"Nine
+        parks and green spaces in Paris have been closed either partly or entirely
+        because of a rat problem.","copyright":"Pierre Terdjman for The New York Times"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/15\/world\/16Parisrats3\/16Parisrats3-mediumThreeByTwo210.jpg","format":"mediumThreeByTwo210","height":140,"width":210,"type":"image","subtype":"photo","caption":"Nine
+        parks and green spaces in Paris have been closed either partly or entirely
+        because of a rat problem.","copyright":"Pierre Terdjman for The New York Times"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/15\/world\/16Parisrats3\/16Parisrats3-superJumbo.jpg","format":"superJumbo","height":1366,"width":2048,"type":"image","subtype":"photo","caption":"Nine
+        parks and green spaces in Paris have been closed either partly or entirely
+        because of a rat problem.","copyright":"Pierre Terdjman for The New York Times"}]},{"section":"World","subsection":"Middle
+        East","title":"Israel\u2019s Parliament Draws a Line on Short Hemlines","abstract":"Dozens
+        of female employees arrived at the Knesset in above-the-knee outfits to protest
+        what they said was a sudden shift in enforcing a longstanding dress code.","url":"http:\/\/www.nytimes.com\/2016\/12\/14\/world\/middleeast\/israel-parliament-short-skirts-protest-women.html","byline":"By
+        ISABEL KERSHNER","item_type":"Article","updated_date":"2016-12-14T13:13:52-5:00","created_date":"2016-12-14T13:13:53-5:00","published_date":"2016-12-14T13:13:53-5:00","material_type_facet":"News","kicker":"","des_facet":["Politics
+        and Government","Dresses","Women and Girls","Demonstrations, Protests and
+        Riots"],"org_facet":"","per_facet":"","geo_facet":["Israel","Jerusalem (Israel)"],"multimedia":""},{"section":"N.Y.
+        \/ Region","subsection":"","title":"Unusual New Resident of Manhattan Has
+        People Talking","abstract":"A male deer who has settled in Jackie Robinson
+        Park in Harlem, a block from a subway entrance, has his new neighbors worried
+        about his safety.","url":"http:\/\/www.nytimes.com\/2016\/12\/14\/nyregion\/harlem-jackie-robinson-park-reindeer.html","byline":"By
+        ANDY NEWMAN","item_type":"Article","updated_date":"2016-12-14T22:49:09-5:00","created_date":"2016-12-14T22:49:10-5:00","published_date":"2016-12-14T22:49:10-5:00","material_type_facet":"News","kicker":"","des_facet":["Deer"],"org_facet":["Parks
+        and Recreation Department (NYC)"],"per_facet":"","geo_facet":["Harlem (Manhattan,
+        NY)"],"multimedia":[{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/15\/nyregion\/15DEER1\/15DEER1-thumbStandard.jpg","format":"Standard
+        Thumbnail","height":75,"width":75,"type":"image","subtype":"photo","caption":"A
+        male deer who has settled in Jackie Robinson Park in Harlem is drawing delighted,
+        and concerned, crowds.","copyright":"Emon Hassan for The New York Times"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/15\/nyregion\/15DEER1\/15DEER1-thumbLarge.jpg","format":"thumbLarge","height":150,"width":150,"type":"image","subtype":"photo","caption":"A
+        male deer who has settled in Jackie Robinson Park in Harlem is drawing delighted,
+        and concerned, crowds.","copyright":"Emon Hassan for The New York Times"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/15\/nyregion\/15DEER1\/15DEER1-articleInline.jpg","format":"Normal","height":130,"width":190,"type":"image","subtype":"photo","caption":"A
+        male deer who has settled in Jackie Robinson Park in Harlem is drawing delighted,
+        and concerned, crowds.","copyright":"Emon Hassan for The New York Times"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/15\/nyregion\/15DEER1\/15DEER1-mediumThreeByTwo210.jpg","format":"mediumThreeByTwo210","height":140,"width":210,"type":"image","subtype":"photo","caption":"A
+        male deer who has settled in Jackie Robinson Park in Harlem is drawing delighted,
+        and concerned, crowds.","copyright":"Emon Hassan for The New York Times"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/15\/nyregion\/15DEER1\/15DEER1-superJumbo.jpg","format":"superJumbo","height":1365,"width":2048,"type":"image","subtype":"photo","caption":"A
+        male deer who has settled in Jackie Robinson Park in Harlem is drawing delighted,
+        and concerned, crowds.","copyright":"Emon Hassan for The New York Times"}]},{"section":"World","subsection":"Asia
+        Pacific","title":"Miss World Contestant Who Challenged China Is Allowed to
+        Speak Once More","abstract":"Pageant organizers gave Anastasia Lin permission
+        on Wednesday to speak to the news media, ending a three-week standoff over
+        her criticism of human rights abuses in China.","url":"http:\/\/www.nytimes.com\/2016\/12\/14\/world\/asia\/anastasia-lin-miss-world-china-canada.html","byline":"By
+        ANDREW JACOBS","item_type":"Article","updated_date":"2016-12-14T20:27:14-5:00","created_date":"2016-12-14T20:27:15-5:00","published_date":"2016-12-14T20:27:15-5:00","material_type_facet":"News","kicker":"","des_facet":["Human
+        Rights and Human Rights Violations","Censorship","Beauty Contests","Transplants"],"org_facet":["Miss
+        World Ltd"],"per_facet":["Lin, Anastasia (1990- )"],"geo_facet":["China","Canada"],"multimedia":[{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/15\/world\/14pageant\/14pageant-thumbStandard.jpg","format":"Standard
+        Thumbnail","height":75,"width":75,"type":"image","subtype":"photo","caption":"Anastasia
+        Lin, Canada\u2019s Miss World entrant, spoke out about murky, government-sanctioned
+        organ transplant programs in China.","copyright":"Pablo Martinez Monsivais\/Associated
+        Press"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/15\/world\/14pageant\/14pageant-thumbLarge.jpg","format":"thumbLarge","height":150,"width":150,"type":"image","subtype":"photo","caption":"Anastasia
+        Lin, Canada\u2019s Miss World entrant, spoke out about murky, government-sanctioned
+        organ transplant programs in China.","copyright":"Pablo Martinez Monsivais\/Associated
+        Press"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/15\/world\/14pageant\/14pageant-articleInline.jpg","format":"Normal","height":130,"width":190,"type":"image","subtype":"photo","caption":"Anastasia
+        Lin, Canada\u2019s Miss World entrant, spoke out about murky, government-sanctioned
+        organ transplant programs in China.","copyright":"Pablo Martinez Monsivais\/Associated
+        Press"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/15\/world\/14pageant\/14pageant-mediumThreeByTwo210.jpg","format":"mediumThreeByTwo210","height":140,"width":210,"type":"image","subtype":"photo","caption":"Anastasia
+        Lin, Canada\u2019s Miss World entrant, spoke out about murky, government-sanctioned
+        organ transplant programs in China.","copyright":"Pablo Martinez Monsivais\/Associated
+        Press"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/15\/world\/14pageant\/14pageant-superJumbo.jpg","format":"superJumbo","height":1397,"width":2048,"type":"image","subtype":"photo","caption":"Anastasia
+        Lin, Canada\u2019s Miss World entrant, spoke out about murky, government-sanctioned
+        organ transplant programs in China.","copyright":"Pablo Martinez Monsivais\/Associated
+        Press"}]},{"section":"N.Y. \/ Region","subsection":"","title":"Muslim Woman
+        Made Up Hate Crime on Subway, Police Say","abstract":"The woman, 18, claimed
+        that three men attacked her on a Manhattan subway on Dec. 1 and tried to pull
+        off her hijab. The police said the story was false.","url":"http:\/\/www.nytimes.com\/2016\/12\/14\/nyregion\/manhattan-yasmin-seweid-false-hate-crime.html","byline":"By
+        CHRISTOPHER MELE","item_type":"Article","updated_date":"2016-12-14T19:45:26-5:00","created_date":"2016-12-14T19:45:26-5:00","published_date":"2016-12-14T19:45:26-5:00","material_type_facet":"News","kicker":"","des_facet":["Muslim
+        Veiling","Hate Crimes","Assaults","Discrimination","Muslim Americans"],"org_facet":"","per_facet":["Seweid,
+        Yasmin"],"geo_facet":["Manhattan (NYC)"],"multimedia":[{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/15\/nyregion\/15xp-false-mobile\/15xp-false-mobile-thumbStandard.jpg","format":"Standard
+        Thumbnail","height":75,"width":75,"type":"image","subtype":"photo","caption":"","copyright":""},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/15\/nyregion\/15xp-false-mobile\/15xp-false-mobile-thumbLarge.jpg","format":"thumbLarge","height":150,"width":150,"type":"image","subtype":"photo","caption":"","copyright":""},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/15\/nyregion\/15xp-false-mobile\/15xp-false-mobile-articleInline.jpg","format":"Normal","height":190,"width":190,"type":"image","subtype":"photo","caption":"","copyright":""},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/15\/nyregion\/15xp-false-mobile\/15xp-false-mobile-mediumThreeByTwo210-v2.jpg","format":"mediumThreeByTwo210","height":140,"width":210,"type":"image","subtype":"photo","caption":"","copyright":""},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/15\/nyregion\/15xp-false-mobile\/15xp-false-mobile-superJumbo.jpg","format":"superJumbo","height":420,"width":420,"type":"image","subtype":"photo","caption":"","copyright":""}]},{"section":"Fashion
+        & Style","subsection":"","title":"How to Have a Dinner Party: Friends Not
+        Required","abstract":"Flummoxed by the old-fashioned pastime of entertaining
+        at home, our reporter tries out online services designed to bring together
+        strangers.","url":"http:\/\/www.nytimes.com\/2016\/12\/14\/fashion\/dinner-party-apps.html","byline":"By
+        HANNAH SELIGSON","item_type":"Article","updated_date":"2016-12-15T09:22:31-5:00","created_date":"2016-12-14T14:44:14-5:00","published_date":"2016-12-14T14:44:14-5:00","material_type_facet":"News","kicker":"","des_facet":["Parties
+        (Social)","Food","Computers and the Internet","Mobile Applications","Millennial
+        Generation"],"org_facet":["Feastly Inc","10 Chairs NYC","EatWith Media Ltd","OneTable"],"per_facet":"","geo_facet":"","multimedia":[{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/15\/fashion\/15DINNER\/15DINNER-thumbStandard.jpg","format":"Standard
+        Thumbnail","height":75,"width":75,"type":"image","subtype":"photo","caption":"Enjoying
+        soup and wine at a dinner in Harlem organized by EatWith, a communal dining
+        service that is now in more than 200 cities around the world.","copyright":"Andrew
+        White for The New York Times"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/15\/fashion\/15DINNER\/15DINNER-thumbLarge.jpg","format":"thumbLarge","height":150,"width":150,"type":"image","subtype":"photo","caption":"Enjoying
+        soup and wine at a dinner in Harlem organized by EatWith, a communal dining
+        service that is now in more than 200 cities around the world.","copyright":"Andrew
+        White for The New York Times"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/15\/fashion\/15DINNER\/15DINNER-articleInline.jpg","format":"Normal","height":127,"width":190,"type":"image","subtype":"photo","caption":"Enjoying
+        soup and wine at a dinner in Harlem organized by EatWith, a communal dining
+        service that is now in more than 200 cities around the world.","copyright":"Andrew
+        White for The New York Times"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/15\/fashion\/15DINNER\/15DINNER-mediumThreeByTwo210.jpg","format":"mediumThreeByTwo210","height":140,"width":210,"type":"image","subtype":"photo","caption":"Enjoying
+        soup and wine at a dinner in Harlem organized by EatWith, a communal dining
+        service that is now in more than 200 cities around the world.","copyright":"Andrew
+        White for The New York Times"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/15\/fashion\/15DINNER\/15DINNER-superJumbo.jpg","format":"superJumbo","height":1365,"width":2048,"type":"image","subtype":"photo","caption":"Enjoying
+        soup and wine at a dinner in Harlem organized by EatWith, a communal dining
+        service that is now in more than 200 cities around the world.","copyright":"Andrew
+        White for The New York Times"}]},{"section":"World","subsection":"Africa","title":"Egypt
+        Says Traces of Explosives Found on EgyptAir Crash Victims","abstract":"The
+        announcement offered the strongest suggestion yet that a bomb might have brought
+        down the airliner in May.","url":"http:\/\/www.nytimes.com\/2016\/12\/15\/world\/africa\/egyptair-804-crash-explosives-bomb.html","byline":"By
+        DECLAN WALSH","item_type":"Article","updated_date":"2016-12-15T13:18:22-5:00","created_date":"2016-12-15T11:02:53-5:00","published_date":"2016-12-15T11:02:53-5:00","material_type_facet":"News","kicker":"","des_facet":["Airlines
+        and Airplanes"],"org_facet":["Islamic State in Iraq and Syria (ISIS)"],"per_facet":"","geo_facet":["Egypt"],"multimedia":""}]}'
+    http_version: 
+  recorded_at: Thu, 15 Dec 2016 21:31:45 GMT
+recorded_with: VCR 2.5.0

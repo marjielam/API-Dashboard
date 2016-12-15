@@ -1,0 +1,1525 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://freegeoip.net/json/127.0.0.1
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - freegeoip.net
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Access-Control-Allow-Methods:
+      - GET, HEAD, OPTIONS
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Type:
+      - application/json
+      X-Database-Date:
+      - Wed, 02 Dec 2015 07:06:58 GMT
+      X-Ratelimit-Limit:
+      - '10000'
+      X-Ratelimit-Remaining:
+      - '9999'
+      X-Ratelimit-Reset:
+      - '3600'
+      Date:
+      - Mon, 07 Dec 2015 15:01:13 GMT
+      Content-Length:
+      - '170'
+    body:
+      encoding: UTF-8
+      string: |
+        {"ip":"127.0.0.1","country_code":"","country_name":"","region_code":"","region_name":"","city":"","zip_code":"","time_zone":"","latitude":0,"longitude":0,"metro_code":0}
+    http_version: 
+  recorded_at: Mon, 07 Dec 2015 15:01:13 GMT
+- request:
+    method: get
+    uri: https://api.darksky.net/forecast/7cdfdebfe4c470689085c1fbb79823a3/42.354,-71.061
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.10.0 (Ubuntu)
+      Date:
+      - Thu, 15 Dec 2016 20:59:46 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      X-Forecast-Api-Calls:
+      - '33'
+      Cache-Control:
+      - max-age=60
+      Expires:
+      - Thu, 15 Dec 2016 21:00:46 +0000
+      X-Content-Type-Options:
+      - nosniff
+      Etag:
+      - W/"6e82-1HY7pEycSY1/fTycxLeH1g"
+      X-Response-Time:
+      - 136.477ms
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJsYXRpdHVkZSI6NDIuMzU0LCJsb25naXR1ZGUiOi03MS4wNjEsInRpbWV6
+        b25lIjoiQW1lcmljYS9OZXdfWW9yayIsIm9mZnNldCI6LTUsImN1cnJlbnRs
+        eSI6eyJ0aW1lIjoxNDgxODM1NTg2LCJzdW1tYXJ5IjoiUGFydGx5IENsb3Vk
+        eSIsImljb24iOiJwYXJ0bHktY2xvdWR5LWRheSIsIm5lYXJlc3RTdG9ybURp
+        c3RhbmNlIjoyOCwibmVhcmVzdFN0b3JtQmVhcmluZyI6MTk3LCJwcmVjaXBJ
+        bnRlbnNpdHkiOjAsInByZWNpcFByb2JhYmlsaXR5IjowLCJ0ZW1wZXJhdHVy
+        ZSI6MjEuMTcsImFwcGFyZW50VGVtcGVyYXR1cmUiOjUuOTEsImRld1BvaW50
+        IjotNC42NCwiaHVtaWRpdHkiOjAuMzEsIndpbmRTcGVlZCI6MTkuNjIsIndp
+        bmRCZWFyaW5nIjoyOTIsInZpc2liaWxpdHkiOjEwLCJjbG91ZENvdmVyIjow
+        LjM2LCJwcmVzc3VyZSI6MTAwNy43Miwib3pvbmUiOjM3NS42Mn0sIm1pbnV0
+        ZWx5Ijp7InN1bW1hcnkiOiJQYXJ0bHkgY2xvdWR5IGZvciB0aGUgaG91ci4i
+        LCJpY29uIjoicGFydGx5LWNsb3VkeS1kYXkiLCJkYXRhIjpbeyJ0aW1lIjox
+        NDgxODM1NTQwLCJwcmVjaXBJbnRlbnNpdHkiOjAsInByZWNpcFByb2JhYmls
+        aXR5IjowfSx7InRpbWUiOjE0ODE4MzU2MDAsInByZWNpcEludGVuc2l0eSI6
+        MCwicHJlY2lwUHJvYmFiaWxpdHkiOjB9LHsidGltZSI6MTQ4MTgzNTY2MCwi
+        cHJlY2lwSW50ZW5zaXR5IjowLCJwcmVjaXBQcm9iYWJpbGl0eSI6MH0seyJ0
+        aW1lIjoxNDgxODM1NzIwLCJwcmVjaXBJbnRlbnNpdHkiOjAsInByZWNpcFBy
+        b2JhYmlsaXR5IjowfSx7InRpbWUiOjE0ODE4MzU3ODAsInByZWNpcEludGVu
+        c2l0eSI6MCwicHJlY2lwUHJvYmFiaWxpdHkiOjB9LHsidGltZSI6MTQ4MTgz
+        NTg0MCwicHJlY2lwSW50ZW5zaXR5IjowLCJwcmVjaXBQcm9iYWJpbGl0eSI6
+        MH0seyJ0aW1lIjoxNDgxODM1OTAwLCJwcmVjaXBJbnRlbnNpdHkiOjAsInBy
+        ZWNpcFByb2JhYmlsaXR5IjowfSx7InRpbWUiOjE0ODE4MzU5NjAsInByZWNp
+        cEludGVuc2l0eSI6MCwicHJlY2lwUHJvYmFiaWxpdHkiOjB9LHsidGltZSI6
+        MTQ4MTgzNjAyMCwicHJlY2lwSW50ZW5zaXR5IjowLCJwcmVjaXBQcm9iYWJp
+        bGl0eSI6MH0seyJ0aW1lIjoxNDgxODM2MDgwLCJwcmVjaXBJbnRlbnNpdHki
+        OjAsInByZWNpcFByb2JhYmlsaXR5IjowfSx7InRpbWUiOjE0ODE4MzYxNDAs
+        InByZWNpcEludGVuc2l0eSI6MCwicHJlY2lwUHJvYmFiaWxpdHkiOjB9LHsi
+        dGltZSI6MTQ4MTgzNjIwMCwicHJlY2lwSW50ZW5zaXR5IjowLCJwcmVjaXBQ
+        cm9iYWJpbGl0eSI6MH0seyJ0aW1lIjoxNDgxODM2MjYwLCJwcmVjaXBJbnRl
+        bnNpdHkiOjAsInByZWNpcFByb2JhYmlsaXR5IjowfSx7InRpbWUiOjE0ODE4
+        MzYzMjAsInByZWNpcEludGVuc2l0eSI6MCwicHJlY2lwUHJvYmFiaWxpdHki
+        OjB9LHsidGltZSI6MTQ4MTgzNjM4MCwicHJlY2lwSW50ZW5zaXR5IjowLCJw
+        cmVjaXBQcm9iYWJpbGl0eSI6MH0seyJ0aW1lIjoxNDgxODM2NDQwLCJwcmVj
+        aXBJbnRlbnNpdHkiOjAsInByZWNpcFByb2JhYmlsaXR5IjowfSx7InRpbWUi
+        OjE0ODE4MzY1MDAsInByZWNpcEludGVuc2l0eSI6MCwicHJlY2lwUHJvYmFi
+        aWxpdHkiOjB9LHsidGltZSI6MTQ4MTgzNjU2MCwicHJlY2lwSW50ZW5zaXR5
+        IjowLCJwcmVjaXBQcm9iYWJpbGl0eSI6MH0seyJ0aW1lIjoxNDgxODM2NjIw
+        LCJwcmVjaXBJbnRlbnNpdHkiOjAsInByZWNpcFByb2JhYmlsaXR5IjowfSx7
+        InRpbWUiOjE0ODE4MzY2ODAsInByZWNpcEludGVuc2l0eSI6MCwicHJlY2lw
+        UHJvYmFiaWxpdHkiOjB9LHsidGltZSI6MTQ4MTgzNjc0MCwicHJlY2lwSW50
+        ZW5zaXR5IjowLCJwcmVjaXBQcm9iYWJpbGl0eSI6MH0seyJ0aW1lIjoxNDgx
+        ODM2ODAwLCJwcmVjaXBJbnRlbnNpdHkiOjAsInByZWNpcFByb2JhYmlsaXR5
+        IjowfSx7InRpbWUiOjE0ODE4MzY4NjAsInByZWNpcEludGVuc2l0eSI6MCwi
+        cHJlY2lwUHJvYmFiaWxpdHkiOjB9LHsidGltZSI6MTQ4MTgzNjkyMCwicHJl
+        Y2lwSW50ZW5zaXR5IjowLCJwcmVjaXBQcm9iYWJpbGl0eSI6MH0seyJ0aW1l
+        IjoxNDgxODM2OTgwLCJwcmVjaXBJbnRlbnNpdHkiOjAsInByZWNpcFByb2Jh
+        YmlsaXR5IjowfSx7InRpbWUiOjE0ODE4MzcwNDAsInByZWNpcEludGVuc2l0
+        eSI6MCwicHJlY2lwUHJvYmFiaWxpdHkiOjB9LHsidGltZSI6MTQ4MTgzNzEw
+        MCwicHJlY2lwSW50ZW5zaXR5IjowLCJwcmVjaXBQcm9iYWJpbGl0eSI6MH0s
+        eyJ0aW1lIjoxNDgxODM3MTYwLCJwcmVjaXBJbnRlbnNpdHkiOjAsInByZWNp
+        cFByb2JhYmlsaXR5IjowfSx7InRpbWUiOjE0ODE4MzcyMjAsInByZWNpcElu
+        dGVuc2l0eSI6MCwicHJlY2lwUHJvYmFiaWxpdHkiOjB9LHsidGltZSI6MTQ4
+        MTgzNzI4MCwicHJlY2lwSW50ZW5zaXR5IjowLCJwcmVjaXBQcm9iYWJpbGl0
+        eSI6MH0seyJ0aW1lIjoxNDgxODM3MzQwLCJwcmVjaXBJbnRlbnNpdHkiOjAs
+        InByZWNpcFByb2JhYmlsaXR5IjowfSx7InRpbWUiOjE0ODE4Mzc0MDAsInBy
+        ZWNpcEludGVuc2l0eSI6MCwicHJlY2lwUHJvYmFiaWxpdHkiOjB9LHsidGlt
+        ZSI6MTQ4MTgzNzQ2MCwicHJlY2lwSW50ZW5zaXR5IjowLCJwcmVjaXBQcm9i
+        YWJpbGl0eSI6MH0seyJ0aW1lIjoxNDgxODM3NTIwLCJwcmVjaXBJbnRlbnNp
+        dHkiOjAsInByZWNpcFByb2JhYmlsaXR5IjowfSx7InRpbWUiOjE0ODE4Mzc1
+        ODAsInByZWNpcEludGVuc2l0eSI6MCwicHJlY2lwUHJvYmFiaWxpdHkiOjB9
+        LHsidGltZSI6MTQ4MTgzNzY0MCwicHJlY2lwSW50ZW5zaXR5IjowLCJwcmVj
+        aXBQcm9iYWJpbGl0eSI6MH0seyJ0aW1lIjoxNDgxODM3NzAwLCJwcmVjaXBJ
+        bnRlbnNpdHkiOjAsInByZWNpcFByb2JhYmlsaXR5IjowfSx7InRpbWUiOjE0
+        ODE4Mzc3NjAsInByZWNpcEludGVuc2l0eSI6MCwicHJlY2lwUHJvYmFiaWxp
+        dHkiOjB9LHsidGltZSI6MTQ4MTgzNzgyMCwicHJlY2lwSW50ZW5zaXR5Ijow
+        LCJwcmVjaXBQcm9iYWJpbGl0eSI6MH0seyJ0aW1lIjoxNDgxODM3ODgwLCJw
+        cmVjaXBJbnRlbnNpdHkiOjAsInByZWNpcFByb2JhYmlsaXR5IjowfSx7InRp
+        bWUiOjE0ODE4Mzc5NDAsInByZWNpcEludGVuc2l0eSI6MCwicHJlY2lwUHJv
+        YmFiaWxpdHkiOjB9LHsidGltZSI6MTQ4MTgzODAwMCwicHJlY2lwSW50ZW5z
+        aXR5IjowLCJwcmVjaXBQcm9iYWJpbGl0eSI6MH0seyJ0aW1lIjoxNDgxODM4
+        MDYwLCJwcmVjaXBJbnRlbnNpdHkiOjAsInByZWNpcFByb2JhYmlsaXR5Ijow
+        fSx7InRpbWUiOjE0ODE4MzgxMjAsInByZWNpcEludGVuc2l0eSI6MCwicHJl
+        Y2lwUHJvYmFiaWxpdHkiOjB9LHsidGltZSI6MTQ4MTgzODE4MCwicHJlY2lw
+        SW50ZW5zaXR5IjowLCJwcmVjaXBQcm9iYWJpbGl0eSI6MH0seyJ0aW1lIjox
+        NDgxODM4MjQwLCJwcmVjaXBJbnRlbnNpdHkiOjAsInByZWNpcFByb2JhYmls
+        aXR5IjowfSx7InRpbWUiOjE0ODE4MzgzMDAsInByZWNpcEludGVuc2l0eSI6
+        MCwicHJlY2lwUHJvYmFiaWxpdHkiOjB9LHsidGltZSI6MTQ4MTgzODM2MCwi
+        cHJlY2lwSW50ZW5zaXR5IjowLCJwcmVjaXBQcm9iYWJpbGl0eSI6MH0seyJ0
+        aW1lIjoxNDgxODM4NDIwLCJwcmVjaXBJbnRlbnNpdHkiOjAsInByZWNpcFBy
+        b2JhYmlsaXR5IjowfSx7InRpbWUiOjE0ODE4Mzg0ODAsInByZWNpcEludGVu
+        c2l0eSI6MCwicHJlY2lwUHJvYmFiaWxpdHkiOjB9LHsidGltZSI6MTQ4MTgz
+        ODU0MCwicHJlY2lwSW50ZW5zaXR5IjowLCJwcmVjaXBQcm9iYWJpbGl0eSI6
+        MH0seyJ0aW1lIjoxNDgxODM4NjAwLCJwcmVjaXBJbnRlbnNpdHkiOjAsInBy
+        ZWNpcFByb2JhYmlsaXR5IjowfSx7InRpbWUiOjE0ODE4Mzg2NjAsInByZWNp
+        cEludGVuc2l0eSI6MCwicHJlY2lwUHJvYmFiaWxpdHkiOjB9LHsidGltZSI6
+        MTQ4MTgzODcyMCwicHJlY2lwSW50ZW5zaXR5IjowLCJwcmVjaXBQcm9iYWJp
+        bGl0eSI6MH0seyJ0aW1lIjoxNDgxODM4NzgwLCJwcmVjaXBJbnRlbnNpdHki
+        OjAsInByZWNpcFByb2JhYmlsaXR5IjowfSx7InRpbWUiOjE0ODE4Mzg4NDAs
+        InByZWNpcEludGVuc2l0eSI6MCwicHJlY2lwUHJvYmFiaWxpdHkiOjB9LHsi
+        dGltZSI6MTQ4MTgzODkwMCwicHJlY2lwSW50ZW5zaXR5IjowLCJwcmVjaXBQ
+        cm9iYWJpbGl0eSI6MH0seyJ0aW1lIjoxNDgxODM4OTYwLCJwcmVjaXBJbnRl
+        bnNpdHkiOjAsInByZWNpcFByb2JhYmlsaXR5IjowfSx7InRpbWUiOjE0ODE4
+        MzkwMjAsInByZWNpcEludGVuc2l0eSI6MCwicHJlY2lwUHJvYmFiaWxpdHki
+        OjB9LHsidGltZSI6MTQ4MTgzOTA4MCwicHJlY2lwSW50ZW5zaXR5IjowLCJw
+        cmVjaXBQcm9iYWJpbGl0eSI6MH0seyJ0aW1lIjoxNDgxODM5MTQwLCJwcmVj
+        aXBJbnRlbnNpdHkiOjAsInByZWNpcFByb2JhYmlsaXR5IjowfV19LCJob3Vy
+        bHkiOnsic3VtbWFyeSI6IlBhcnRseSBjbG91ZHkgdGhyb3VnaG91dCB0aGUg
+        ZGF5LiIsImljb24iOiJwYXJ0bHktY2xvdWR5LW5pZ2h0IiwiZGF0YSI6W3si
+        dGltZSI6MTQ4MTgzMjAwMCwic3VtbWFyeSI6IlBhcnRseSBDbG91ZHkiLCJp
+        Y29uIjoicGFydGx5LWNsb3VkeS1kYXkiLCJwcmVjaXBJbnRlbnNpdHkiOjAs
+        InByZWNpcFByb2JhYmlsaXR5IjowLCJ0ZW1wZXJhdHVyZSI6MjIuNzUsImFw
+        cGFyZW50VGVtcGVyYXR1cmUiOjguNzYsImRld1BvaW50IjotNS40OCwiaHVt
+        aWRpdHkiOjAuMjgsIndpbmRTcGVlZCI6MTcuNDYsIndpbmRCZWFyaW5nIjoy
+        OTQsInZpc2liaWxpdHkiOjEwLCJjbG91ZENvdmVyIjowLjMsInByZXNzdXJl
+        IjoxMDA3LjAyLCJvem9uZSI6Mzc2LjE3fSx7InRpbWUiOjE0ODE4MzU2MDAs
+        InN1bW1hcnkiOiJQYXJ0bHkgQ2xvdWR5IiwiaWNvbiI6InBhcnRseS1jbG91
+        ZHktZGF5IiwicHJlY2lwSW50ZW5zaXR5IjowLCJwcmVjaXBQcm9iYWJpbGl0
+        eSI6MCwidGVtcGVyYXR1cmUiOjIxLjE2LCJhcHBhcmVudFRlbXBlcmF0dXJl
+        Ijo1LjksImRld1BvaW50IjotNC42NCwiaHVtaWRpdHkiOjAuMzEsIndpbmRT
+        cGVlZCI6MTkuNjMsIndpbmRCZWFyaW5nIjoyOTIsInZpc2liaWxpdHkiOjEw
+        LCJjbG91ZENvdmVyIjowLjM2LCJwcmVzc3VyZSI6MTAwNy43Miwib3pvbmUi
+        OjM3NS42Mn0seyJ0aW1lIjoxNDgxODM5MjAwLCJzdW1tYXJ5IjoiUGFydGx5
+        IENsb3VkeSIsImljb24iOiJwYXJ0bHktY2xvdWR5LW5pZ2h0IiwicHJlY2lw
+        SW50ZW5zaXR5IjowLCJwcmVjaXBQcm9iYWJpbGl0eSI6MCwidGVtcGVyYXR1
+        cmUiOjIwLjg4LCJhcHBhcmVudFRlbXBlcmF0dXJlIjo1LjkzLCJkZXdQb2lu
+        dCI6LTIuNCwiaHVtaWRpdHkiOjAuMzUsIndpbmRTcGVlZCI6MTguNTEsIndp
+        bmRCZWFyaW5nIjoyODUsInZpc2liaWxpdHkiOjEwLCJjbG91ZENvdmVyIjow
+        LjM4LCJwcmVzc3VyZSI6MTAwOC44Mywib3pvbmUiOjM3NS45NX0seyJ0aW1l
+        IjoxNDgxODQyODAwLCJzdW1tYXJ5IjoiUGFydGx5IENsb3VkeSIsImljb24i
+        OiJwYXJ0bHktY2xvdWR5LW5pZ2h0IiwicHJlY2lwSW50ZW5zaXR5IjowLCJw
+        cmVjaXBQcm9iYWJpbGl0eSI6MCwidGVtcGVyYXR1cmUiOjIwLjQ0LCJhcHBh
+        cmVudFRlbXBlcmF0dXJlIjo1Ljk4LCJkZXdQb2ludCI6MC4xOCwiaHVtaWRp
+        dHkiOjAuNCwid2luZFNwZWVkIjoxNi45LCJ3aW5kQmVhcmluZyI6MjczLCJ2
+        aXNpYmlsaXR5IjoxMCwiY2xvdWRDb3ZlciI6MC40MywicHJlc3N1cmUiOjEw
+        MDkuOTQsIm96b25lIjozNzYuNzR9LHsidGltZSI6MTQ4MTg0NjQwMCwic3Vt
+        bWFyeSI6IlBhcnRseSBDbG91ZHkiLCJpY29uIjoicGFydGx5LWNsb3VkeS1u
+        aWdodCIsInByZWNpcEludGVuc2l0eSI6MCwicHJlY2lwUHJvYmFiaWxpdHki
+        OjAsInRlbXBlcmF0dXJlIjoyMC4xLCJhcHBhcmVudFRlbXBlcmF0dXJlIjo1
+        LjY4LCJkZXdQb2ludCI6My4wOSwiaHVtaWRpdHkiOjAuNDcsIndpbmRTcGVl
+        ZCI6MTYuNTYsIndpbmRCZWFyaW5nIjoyNjUsInZpc2liaWxpdHkiOjEwLCJj
+        bG91ZENvdmVyIjowLjI1LCJwcmVzc3VyZSI6MTAxMC42Miwib3pvbmUiOjM3
+        Ny4zOH0seyJ0aW1lIjoxNDgxODUwMDAwLCJzdW1tYXJ5IjoiUGFydGx5IENs
+        b3VkeSIsImljb24iOiJwYXJ0bHktY2xvdWR5LW5pZ2h0IiwicHJlY2lwSW50
+        ZW5zaXR5IjowLCJwcmVjaXBQcm9iYWJpbGl0eSI6MCwidGVtcGVyYXR1cmUi
+        OjE5LjMyLCJhcHBhcmVudFRlbXBlcmF0dXJlIjo0LjE3LCJkZXdQb2ludCI6
+        Ni42MiwiaHVtaWRpdHkiOjAuNTcsIndpbmRTcGVlZCI6MTcuNzksIndpbmRC
+        ZWFyaW5nIjoyNjMsInZpc2liaWxpdHkiOjEwLCJjbG91ZENvdmVyIjowLjI4
+        LCJwcmVzc3VyZSI6MTAxMS4yMywib3pvbmUiOjM3Ny41N30seyJ0aW1lIjox
+        NDgxODUzNjAwLCJzdW1tYXJ5IjoiUGFydGx5IENsb3VkeSIsImljb24iOiJw
+        YXJ0bHktY2xvdWR5LW5pZ2h0IiwicHJlY2lwSW50ZW5zaXR5IjowLCJwcmVj
+        aXBQcm9iYWJpbGl0eSI6MCwidGVtcGVyYXR1cmUiOjE5LjEyLCJhcHBhcmVu
+        dFRlbXBlcmF0dXJlIjoyLjk0LCJkZXdQb2ludCI6Ny45MSwiaHVtaWRpdHki
+        OjAuNjEsIndpbmRTcGVlZCI6MjAuNDQsIndpbmRCZWFyaW5nIjoyNTcsInZp
+        c2liaWxpdHkiOjEwLCJjbG91ZENvdmVyIjowLjI4LCJwcmVzc3VyZSI6MTAx
+        Mi42Mywib3pvbmUiOjM3Ny42MX0seyJ0aW1lIjoxNDgxODU3MjAwLCJzdW1t
+        YXJ5IjoiUGFydGx5IENsb3VkeSIsImljb24iOiJwYXJ0bHktY2xvdWR5LW5p
+        Z2h0IiwicHJlY2lwSW50ZW5zaXR5IjowLCJwcmVjaXBQcm9iYWJpbGl0eSI6
+        MCwidGVtcGVyYXR1cmUiOjE4LjI4LCJhcHBhcmVudFRlbXBlcmF0dXJlIjox
+        LjAxLCJkZXdQb2ludCI6NS44NSwiaHVtaWRpdHkiOjAuNTgsIndpbmRTcGVl
+        ZCI6MjIuODgsIndpbmRCZWFyaW5nIjoyNjcsInZpc2liaWxpdHkiOjEwLCJj
+        bG91ZENvdmVyIjowLjI1LCJwcmVzc3VyZSI6MTAxMy41NSwib3pvbmUiOjM3
+        Ny44Nn0seyJ0aW1lIjoxNDgxODYwODAwLCJzdW1tYXJ5IjoiUGFydGx5IENs
+        b3VkeSIsImljb24iOiJwYXJ0bHktY2xvdWR5LW5pZ2h0IiwicHJlY2lwSW50
+        ZW5zaXR5IjowLCJwcmVjaXBQcm9iYWJpbGl0eSI6MCwidGVtcGVyYXR1cmUi
+        OjE2LjcyLCJhcHBhcmVudFRlbXBlcmF0dXJlIjotMS4yNSwiZGV3UG9pbnQi
+        OjMuOTMsImh1bWlkaXR5IjowLjU2LCJ3aW5kU3BlZWQiOjIzLjQzLCJ3aW5k
+        QmVhcmluZyI6MjczLCJ2aXNpYmlsaXR5IjoxMCwiY2xvdWRDb3ZlciI6MC4y
+        OCwicHJlc3N1cmUiOjEwMTQuNzYsIm96b25lIjozNzguOTV9LHsidGltZSI6
+        MTQ4MTg2NDQwMCwic3VtbWFyeSI6IlBhcnRseSBDbG91ZHkiLCJpY29uIjoi
+        cGFydGx5LWNsb3VkeS1uaWdodCIsInByZWNpcEludGVuc2l0eSI6MCwicHJl
+        Y2lwUHJvYmFiaWxpdHkiOjAsInRlbXBlcmF0dXJlIjoxNS4yNCwiYXBwYXJl
+        bnRUZW1wZXJhdHVyZSI6LTMuMTYsImRld1BvaW50IjoyLjQzLCJodW1pZGl0
+        eSI6MC41Niwid2luZFNwZWVkIjoyMy4yOSwid2luZEJlYXJpbmciOjI3OCwi
+        dmlzaWJpbGl0eSI6MTAsImNsb3VkQ292ZXIiOjAuMjksInByZXNzdXJlIjox
+        MDE2LjA0LCJvem9uZSI6MzgwLjI1fSx7InRpbWUiOjE0ODE4NjgwMDAsInN1
+        bW1hcnkiOiJQYXJ0bHkgQ2xvdWR5IiwiaWNvbiI6InBhcnRseS1jbG91ZHkt
+        bmlnaHQiLCJwcmVjaXBJbnRlbnNpdHkiOjAsInByZWNpcFByb2JhYmlsaXR5
+        IjowLCJ0ZW1wZXJhdHVyZSI6MTQuMSwiYXBwYXJlbnRUZW1wZXJhdHVyZSI6
+        LTQuNzMsImRld1BvaW50IjoxLjIyLCJodW1pZGl0eSI6MC41Niwid2luZFNw
+        ZWVkIjoyMy40Miwid2luZEJlYXJpbmciOjI3OSwidmlzaWJpbGl0eSI6OS45
+        LCJjbG91ZENvdmVyIjowLjI4LCJwcmVzc3VyZSI6MTAxNy41OSwib3pvbmUi
+        OjM4MC4yNX0seyJ0aW1lIjoxNDgxODcxNjAwLCJzdW1tYXJ5IjoiQ2xlYXIi
+        LCJpY29uIjoiY2xlYXItbmlnaHQiLCJwcmVjaXBJbnRlbnNpdHkiOjAsInBy
+        ZWNpcFByb2JhYmlsaXR5IjowLCJ0ZW1wZXJhdHVyZSI6MTIuNzQsImFwcGFy
+        ZW50VGVtcGVyYXR1cmUiOi02LjM2LCJkZXdQb2ludCI6MC4wMiwiaHVtaWRp
+        dHkiOjAuNTYsIndpbmRTcGVlZCI6MjIuOTQsIndpbmRCZWFyaW5nIjoyODMs
+        InZpc2liaWxpdHkiOjkuODIsImNsb3VkQ292ZXIiOjAuMTksInByZXNzdXJl
+        IjoxMDE5LjAyLCJvem9uZSI6Mzc3Ljg0fSx7InRpbWUiOjE0ODE4NzUyMDAs
+        InN1bW1hcnkiOiJDbGVhciIsImljb24iOiJjbGVhci1uaWdodCIsInByZWNp
+        cEludGVuc2l0eSI6MCwicHJlY2lwUHJvYmFiaWxpdHkiOjAsInRlbXBlcmF0
+        dXJlIjoxMS40MSwiYXBwYXJlbnRUZW1wZXJhdHVyZSI6LTcuOCwiZGV3UG9p
+        bnQiOi0xLjAzLCJodW1pZGl0eSI6MC41Niwid2luZFNwZWVkIjoyMi4wMiwi
+        d2luZEJlYXJpbmciOjI4NCwidmlzaWJpbGl0eSI6OS44MSwiY2xvdWRDb3Zl
+        ciI6MC4wOSwicHJlc3N1cmUiOjEwMjAuMzgsIm96b25lIjozNzQuMTJ9LHsi
+        dGltZSI6MTQ4MTg3ODgwMCwic3VtbWFyeSI6IkNsZWFyIiwiaWNvbiI6ImNs
+        ZWFyLW5pZ2h0IiwicHJlY2lwSW50ZW5zaXR5IjowLCJwcmVjaXBQcm9iYWJp
+        bGl0eSI6MCwidGVtcGVyYXR1cmUiOjEwLjM3LCJhcHBhcmVudFRlbXBlcmF0
+        dXJlIjotOC43OSwiZGV3UG9pbnQiOi0xLjc5LCJodW1pZGl0eSI6MC41Nywi
+        d2luZFNwZWVkIjoyMC45OSwid2luZEJlYXJpbmciOjI4NSwidmlzaWJpbGl0
+        eSI6OS45NCwiY2xvdWRDb3ZlciI6MC4wMiwicHJlc3N1cmUiOjEwMjEuNzcs
+        Im96b25lIjozNzAuODd9LHsidGltZSI6MTQ4MTg4MjQwMCwic3VtbWFyeSI6
+        IkNsZWFyIiwiaWNvbiI6ImNsZWFyLW5pZ2h0IiwicHJlY2lwSW50ZW5zaXR5
+        IjowLCJwcmVjaXBQcm9iYWJpbGl0eSI6MCwidGVtcGVyYXR1cmUiOjguOTYs
+        ImFwcGFyZW50VGVtcGVyYXR1cmUiOi0xMC4wOCwiZGV3UG9pbnQiOi0yLjk3
+        LCJodW1pZGl0eSI6MC41Nywid2luZFNwZWVkIjoxOS42LCJ3aW5kQmVhcmlu
+        ZyI6Mjg5LCJ2aXNpYmlsaXR5Ijo5Ljk3LCJjbG91ZENvdmVyIjowLCJwcmVz
+        c3VyZSI6MTAyMy4yNiwib3pvbmUiOjM2OC45OX0seyJ0aW1lIjoxNDgxODg2
+        MDAwLCJzdW1tYXJ5IjoiQ2xlYXIiLCJpY29uIjoiY2xlYXItbmlnaHQiLCJw
+        cmVjaXBJbnRlbnNpdHkiOjAsInByZWNpcFByb2JhYmlsaXR5IjowLCJ0ZW1w
+        ZXJhdHVyZSI6Ny44NiwiYXBwYXJlbnRUZW1wZXJhdHVyZSI6LTEwLjgsImRl
+        d1BvaW50IjotMy42NSwiaHVtaWRpdHkiOjAuNTgsIndpbmRTcGVlZCI6MTcu
+        OTgsIndpbmRCZWFyaW5nIjoyOTEsInZpc2liaWxpdHkiOjkuOTcsImNsb3Vk
+        Q292ZXIiOjAuMDEsInByZXNzdXJlIjoxMDI0Ljc2LCJvem9uZSI6MzY3LjU5
+        fSx7InRpbWUiOjE0ODE4ODk2MDAsInN1bW1hcnkiOiJDbGVhciIsImljb24i
+        OiJjbGVhci1uaWdodCIsInByZWNpcEludGVuc2l0eSI6MCwicHJlY2lwUHJv
+        YmFiaWxpdHkiOjAsInRlbXBlcmF0dXJlIjo3LjYxLCJhcHBhcmVudFRlbXBl
+        cmF0dXJlIjotMTAuNDEsImRld1BvaW50IjotMy44NiwiaHVtaWRpdHkiOjAu
+        NTksIndpbmRTcGVlZCI6MTYuNDcsIndpbmRCZWFyaW5nIjoyOTMsInZpc2li
+        aWxpdHkiOjEwLCJjbG91ZENvdmVyIjowLjAxLCJwcmVzc3VyZSI6MTAyNi4x
+        LCJvem9uZSI6MzY1LjgyfSx7InRpbWUiOjE0ODE4OTMyMDAsInN1bW1hcnki
+        OiJDbGVhciIsImljb24iOiJjbGVhci1kYXkiLCJwcmVjaXBJbnRlbnNpdHki
+        OjAsInByZWNpcFByb2JhYmlsaXR5IjowLCJ0ZW1wZXJhdHVyZSI6OC4yLCJh
+        cHBhcmVudFRlbXBlcmF0dXJlIjotOC45NSwiZGV3UG9pbnQiOi0zLjc1LCJo
+        dW1pZGl0eSI6MC41Nywid2luZFNwZWVkIjoxNS4wOSwid2luZEJlYXJpbmci
+        OjI5MiwidmlzaWJpbGl0eSI6MTAsImNsb3VkQ292ZXIiOjAuMDEsInByZXNz
+        dXJlIjoxMDI3LjI2LCJvem9uZSI6MzYzLjQ0fSx7InRpbWUiOjE0ODE4OTY4
+        MDAsInN1bW1hcnkiOiJDbGVhciIsImljb24iOiJjbGVhci1kYXkiLCJwcmVj
+        aXBJbnRlbnNpdHkiOjAsInByZWNpcFByb2JhYmlsaXR5IjowLCJ0ZW1wZXJh
+        dHVyZSI6OC45NCwiYXBwYXJlbnRUZW1wZXJhdHVyZSI6LTcuNTQsImRld1Bv
+        aW50IjotMy43OSwiaHVtaWRpdHkiOjAuNTUsIndpbmRTcGVlZCI6MTQuMjQs
+        IndpbmRCZWFyaW5nIjoyOTEsInZpc2liaWxpdHkiOjkuOTYsImNsb3VkQ292
+        ZXIiOjAsInByZXNzdXJlIjoxMDI4LjI5LCJvem9uZSI6MzYwLjd9LHsidGlt
+        ZSI6MTQ4MTkwMDQwMCwic3VtbWFyeSI6IkNsZWFyIiwiaWNvbiI6ImNsZWFy
+        LWRheSIsInByZWNpcEludGVuc2l0eSI6MCwicHJlY2lwUHJvYmFiaWxpdHki
+        OjAsInRlbXBlcmF0dXJlIjoxMC41NywiYXBwYXJlbnRUZW1wZXJhdHVyZSI6
+        LTQuOTcsImRld1BvaW50IjotMy4xNywiaHVtaWRpdHkiOjAuNTMsIndpbmRT
+        cGVlZCI6MTMuMzUsIndpbmRCZWFyaW5nIjoyODgsInZpc2liaWxpdHkiOjku
+        OTcsImNsb3VkQ292ZXIiOjAuMDYsInByZXNzdXJlIjoxMDI5LjA4LCJvem9u
+        ZSI6MzU3LjQ4fSx7InRpbWUiOjE0ODE5MDQwMDAsInN1bW1hcnkiOiJDbGVh
+        ciIsImljb24iOiJjbGVhci1kYXkiLCJwcmVjaXBJbnRlbnNpdHkiOjAsInBy
+        ZWNpcFByb2JhYmlsaXR5IjowLCJ0ZW1wZXJhdHVyZSI6MTIuMzEsImFwcGFy
+        ZW50VGVtcGVyYXR1cmUiOi0yLjAzLCJkZXdQb2ludCI6LTIuNzIsImh1bWlk
+        aXR5IjowLjUsIndpbmRTcGVlZCI6MTIuMDksIndpbmRCZWFyaW5nIjoyODUs
+        InZpc2liaWxpdHkiOjkuOTcsImNsb3VkQ292ZXIiOjAuMDUsInByZXNzdXJl
+        IjoxMDI5LjQ3LCJvem9uZSI6MzUzLjc5fSx7InRpbWUiOjE0ODE5MDc2MDAs
+        InN1bW1hcnkiOiJDbGVhciIsImljb24iOiJjbGVhci1kYXkiLCJwcmVjaXBJ
+        bnRlbnNpdHkiOjAsInByZWNpcFByb2JhYmlsaXR5IjowLCJ0ZW1wZXJhdHVy
+        ZSI6MTQuMDUsImFwcGFyZW50VGVtcGVyYXR1cmUiOjAuNTgsImRld1BvaW50
+        IjotMi40MSwiaHVtaWRpdHkiOjAuNDcsIndpbmRTcGVlZCI6MTEuMzksIndp
+        bmRCZWFyaW5nIjoyODEsInZpc2liaWxpdHkiOjEwLCJjbG91ZENvdmVyIjow
+        LjA1LCJwcmVzc3VyZSI6MTAyOS42Mywib3pvbmUiOjM0OS42M30seyJ0aW1l
+        IjoxNDgxOTExMjAwLCJzdW1tYXJ5IjoiQ2xlYXIiLCJpY29uIjoiY2xlYXIt
+        ZGF5IiwicHJlY2lwSW50ZW5zaXR5IjowLCJwcmVjaXBQcm9iYWJpbGl0eSI6
+        MCwidGVtcGVyYXR1cmUiOjE0LjgsImFwcGFyZW50VGVtcGVyYXR1cmUiOjIu
+        MiwiZGV3UG9pbnQiOi0yLjcxLCJodW1pZGl0eSI6MC40NSwid2luZFNwZWVk
+        IjoxMC4zMSwid2luZEJlYXJpbmciOjI3NSwidmlzaWJpbGl0eSI6MTAsImNs
+        b3VkQ292ZXIiOjAuMDUsInByZXNzdXJlIjoxMDI5Ljc3LCJvem9uZSI6MzQ0
+        LjgyfSx7InRpbWUiOjE0ODE5MTQ4MDAsInN1bW1hcnkiOiJDbGVhciIsImlj
+        b24iOiJjbGVhci1kYXkiLCJwcmVjaXBJbnRlbnNpdHkiOjAsInByZWNpcFBy
+        b2JhYmlsaXR5IjowLCJ0ZW1wZXJhdHVyZSI6MTYuMTgsImFwcGFyZW50VGVt
+        cGVyYXR1cmUiOjQuNCwiZGV3UG9pbnQiOi0xLjEyLCJodW1pZGl0eSI6MC40
+        Niwid2luZFNwZWVkIjo5LjU5LCJ3aW5kQmVhcmluZyI6MjczLCJ2aXNpYmls
+        aXR5IjoxMCwiY2xvdWRDb3ZlciI6MC4wOCwicHJlc3N1cmUiOjEwMjkuOTIs
+        Im96b25lIjozMzl9LHsidGltZSI6MTQ4MTkxODQwMCwic3VtbWFyeSI6IkNs
+        ZWFyIiwiaWNvbiI6ImNsZWFyLWRheSIsInByZWNpcEludGVuc2l0eSI6MCwi
+        cHJlY2lwUHJvYmFiaWxpdHkiOjAsInRlbXBlcmF0dXJlIjoxNy40MywiYXBw
+        YXJlbnRUZW1wZXJhdHVyZSI6Ni4zLCJkZXdQb2ludCI6MC45MywiaHVtaWRp
+        dHkiOjAuNDgsIndpbmRTcGVlZCI6OS4wNywid2luZEJlYXJpbmciOjI2OCwi
+        dmlzaWJpbGl0eSI6MTAsImNsb3VkQ292ZXIiOjAuMTIsInByZXNzdXJlIjox
+        MDMwLCJvem9uZSI6MzMyLjU0fSx7InRpbWUiOjE0ODE5MjIwMDAsInN1bW1h
+        cnkiOiJDbGVhciIsImljb24iOiJjbGVhci1kYXkiLCJwcmVjaXBJbnRlbnNp
+        dHkiOjAsInByZWNpcFByb2JhYmlsaXR5IjowLCJ0ZW1wZXJhdHVyZSI6MTcu
+        ODgsImFwcGFyZW50VGVtcGVyYXR1cmUiOjcuODEsImRld1BvaW50IjoyLjQ2
+        LCJodW1pZGl0eSI6MC41LCJ3aW5kU3BlZWQiOjcuOCwid2luZEJlYXJpbmci
+        OjI2MCwidmlzaWJpbGl0eSI6MTAsImNsb3VkQ292ZXIiOjAuMTQsInByZXNz
+        dXJlIjoxMDMwLjExLCJvem9uZSI6MzI2LjQzfSx7InRpbWUiOjE0ODE5MjU2
+        MDAsInN1bW1hcnkiOiJDbGVhciIsImljb24iOiJjbGVhci1uaWdodCIsInBy
+        ZWNpcEludGVuc2l0eSI6MCwicHJlY2lwUHJvYmFiaWxpdHkiOjAsInRlbXBl
+        cmF0dXJlIjoxOC4yNSwiYXBwYXJlbnRUZW1wZXJhdHVyZSI6OS4zMiwiZGV3
+        UG9pbnQiOjQuMTMsImh1bWlkaXR5IjowLjUzLCJ3aW5kU3BlZWQiOjYuNTYs
+        IndpbmRCZWFyaW5nIjoyNDQsInZpc2liaWxpdHkiOjEwLCJjbG91ZENvdmVy
+        IjowLjEyLCJwcmVzc3VyZSI6MTAzMC4zNywib3pvbmUiOjMyMC45OX0seyJ0
+        aW1lIjoxNDgxOTI5MjAwLCJzdW1tYXJ5IjoiQ2xlYXIiLCJpY29uIjoiY2xl
+        YXItbmlnaHQiLCJwcmVjaXBJbnRlbnNpdHkiOjAsInByZWNpcFByb2JhYmls
+        aXR5IjowLCJ0ZW1wZXJhdHVyZSI6MTguNiwiYXBwYXJlbnRUZW1wZXJhdHVy
+        ZSI6MTAuMjksImRld1BvaW50Ijo1Ljg4LCJodW1pZGl0eSI6MC41Nywid2lu
+        ZFNwZWVkIjo1Ljk5LCJ3aW5kQmVhcmluZyI6MjI0LCJ2aXNpYmlsaXR5Ijox
+        MCwiY2xvdWRDb3ZlciI6MC4wOCwicHJlc3N1cmUiOjEwMzAuNjcsIm96b25l
+        IjozMTUuOTF9LHsidGltZSI6MTQ4MTkzMjgwMCwic3VtbWFyeSI6IkNsZWFy
+        IiwiaWNvbiI6ImNsZWFyLW5pZ2h0IiwicHJlY2lwSW50ZW5zaXR5IjowLCJw
+        cmVjaXBQcm9iYWJpbGl0eSI6MCwidGVtcGVyYXR1cmUiOjE5LjE2LCJhcHBh
+        cmVudFRlbXBlcmF0dXJlIjoxMC44NiwiZGV3UG9pbnQiOjcuNDUsImh1bWlk
+        aXR5IjowLjYsIndpbmRTcGVlZCI6Ni4wOCwid2luZEJlYXJpbmciOjIwOSwi
+        dmlzaWJpbGl0eSI6MTAsImNsb3VkQ292ZXIiOjAuMDcsInByZXNzdXJlIjox
+        MDMwLjg3LCJvem9uZSI6MzExLjI0fSx7InRpbWUiOjE0ODE5MzY0MDAsInN1
+        bW1hcnkiOiJDbGVhciIsImljb24iOiJjbGVhci1uaWdodCIsInByZWNpcElu
+        dGVuc2l0eSI6MCwicHJlY2lwUHJvYmFiaWxpdHkiOjAsInRlbXBlcmF0dXJl
+        IjoxOS42OCwiYXBwYXJlbnRUZW1wZXJhdHVyZSI6MTAuMTcsImRld1BvaW50
+        Ijo4LjMzLCJodW1pZGl0eSI6MC42MSwid2luZFNwZWVkIjo3LjU4LCJ3aW5k
+        QmVhcmluZyI6MTk2LCJ2aXNpYmlsaXR5IjoxMCwiY2xvdWRDb3ZlciI6MC4x
+        NywicHJlc3N1cmUiOjEwMzAuOTUsIm96b25lIjozMDYuOTJ9LHsidGltZSI6
+        MTQ4MTk0MDAwMCwic3VtbWFyeSI6IlBhcnRseSBDbG91ZHkiLCJpY29uIjoi
+        cGFydGx5LWNsb3VkeS1uaWdodCIsInByZWNpcEludGVuc2l0eSI6MCwicHJl
+        Y2lwUHJvYmFiaWxpdHkiOjAsInRlbXBlcmF0dXJlIjoyMC41MywiYXBwYXJl
+        bnRUZW1wZXJhdHVyZSI6MTAuOTQsImRld1BvaW50Ijo5LjIzLCJodW1pZGl0
+        eSI6MC42MSwid2luZFNwZWVkIjo3LjkyLCJ3aW5kQmVhcmluZyI6MTk0LCJ2
+        aXNpYmlsaXR5IjoxMCwiY2xvdWRDb3ZlciI6MC4zMSwicHJlc3N1cmUiOjEw
+        MzAuOTQsIm96b25lIjozMDMuMDF9LHsidGltZSI6MTQ4MTk0MzYwMCwic3Vt
+        bWFyeSI6IlBhcnRseSBDbG91ZHkiLCJpY29uIjoicGFydGx5LWNsb3VkeS1u
+        aWdodCIsInByZWNpcEludGVuc2l0eSI6MCwicHJlY2lwUHJvYmFiaWxpdHki
+        OjAsInRlbXBlcmF0dXJlIjoyMS40OCwiYXBwYXJlbnRUZW1wZXJhdHVyZSI6
+        MTIuMDIsImRld1BvaW50IjoxMC40MywiaHVtaWRpdHkiOjAuNjIsIndpbmRT
+        cGVlZCI6OC4wMiwid2luZEJlYXJpbmciOjE5MSwidmlzaWJpbGl0eSI6MTAs
+        ImNsb3VkQ292ZXIiOjAuNDYsInByZXNzdXJlIjoxMDMwLjc3LCJvem9uZSI6
+        Mjk5Ljc4fSx7InRpbWUiOjE0ODE5NDcyMDAsInN1bW1hcnkiOiJNb3N0bHkg
+        Q2xvdWR5IiwiaWNvbiI6InBhcnRseS1jbG91ZHktbmlnaHQiLCJwcmVjaXBJ
+        bnRlbnNpdHkiOjAsInByZWNpcFByb2JhYmlsaXR5IjowLCJ0ZW1wZXJhdHVy
+        ZSI6MjIuNTIsImFwcGFyZW50VGVtcGVyYXR1cmUiOjEzLjQ2LCJkZXdQb2lu
+        dCI6MTEuOTUsImh1bWlkaXR5IjowLjYzLCJ3aW5kU3BlZWQiOjcuNzgsIndp
+        bmRCZWFyaW5nIjoxODQsInZpc2liaWxpdHkiOjEwLCJjbG91ZENvdmVyIjow
+        LjYyLCJwcmVzc3VyZSI6MTAzMC40MSwib3pvbmUiOjI5Ny40OX0seyJ0aW1l
+        IjoxNDgxOTUwODAwLCJzdW1tYXJ5IjoiTW9zdGx5IENsb3VkeSIsImljb24i
+        OiJwYXJ0bHktY2xvdWR5LW5pZ2h0IiwicHJlY2lwSW50ZW5zaXR5IjowLCJw
+        cmVjaXBQcm9iYWJpbGl0eSI6MCwidGVtcGVyYXR1cmUiOjE4Ljg1LCJhcHBh
+        cmVudFRlbXBlcmF0dXJlIjo5LjUyLCJkZXdQb2ludCI6OS4yMSwiaHVtaWRp
+        dHkiOjAuNjUsIndpbmRTcGVlZCI6Ny4xNSwid2luZEJlYXJpbmciOjE3Niwi
+        dmlzaWJpbGl0eSI6MTAsImNsb3VkQ292ZXIiOjAuNzksInByZXNzdXJlIjox
+        MDI5Ljg5LCJvem9uZSI6Mjk1Ljg4fSx7InRpbWUiOjE0ODE5NTQ0MDAsInN1
+        bW1hcnkiOiJNb3N0bHkgQ2xvdWR5IiwiaWNvbiI6InBhcnRseS1jbG91ZHkt
+        bmlnaHQiLCJwcmVjaXBJbnRlbnNpdHkiOjAsInByZWNpcFByb2JhYmlsaXR5
+        IjowLCJ0ZW1wZXJhdHVyZSI6MTkuOCwiYXBwYXJlbnRUZW1wZXJhdHVyZSI6
+        MTEuNDEsImRld1BvaW50IjoxMS4zOCwiaHVtaWRpdHkiOjAuNjksIndpbmRT
+        cGVlZCI6Ni4zLCJ3aW5kQmVhcmluZyI6MTY4LCJ2aXNpYmlsaXR5Ijo5Ljk2
+        LCJjbG91ZENvdmVyIjowLjkxLCJwcmVzc3VyZSI6MTAyOS4yOCwib3pvbmUi
+        OjI5NC40OX0seyJ0aW1lIjoxNDgxOTU4MDAwLCJzdW1tYXJ5IjoiTGlnaHQg
+        U25vdyIsImljb24iOiJzbm93IiwicHJlY2lwSW50ZW5zaXR5IjowLjAwNDYs
+        InByZWNpcFByb2JhYmlsaXR5IjowLjE4LCJwcmVjaXBUeXBlIjoic25vdyIs
+        InByZWNpcEFjY3VtdWxhdGlvbiI6MC4wNjksInRlbXBlcmF0dXJlIjoyMC42
+        NSwiYXBwYXJlbnRUZW1wZXJhdHVyZSI6MTIuODcsImRld1BvaW50IjoxNC40
+        MywiaHVtaWRpdHkiOjAuNzYsIndpbmRTcGVlZCI6NS44NCwid2luZEJlYXJp
+        bmciOjE2NSwidmlzaWJpbGl0eSI6Ny4yMiwiY2xvdWRDb3ZlciI6MC45Niwi
+        cHJlc3N1cmUiOjEwMjguNTYsIm96b25lIjoyOTMuMjV9LHsidGltZSI6MTQ4
+        MTk2MTYwMCwic3VtbWFyeSI6IlNub3ciLCJpY29uIjoic25vdyIsInByZWNp
+        cEludGVuc2l0eSI6MC4wMTA5LCJwcmVjaXBQcm9iYWJpbGl0eSI6MC41MSwi
+        cHJlY2lwVHlwZSI6InNub3ciLCJwcmVjaXBBY2N1bXVsYXRpb24iOjAuMTU3
+        LCJ0ZW1wZXJhdHVyZSI6MjEuNjIsImFwcGFyZW50VGVtcGVyYXR1cmUiOjE0
+        LjUxLCJkZXdQb2ludCI6MTcuOTEsImh1bWlkaXR5IjowLjg1LCJ3aW5kU3Bl
+        ZWQiOjUuMzUsIndpbmRCZWFyaW5nIjoxNjUsInZpc2liaWxpdHkiOjMuNTQs
+        ImNsb3VkQ292ZXIiOjAuOTgsInByZXNzdXJlIjoxMDI3LjczLCJvem9uZSI6
+        MjkyLjIzfSx7InRpbWUiOjE0ODE5NjUyMDAsInN1bW1hcnkiOiJTbm93Iiwi
+        aWNvbiI6InNub3ciLCJwcmVjaXBJbnRlbnNpdHkiOjAuMDE2OSwicHJlY2lw
+        UHJvYmFiaWxpdHkiOjAuNTgsInByZWNpcFR5cGUiOiJzbm93IiwicHJlY2lw
+        QWNjdW11bGF0aW9uIjowLjIzMSwidGVtcGVyYXR1cmUiOjIyLjc4LCJhcHBh
+        cmVudFRlbXBlcmF0dXJlIjoxNi4xMiwiZGV3UG9pbnQiOjIwLjc4LCJodW1p
+        ZGl0eSI6MC45Miwid2luZFNwZWVkIjo1LjExLCJ3aW5kQmVhcmluZyI6MTYy
+        LCJ2aXNpYmlsaXR5IjoxLjQ5LCJjbG91ZENvdmVyIjowLjk5LCJwcmVzc3Vy
+        ZSI6MTAyNi44NCwib3pvbmUiOjI5MS4wNn0seyJ0aW1lIjoxNDgxOTY4ODAw
+        LCJzdW1tYXJ5IjoiU25vdyIsImljb24iOiJzbm93IiwicHJlY2lwSW50ZW5z
+        aXR5IjowLjAyMjEsInByZWNpcFByb2JhYmlsaXR5IjowLjYyLCJwcmVjaXBU
+        eXBlIjoic25vdyIsInByZWNpcEFjY3VtdWxhdGlvbiI6MC4yODUsInRlbXBl
+        cmF0dXJlIjoyMy44NCwiYXBwYXJlbnRUZW1wZXJhdHVyZSI6MTcuMDMsImRl
+        d1BvaW50IjoyMi40LCJodW1pZGl0eSI6MC45NCwid2luZFNwZWVkIjo1LjQ2
+        LCJ3aW5kQmVhcmluZyI6MTU1LCJ2aXNpYmlsaXR5IjoyLjkyLCJjbG91ZENv
+        dmVyIjoxLCJwcmVzc3VyZSI6MTAyNS45NSwib3pvbmUiOjI4OS42MX0seyJ0
+        aW1lIjoxNDgxOTcyNDAwLCJzdW1tYXJ5IjoiU25vdyIsImljb24iOiJzbm93
+        IiwicHJlY2lwSW50ZW5zaXR5IjowLjAyNywicHJlY2lwUHJvYmFiaWxpdHki
+        OjAuNjQsInByZWNpcFR5cGUiOiJzbm93IiwicHJlY2lwQWNjdW11bGF0aW9u
+        IjowLjMyOSwidGVtcGVyYXR1cmUiOjI0LjksImFwcGFyZW50VGVtcGVyYXR1
+        cmUiOjE3LjY3LCJkZXdQb2ludCI6MjMuNDQsImh1bWlkaXR5IjowLjk0LCJ3
+        aW5kU3BlZWQiOjYuMTIsIndpbmRCZWFyaW5nIjoxNDksInZpc2liaWxpdHki
+        OjUuOTksImNsb3VkQ292ZXIiOjAuOTksInByZXNzdXJlIjoxMDI1LjA0LCJv
+        em9uZSI6Mjg4LjAyfSx7InRpbWUiOjE0ODE5NzYwMDAsInN1bW1hcnkiOiJT
+        bm93IiwiaWNvbiI6InNub3ciLCJwcmVjaXBJbnRlbnNpdHkiOjAuMDMxOCwi
+        cHJlY2lwUHJvYmFiaWxpdHkiOjAuNjYsInByZWNpcFR5cGUiOiJzbm93Iiwi
+        cHJlY2lwQWNjdW11bGF0aW9uIjowLjM1OCwidGVtcGVyYXR1cmUiOjI2LjIx
+        LCJhcHBhcmVudFRlbXBlcmF0dXJlIjoxOC45NCwiZGV3UG9pbnQiOjI0Ljcy
+        LCJodW1pZGl0eSI6MC45NCwid2luZFNwZWVkIjo2LjQ3LCJ3aW5kQmVhcmlu
+        ZyI6MTQ0LCJ2aXNpYmlsaXR5Ijo3LjcxLCJjbG91ZENvdmVyIjowLjk5LCJw
+        cmVzc3VyZSI6MTAyNC4xMSwib3pvbmUiOjI4Ni4zM30seyJ0aW1lIjoxNDgx
+        OTc5NjAwLCJzdW1tYXJ5IjoiU25vdyIsImljb24iOiJzbm93IiwicHJlY2lw
+        SW50ZW5zaXR5IjowLjAzNSwicHJlY2lwUHJvYmFiaWxpdHkiOjAuNjgsInBy
+        ZWNpcFR5cGUiOiJzbm93IiwicHJlY2lwQWNjdW11bGF0aW9uIjowLjM1Niwi
+        dGVtcGVyYXR1cmUiOjI3Ljg5LCJhcHBhcmVudFRlbXBlcmF0dXJlIjoyMS4z
+        MiwiZGV3UG9pbnQiOjI2LjU2LCJodW1pZGl0eSI6MC45NSwid2luZFNwZWVk
+        Ijo2LjAyLCJ3aW5kQmVhcmluZyI6MTQxLCJ2aXNpYmlsaXR5Ijo2LjM1LCJj
+        bG91ZENvdmVyIjoxLCJwcmVzc3VyZSI6MTAyMy4xNywib3pvbmUiOjI4NC40
+        Nn0seyJ0aW1lIjoxNDgxOTgzMjAwLCJzdW1tYXJ5IjoiU25vdyIsImljb24i
+        OiJzbm93IiwicHJlY2lwSW50ZW5zaXR5IjowLjAzODEsInByZWNpcFByb2Jh
+        YmlsaXR5IjowLjY5LCJwcmVjaXBUeXBlIjoic25vdyIsInByZWNpcEFjY3Vt
+        dWxhdGlvbiI6MC4zNDEsInRlbXBlcmF0dXJlIjoyOS44NSwiYXBwYXJlbnRU
+        ZW1wZXJhdHVyZSI6MjQuMjksImRld1BvaW50IjoyOC42OSwiaHVtaWRpdHki
+        OjAuOTUsIndpbmRTcGVlZCI6NS4yOCwid2luZEJlYXJpbmciOjEzOSwidmlz
+        aWJpbGl0eSI6My42NCwiY2xvdWRDb3ZlciI6MSwicHJlc3N1cmUiOjEwMjIu
+        MDgsIm96b25lIjoyODIuNDl9LHsidGltZSI6MTQ4MTk4NjgwMCwic3VtbWFy
+        eSI6IlNub3ciLCJpY29uIjoic25vdyIsInByZWNpcEludGVuc2l0eSI6MC4w
+        NDUsInByZWNpcFByb2JhYmlsaXR5IjowLjcxLCJwcmVjaXBUeXBlIjoic25v
+        dyIsInByZWNpcEFjY3VtdWxhdGlvbiI6MC4zNDQsInRlbXBlcmF0dXJlIjoz
+        MS45NiwiYXBwYXJlbnRUZW1wZXJhdHVyZSI6MjYuOSwiZGV3UG9pbnQiOjMw
+        Ljk1LCJodW1pZGl0eSI6MC45Niwid2luZFNwZWVkIjo1LjE0LCJ3aW5kQmVh
+        cmluZyI6MTM0LCJ2aXNpYmlsaXR5IjoxLjgxLCJjbG91ZENvdmVyIjoxLCJw
+        cmVzc3VyZSI6MTAyMC40LCJvem9uZSI6MjgwLjY2fSx7InRpbWUiOjE0ODE5
+        OTA0MDAsInN1bW1hcnkiOiJTbm93IiwiaWNvbiI6InNub3ciLCJwcmVjaXBJ
+        bnRlbnNpdHkiOjAuMDYyNywicHJlY2lwUHJvYmFiaWxpdHkiOjAuNzUsInBy
+        ZWNpcFR5cGUiOiJzbm93IiwicHJlY2lwQWNjdW11bGF0aW9uIjowLjQ3Niwi
+        dGVtcGVyYXR1cmUiOjM0LjM3LCJhcHBhcmVudFRlbXBlcmF0dXJlIjoyOS4y
+        NywiZGV3UG9pbnQiOjMzLjQ5LCJodW1pZGl0eSI6MC45Nywid2luZFNwZWVk
+        Ijo1LjcyLCJ3aW5kQmVhcmluZyI6MTI4LCJ2aXNpYmlsaXR5IjoxLjg1LCJj
+        bG91ZENvdmVyIjoxLCJwcmVzc3VyZSI6MTAxNy4zNywib3pvbmUiOjI3OS4w
+        Nn0seyJ0aW1lIjoxNDgxOTk0MDAwLCJzdW1tYXJ5IjoiU2xlZXQiLCJpY29u
+        Ijoic2xlZXQiLCJwcmVjaXBJbnRlbnNpdHkiOjAuMDgzNywicHJlY2lwUHJv
+        YmFiaWxpdHkiOjAuNzgsInByZWNpcFR5cGUiOiJzbGVldCIsInRlbXBlcmF0
+        dXJlIjozNy4wMSwiYXBwYXJlbnRUZW1wZXJhdHVyZSI6MzIuODgsImRld1Bv
+        aW50IjozNi4yMywiaHVtaWRpdHkiOjAuOTcsIndpbmRTcGVlZCI6NS4xLCJ3
+        aW5kQmVhcmluZyI6MTM3LCJ2aXNpYmlsaXR5IjoyLjc3LCJjbG91ZENvdmVy
+        IjoxLCJwcmVzc3VyZSI6MTAxNC40NCwib3pvbmUiOjI3Ny42MX0seyJ0aW1l
+        IjoxNDgxOTk3NjAwLCJzdW1tYXJ5IjoiU2xlZXQiLCJpY29uIjoic2xlZXQi
+        LCJwcmVjaXBJbnRlbnNpdHkiOjAuMDkwMywicHJlY2lwUHJvYmFiaWxpdHki
+        OjAuNzgsInByZWNpcFR5cGUiOiJzbGVldCIsInRlbXBlcmF0dXJlIjozOS4w
+        NywiYXBwYXJlbnRUZW1wZXJhdHVyZSI6MzUuNjUsImRld1BvaW50IjozOC4z
+        OSwiaHVtaWRpdHkiOjAuOTcsIndpbmRTcGVlZCI6NC42Nywid2luZEJlYXJp
+        bmciOjE1NywidmlzaWJpbGl0eSI6My44NSwiY2xvdWRDb3ZlciI6MSwicHJl
+        c3N1cmUiOjEwMTIuMjMsIm96b25lIjoyNzYuMjl9LHsidGltZSI6MTQ4MjAw
+        MTIwMCwic3VtbWFyeSI6IlNsZWV0IiwiaWNvbiI6InNsZWV0IiwicHJlY2lw
+        SW50ZW5zaXR5IjowLjA2OTMsInByZWNpcFByb2JhYmlsaXR5IjowLjc2LCJw
+        cmVjaXBUeXBlIjoic2xlZXQiLCJ0ZW1wZXJhdHVyZSI6MzkuODYsImFwcGFy
+        ZW50VGVtcGVyYXR1cmUiOjM2LjE3LCJkZXdQb2ludCI6MzkuMjYsImh1bWlk
+        aXR5IjowLjk4LCJ3aW5kU3BlZWQiOjUuMTgsIndpbmRCZWFyaW5nIjoxODAs
+        InZpc2liaWxpdHkiOjUuMzEsImNsb3VkQ292ZXIiOjAuOTQsInByZXNzdXJl
+        IjoxMDEwLjg1LCJvem9uZSI6Mjc0LjkyfSx7InRpbWUiOjE0ODIwMDQ4MDAs
+        InN1bW1hcnkiOiJMaWdodCBSYWluIiwiaWNvbiI6InJhaW4iLCJwcmVjaXBJ
+        bnRlbnNpdHkiOjAuMDMzNiwicHJlY2lwUHJvYmFiaWxpdHkiOjAuNjcsInBy
+        ZWNpcFR5cGUiOiJyYWluIiwidGVtcGVyYXR1cmUiOjM5Ljg3LCJhcHBhcmVu
+        dFRlbXBlcmF0dXJlIjozNC44MywiZGV3UG9pbnQiOjM5LjM1LCJodW1pZGl0
+        eSI6MC45OCwid2luZFNwZWVkIjo3LjI3LCJ3aW5kQmVhcmluZyI6MjAwLCJ2
+        aXNpYmlsaXR5Ijo2LjkzLCJjbG91ZENvdmVyIjowLjg2LCJwcmVzc3VyZSI6
+        MTAwOS45NSwib3pvbmUiOjI3My42OX1dfSwiZGFpbHkiOnsic3VtbWFyeSI6
+        Ik1peGVkIHByZWNpcGl0YXRpb24gb24gU2F0dXJkYXkgdGhyb3VnaCBUaHVy
+        c2RheSwgd2l0aCB0ZW1wZXJhdHVyZXMgcmlzaW5nIHRvIDU2wrBGIG9uIFN1
+        bmRheS4iLCJpY29uIjoicmFpbiIsImRhdGEiOlt7InRpbWUiOjE0ODE3Nzgw
+        MDAsInN1bW1hcnkiOiJQYXJ0bHkgY2xvdWR5IHN0YXJ0aW5nIGluIHRoZSBh
+        ZnRlcm5vb24uIiwiaWNvbiI6InBhcnRseS1jbG91ZHktbmlnaHQiLCJzdW5y
+        aXNlVGltZSI6MTQ4MTgwMzY4OSwic3Vuc2V0VGltZSI6MTQ4MTgzNjQzMSwi
+        bW9vblBoYXNlIjowLjU3LCJwcmVjaXBJbnRlbnNpdHkiOjAsInByZWNpcElu
+        dGVuc2l0eU1heCI6MCwicHJlY2lwUHJvYmFiaWxpdHkiOjAsInRlbXBlcmF0
+        dXJlTWluIjoxNi43MiwidGVtcGVyYXR1cmVNaW5UaW1lIjoxNDgxODYwODAw
+        LCJ0ZW1wZXJhdHVyZU1heCI6MzAuMzcsInRlbXBlcmF0dXJlTWF4VGltZSI6
+        MTQ4MTc5MjQwMCwiYXBwYXJlbnRUZW1wZXJhdHVyZU1pbiI6LTEuMjUsImFw
+        cGFyZW50VGVtcGVyYXR1cmVNaW5UaW1lIjoxNDgxODYwODAwLCJhcHBhcmVu
+        dFRlbXBlcmF0dXJlTWF4IjoyMS4zMiwiYXBwYXJlbnRUZW1wZXJhdHVyZU1h
+        eFRpbWUiOjE0ODE3OTI0MDAsImRld1BvaW50Ijo2LjU1LCJodW1pZGl0eSI6
+        MC40Niwid2luZFNwZWVkIjoxMy43Miwid2luZEJlYXJpbmciOjI2OSwidmlz
+        aWJpbGl0eSI6MTAsImNsb3VkQ292ZXIiOjAuMzQsInByZXNzdXJlIjoxMDA3
+        LjgxLCJvem9uZSI6MzY2Ljg2fSx7InRpbWUiOjE0ODE4NjQ0MDAsInN1bW1h
+        cnkiOiJTbm93ICh1bmRlciAxIGluLikgb3Zlcm5pZ2h0LiIsImljb24iOiJz
+        bm93Iiwic3VucmlzZVRpbWUiOjE0ODE4OTAxMjksInN1bnNldFRpbWUiOjE0
+        ODE5MjI4NDgsIm1vb25QaGFzZSI6MC42LCJwcmVjaXBJbnRlbnNpdHkiOjAs
+        InByZWNpcEludGVuc2l0eU1heCI6MCwicHJlY2lwUHJvYmFiaWxpdHkiOjAs
+        InRlbXBlcmF0dXJlTWluIjo3LjYxLCJ0ZW1wZXJhdHVyZU1pblRpbWUiOjE0
+        ODE4ODk2MDAsInRlbXBlcmF0dXJlTWF4IjoyMi41MiwidGVtcGVyYXR1cmVN
+        YXhUaW1lIjoxNDgxOTQ3MjAwLCJhcHBhcmVudFRlbXBlcmF0dXJlTWluIjot
+        MTAuOCwiYXBwYXJlbnRUZW1wZXJhdHVyZU1pblRpbWUiOjE0ODE4ODYwMDAs
+        ImFwcGFyZW50VGVtcGVyYXR1cmVNYXgiOjEzLjQ2LCJhcHBhcmVudFRlbXBl
+        cmF0dXJlTWF4VGltZSI6MTQ4MTk0NzIwMCwiZGV3UG9pbnQiOjEuMzEsImh1
+        bWlkaXR5IjowLjU1LCJ3aW5kU3BlZWQiOjExLjY2LCJ3aW5kQmVhcmluZyI6
+        Mjc0LCJ2aXNpYmlsaXR5Ijo5Ljk4LCJjbG91ZENvdmVyIjowLjE0LCJwcmVz
+        c3VyZSI6MTAyNi45OCwib3pvbmUiOjM0NC41NH0seyJ0aW1lIjoxNDgxOTUw
+        ODAwLCJzdW1tYXJ5IjoiTWl4ZWQgcHJlY2lwaXRhdGlvbiAoMuKAkzQgaW4u
+        IG9mIHNub3cpIHVudGlsIGFmdGVybm9vbiwgc3RhcnRpbmcgYWdhaW4gaW4g
+        dGhlIGV2ZW5pbmcuIiwiaWNvbiI6InNub3ciLCJzdW5yaXNlVGltZSI6MTQ4
+        MTk3NjU2OCwic3Vuc2V0VGltZSI6MTQ4MjAwOTI2NiwibW9vblBoYXNlIjow
+        LjY0LCJwcmVjaXBJbnRlbnNpdHkiOjAuMDI1NywicHJlY2lwSW50ZW5zaXR5
+        TWF4IjowLjA5MDMsInByZWNpcEludGVuc2l0eU1heFRpbWUiOjE0ODE5OTc2
+        MDAsInByZWNpcFByb2JhYmlsaXR5IjowLjc4LCJwcmVjaXBUeXBlIjoic25v
+        dyIsInByZWNpcEFjY3VtdWxhdGlvbiI6NS4zOSwidGVtcGVyYXR1cmVNaW4i
+        OjE4Ljg1LCJ0ZW1wZXJhdHVyZU1pblRpbWUiOjE0ODE5NTA4MDAsInRlbXBl
+        cmF0dXJlTWF4Ijo0NC4zMSwidGVtcGVyYXR1cmVNYXhUaW1lIjoxNDgyMDMz
+        NjAwLCJhcHBhcmVudFRlbXBlcmF0dXJlTWluIjo5LjUyLCJhcHBhcmVudFRl
+        bXBlcmF0dXJlTWluVGltZSI6MTQ4MTk1MDgwMCwiYXBwYXJlbnRUZW1wZXJh
+        dHVyZU1heCI6MzguNzYsImFwcGFyZW50VGVtcGVyYXR1cmVNYXhUaW1lIjox
+        NDgyMDMzNjAwLCJkZXdQb2ludCI6MzAuOTEsImh1bWlkaXR5IjowLjkzLCJ3
+        aW5kU3BlZWQiOjYuMTcsIndpbmRCZWFyaW5nIjoxNzgsInZpc2liaWxpdHki
+        OjQuMTEsImNsb3VkQ292ZXIiOjAuOTYsInByZXNzdXJlIjoxMDE3Ljg5LCJv
+        em9uZSI6MjgyLjI4fSx7InRpbWUiOjE0ODIwMzcyMDAsInN1bW1hcnkiOiJM
+        aWdodCByYWluIHVudGlsIGV2ZW5pbmcsIHN0YXJ0aW5nIGFnYWluIG92ZXJu
+        aWdodC4iLCJpY29uIjoicmFpbiIsInN1bnJpc2VUaW1lIjoxNDgyMDYzMDA0
+        LCJzdW5zZXRUaW1lIjoxNDgyMDk1Njg3LCJtb29uUGhhc2UiOjAuNjcsInBy
+        ZWNpcEludGVuc2l0eSI6MC4wMTI5LCJwcmVjaXBJbnRlbnNpdHlNYXgiOjAu
+        MDMyNywicHJlY2lwSW50ZW5zaXR5TWF4VGltZSI6MTQ4MjA3MzIwMCwicHJl
+        Y2lwUHJvYmFiaWxpdHkiOjAuNjcsInByZWNpcFR5cGUiOiJyYWluIiwidGVt
+        cGVyYXR1cmVNaW4iOjI5LjkxLCJ0ZW1wZXJhdHVyZU1pblRpbWUiOjE0ODIx
+        MjAwMDAsInRlbXBlcmF0dXJlTWF4Ijo1NS42NCwidGVtcGVyYXR1cmVNYXhU
+        aW1lIjoxNDgyMDczMjAwLCJhcHBhcmVudFRlbXBlcmF0dXJlTWluIjoyMC4y
+        MiwiYXBwYXJlbnRUZW1wZXJhdHVyZU1pblRpbWUiOjE0ODIxMjAwMDAsImFw
+        cGFyZW50VGVtcGVyYXR1cmVNYXgiOjU1LjY0LCJhcHBhcmVudFRlbXBlcmF0
+        dXJlTWF4VGltZSI6MTQ4MjA3MzIwMCwiZGV3UG9pbnQiOjQyLjQ5LCJodW1p
+        ZGl0eSI6MC44OCwid2luZFNwZWVkIjo5LjMxLCJ3aW5kQmVhcmluZyI6MjI1
+        LCJ2aXNpYmlsaXR5Ijo1LjQ1LCJjbG91ZENvdmVyIjoxLCJwcmVzc3VyZSI6
+        MTAxMi4xOSwib3pvbmUiOjI4Ni40NX0seyJ0aW1lIjoxNDgyMTIzNjAwLCJz
+        dW1tYXJ5IjoiTGlnaHQgc25vdyBpbiB0aGUgbW9ybmluZy4iLCJpY29uIjoi
+        c25vdyIsInN1bnJpc2VUaW1lIjoxNDgyMTQ5NDM4LCJzdW5zZXRUaW1lIjox
+        NDgyMTgyMTEwLCJtb29uUGhhc2UiOjAuNywicHJlY2lwSW50ZW5zaXR5Ijow
+        LjAwMDgsInByZWNpcEludGVuc2l0eU1heCI6MC4wMDIyLCJwcmVjaXBJbnRl
+        bnNpdHlNYXhUaW1lIjoxNDgyMTM0NDAwLCJwcmVjaXBQcm9iYWJpbGl0eSI6
+        MC4wNiwicHJlY2lwVHlwZSI6InNub3ciLCJwcmVjaXBBY2N1bXVsYXRpb24i
+        OjAuMjEsInRlbXBlcmF0dXJlTWluIjoyMi43MSwidGVtcGVyYXR1cmVNaW5U
+        aW1lIjoxNDgyMTQ4ODAwLCJ0ZW1wZXJhdHVyZU1heCI6MzIuODgsInRlbXBl
+        cmF0dXJlTWF4VGltZSI6MTQ4MjEyMzYwMCwiYXBwYXJlbnRUZW1wZXJhdHVy
+        ZU1pbiI6MTIuNjEsImFwcGFyZW50VGVtcGVyYXR1cmVNaW5UaW1lIjoxNDgy
+        MTQ4ODAwLCJhcHBhcmVudFRlbXBlcmF0dXJlTWF4IjoyMy44LCJhcHBhcmVu
+        dFRlbXBlcmF0dXJlTWF4VGltZSI6MTQ4MjEyMzYwMCwiZGV3UG9pbnQiOjku
+        MDIsImh1bWlkaXR5IjowLjQ3LCJ3aW5kU3BlZWQiOjcuNCwid2luZEJlYXJp
+        bmciOjMzMCwiY2xvdWRDb3ZlciI6MC40OSwicHJlc3N1cmUiOjEwMzUuOSwi
+        b3pvbmUiOjMxNC4zOX0seyJ0aW1lIjoxNDgyMjEwMDAwLCJzdW1tYXJ5Ijoi
+        UGFydGx5IGNsb3VkeSBvdmVybmlnaHQuIiwiaWNvbiI6InBhcnRseS1jbG91
+        ZHktbmlnaHQiLCJzdW5yaXNlVGltZSI6MTQ4MjIzNTg3MCwic3Vuc2V0VGlt
+        ZSI6MTQ4MjI2ODUzNiwibW9vblBoYXNlIjowLjc0LCJwcmVjaXBJbnRlbnNp
+        dHkiOjAsInByZWNpcEludGVuc2l0eU1heCI6MCwicHJlY2lwUHJvYmFiaWxp
+        dHkiOjAsInRlbXBlcmF0dXJlTWluIjoyMS4wOSwidGVtcGVyYXR1cmVNaW5U
+        aW1lIjoxNDgyMjMxNjAwLCJ0ZW1wZXJhdHVyZU1heCI6MzcuNjQsInRlbXBl
+        cmF0dXJlTWF4VGltZSI6MTQ4MjI1NjgwMCwiYXBwYXJlbnRUZW1wZXJhdHVy
+        ZU1pbiI6MTcuODEsImFwcGFyZW50VGVtcGVyYXR1cmVNaW5UaW1lIjoxNDgy
+        MjM1MjAwLCJhcHBhcmVudFRlbXBlcmF0dXJlTWF4IjozMywiYXBwYXJlbnRU
+        ZW1wZXJhdHVyZU1heFRpbWUiOjE0ODIyNTY4MDAsImRld1BvaW50IjoxMy44
+        MywiaHVtaWRpdHkiOjAuNTIsIndpbmRTcGVlZCI6NC4xMywid2luZEJlYXJp
+        bmciOjIzOSwiY2xvdWRDb3ZlciI6MC4xMSwicHJlc3N1cmUiOjEwMzMuMjYs
+        Im96b25lIjozMjkuMjl9LHsidGltZSI6MTQ4MjI5NjQwMCwic3VtbWFyeSI6
+        Ik1vc3RseSBjbG91ZHkgdGhyb3VnaG91dCB0aGUgZGF5LiIsImljb24iOiJw
+        YXJ0bHktY2xvdWR5LWRheSIsInN1bnJpc2VUaW1lIjoxNDgyMzIyMzAwLCJz
+        dW5zZXRUaW1lIjoxNDgyMzU0OTY0LCJtb29uUGhhc2UiOjAuNzcsInByZWNp
+        cEludGVuc2l0eSI6MC4wMDE0LCJwcmVjaXBJbnRlbnNpdHlNYXgiOjAuMDAy
+        MywicHJlY2lwSW50ZW5zaXR5TWF4VGltZSI6MTQ4MjM0NjgwMCwicHJlY2lw
+        UHJvYmFiaWxpdHkiOjAuMDYsInByZWNpcFR5cGUiOiJyYWluIiwidGVtcGVy
+        YXR1cmVNaW4iOjI5LjM3LCJ0ZW1wZXJhdHVyZU1pblRpbWUiOjE0ODIzMTgw
+        MDAsInRlbXBlcmF0dXJlTWF4Ijo0MC44NywidGVtcGVyYXR1cmVNYXhUaW1l
+        IjoxNDgyMzQzMjAwLCJhcHBhcmVudFRlbXBlcmF0dXJlTWluIjoyMS40Miwi
+        YXBwYXJlbnRUZW1wZXJhdHVyZU1pblRpbWUiOjE0ODIzMTQ0MDAsImFwcGFy
+        ZW50VGVtcGVyYXR1cmVNYXgiOjM1LjM4LCJhcHBhcmVudFRlbXBlcmF0dXJl
+        TWF4VGltZSI6MTQ4MjM0MzIwMCwiZGV3UG9pbnQiOjI0LjQzLCJodW1pZGl0
+        eSI6MC42Nywid2luZFNwZWVkIjo3LjIyLCJ3aW5kQmVhcmluZyI6MjUwLCJj
+        bG91ZENvdmVyIjowLjY4LCJwcmVzc3VyZSI6MTAyMi43Miwib3pvbmUiOjMx
+        NS45NH0seyJ0aW1lIjoxNDgyMzgyODAwLCJzdW1tYXJ5IjoiTGlnaHQgcmFp
+        biBzdGFydGluZyBpbiB0aGUgZXZlbmluZy4iLCJpY29uIjoicmFpbiIsInN1
+        bnJpc2VUaW1lIjoxNDgyNDA4NzI4LCJzdW5zZXRUaW1lIjoxNDgyNDQxMzk0
+        LCJtb29uUGhhc2UiOjAuOCwicHJlY2lwSW50ZW5zaXR5IjowLjAwMzIsInBy
+        ZWNpcEludGVuc2l0eU1heCI6MC4wMDkzLCJwcmVjaXBJbnRlbnNpdHlNYXhU
+        aW1lIjoxNDgyNDY1NjAwLCJwcmVjaXBQcm9iYWJpbGl0eSI6MC40OSwicHJl
+        Y2lwVHlwZSI6InJhaW4iLCJ0ZW1wZXJhdHVyZU1pbiI6MjkuNTEsInRlbXBl
+        cmF0dXJlTWluVGltZSI6MTQ4MjQwNDQwMCwidGVtcGVyYXR1cmVNYXgiOjQx
+        LjA1LCJ0ZW1wZXJhdHVyZU1heFRpbWUiOjE0ODI0NTQ4MDAsImFwcGFyZW50
+        VGVtcGVyYXR1cmVNaW4iOjI1LjY1LCJhcHBhcmVudFRlbXBlcmF0dXJlTWlu
+        VGltZSI6MTQ4MjQwNDQwMCwiYXBwYXJlbnRUZW1wZXJhdHVyZU1heCI6MzYu
+        MzksImFwcGFyZW50VGVtcGVyYXR1cmVNYXhUaW1lIjoxNDgyNDU0ODAwLCJk
+        ZXdQb2ludCI6MzEuOTMsImh1bWlkaXR5IjowLjg0LCJ3aW5kU3BlZWQiOjQu
+        NTgsIndpbmRCZWFyaW5nIjoyMjAsImNsb3VkQ292ZXIiOjAuODEsInByZXNz
+        dXJlIjoxMDIzLjksIm96b25lIjoyODQuMDR9XX0sImFsZXJ0cyI6W3sidGl0
+        bGUiOiJXaW5kIENoaWxsIEFkdmlzb3J5IGZvciBTdWZmb2xrLCBNQSIsInRp
+        bWUiOjE0ODE4MzI2MDAsImV4cGlyZXMiOjE0ODE4OTY4MDAsImRlc2NyaXB0
+        aW9uIjoiLi4uV0lORCBDSElMTCBBRFZJU09SWSBSRU1BSU5TIElOIEVGRkVD
+        VCBGUk9NIE1JRE5JR0hUIFRPTklHSFQgVE9cbjkgQU0gRVNUIEZSSURBWS4u
+        LlxuKiBMT0NBVElPTlMuLi5OT1JUSCBDRU5UUkFMIEFORCBOT1JUSEVBU1Qg
+        Q09OTkVDVElDVVQuLi5OT1JUSEVSTlxuUkhPREUgSVNMQU5ELi4uSU5URVJJ
+        T1IgU09VVEhFQVNUIE1BU1NBQ0hVU0VUVFMuLi5NRVRSTyBCT1NUT05cbkFO
+        RCBUSEUgTk9SVEggU0hPUkUuXG4qIEhBWkFSRCBUWVBFUy4uLkRBTkdFUk9V
+        U0xZIENPTEQgV0lORCBDSElMTFMuXG4qIFdJTkQgQ0hJTEwgUkVBRElOR1Mu
+        Li5BUyBMT1cgQVMgMTcgQkVMT1cuXG4qIFRJTUlORy4uLkxBVEUgVE9OSUdI
+        VCBBTkQgRUFSTFkgRlJJREFZIE1PUk5JTkcuXG4qIElNUEFDVFMuLi5GUk9T
+        VEJJVEUgQ0FOIE9DQ1VSIElOIEFTIExJVFRMRSBBUyAzMCBNSU5VVEVTIElG
+        XG5ZT1UgQVJFIE5PVCBQUk9URUNURUQgRlJPTSBUSEUgQ09MRC5cbiogV0lO
+        RFMuLi5OT1JUSFdFU1QgMjAgVE8gMzAgTVBIIFdJVEggR1VTVFMgQkVUV0VF
+        TiA1MCBBTkQgNjBcbk1QSC5cbiIsInVyaSI6Imh0dHBzOi8vYWxlcnRzLndl
+        YXRoZXIuZ292L2NhcC93d2FjYXBnZXQucGhwP3g9TUExMjU2MjYxMUZFRTgu
+        V2luZENoaWxsQWR2aXNvcnkuMTI1NjI2MjA1MkUwTUEuQk9YV1NXQk9YLjkx
+        YmM3YWYxNjkyMWU0ZWVkY2VkMzJkYmU0YzM3MjRiIn0seyJ0aXRsZSI6Ildp
+        bmQgQ2hpbGwgQWR2aXNvcnkgZm9yIE5vcmZvbGssIE1BIiwidGltZSI6MTQ4
+        MTgzMjYwMCwiZXhwaXJlcyI6MTQ4MTg5NjgwMCwiZGVzY3JpcHRpb24iOiIu
+        Li5XSU5EIENISUxMIEFEVklTT1JZIElOIEVGRkVDVCBGUk9NIE1JRE5JR0hU
+        IFRPTklHSFQgVE8gOSBBTVxuRVNUIEZSSURBWS4uLlxuVEhFIE5BVElPTkFM
+        IFdFQVRIRVIgU0VSVklDRSBJTiBUQVVOVE9OIEhBUyBJU1NVRUQgQSBXSU5E
+        IENISUxMXG5BRFZJU09SWS4uLldISUNIIElTIElOIEVGRkVDVCBGUk9NIE1J
+        RE5JR0hUIFRPTklHSFQgVE8gOSBBTSBFU1RcbkZSSURBWS5cbiogTE9DQVRJ
+        T05TLi4uUE9SVElPTlMgT0YgQ0VOVFJBTCBSSE9ERSBJU0xBTkQgQU5EIFNP
+        VVRIRUFTVFxuTUFTU0FDSFVTRVRUUy5cbiogSEFaQVJEIFRZUEVTLi4uREFO
+        R0VST1VTTFkgQ09MRCBXSU5EIENISUxMUy5cbiogV0lORCBDSElMTCBSRUFE
+        SU5HUy4uLkFTIExPVyBBUyAxNyBCRUxPVy5cbiogVElNSU5HLi4uTEFURSBU
+        T05JR0hUIEFORCBFQVJMWSBGUklEQVkgTU9STklORy5cbiogSU1QQUNUUy4u
+        LkZST1NUQklURSBDQU4gT0NDVVIgSU4gQVMgTElUVExFIEFTIDMwIE1JTlVU
+        RVMgSUZcbllPVSBBUkUgTk9UIFBST1RFQ1RFRCBGUk9NIFRIRSBDT0xELlxu
+        KiBXSU5EUy4uLk5PUlRIV0VTVCAyMCBUTyAzMCBNUEggV0lUSCBHVVNUUyBC
+        RVRXRUVOIDUwIEFORCA2MFxuTVBILlxuIiwidXJpIjoiaHR0cHM6Ly9hbGVy
+        dHMud2VhdGhlci5nb3YvY2FwL3d3YWNhcGdldC5waHA/eD1NQTEyNTYyNjEx
+        RkVFOC5XaW5kQ2hpbGxBZHZpc29yeS4xMjU2MjYyMDUyRTBNQS5CT1hXU1dC
+        T1guMWEyODJhMWExNzFkZDBlZjg1YTMyZDZmYzVkYmRiMDUifSx7InRpdGxl
+        IjoiV2luZCBDaGlsbCBBZHZpc29yeSBmb3IgTWlkZGxlc2V4LCBNQSIsInRp
+        bWUiOjE0ODE4MzI2MDAsImV4cGlyZXMiOjE0ODE5MDQwMDAsImRlc2NyaXB0
+        aW9uIjoiLi4uV0lORCBDSElMTCBBRFZJU09SWSBSRU1BSU5TIElOIEVGRkVD
+        VCBGUk9NIDEwIFBNIFRISVMgRVZFTklOR1xuVE8gMTEgQU0gRVNUIEZSSURB
+        WS4uLlxuKiBMT0NBVElPTlMuLi5XRVNURVJOLi4uQ0VOVFJBTCBBTkQgSU5U
+        RVJJT1IgTk9SVEhFQVNUXG5NQVNTQUNIVVNFVFRTLlxuKiBIQVpBUkQgVFlQ
+        RVMuLi5EQU5HRVJPVVNMWSBDT0xEIFdJTkQgQ0hJTExTLlxuKiBXSU5EIENI
+        SUxMIFJFQURJTkdTLi4uQVMgTE9XIEFTIDI0IEJFTE9XLlxuKiBUSU1JTkcu
+        Li5MQVRFIFRPTklHSFQgSU5UTyBFQVJMWSBGUklEQVkgTU9STklORy5cbiog
+        SU1QQUNUUy4uLkZST1NUQklURSBDQU4gT0NDVVIgSU4gQVMgTElUVExFIEFT
+        IDMwIE1JTlVURVMgSUZcbllPVSBBUkUgTk9UIFBST1RFQ1RFRCBGUk9NIFRI
+        RSBDT0xELlxuKiBXSU5EUy4uLk5PUlRIV0VTVCAyMCBUTyAzMCBNUEggV0lU
+        SCBHVVNUUyBCRVRXRUVOIDUwIEFORCA2MFxuTVBILlxuIiwidXJpIjoiaHR0
+        cHM6Ly9hbGVydHMud2VhdGhlci5nb3YvY2FwL3d3YWNhcGdldC5waHA/eD1N
+        QTEyNTYyNjExRkVFOC5XaW5kQ2hpbGxBZHZpc29yeS4xMjU2MjYyMEExMDBN
+        QS5CT1hXU1dCT1guNGM0MWI4N2EzNTNlNGU5NTM2ZWIzYzhiYzVmYjdlZjIi
+        fSx7InRpdGxlIjoiSGlnaCBXaW5kIFdhcm5pbmcgZm9yIFN1ZmZvbGssIE1B
+        IiwidGltZSI6MTQ4MTgzMjM2MCwiZXhwaXJlcyI6MTQ4MTg3ODgwMCwiZGVz
+        Y3JpcHRpb24iOiIuLi5ISUdIIFdJTkQgV0FSTklORyBSRU1BSU5TIElOIEVG
+        RkVDVCBVTlRJTCA0IEFNIEVTVCBGUklEQVkuLi5cbiogTE9DQVRJT04uLi5D
+        T05ORUNUSUNVVC4uLk1BU1NBQ0hVU0VUVFMgQU5EIFJIT0RFIElTTEFORC5c
+        biogV0lORFMuLi5XRVNUIDIwIFRPIDMwIE1QSCBXSVRIIEdVU1RTIEJFVFdF
+        RU4gNTAgQU5EIDYwIE1QSC5cbklTT0xBVEVEIDY1IE1QSCBHVVNUUyBBUkUg
+        UE9TU0lCTEUgQUNST1NTIFRIRSBISUdIRVIgVEVSUkFJTi5cbiogVElNSU5H
+        Li4uU1RST05HRVNUIFdJTkRTIEFSRSBFWFBFQ1RFRCBCRVRXRUVOIDggUE0g
+        VEhJU1xuRVZFTklORyBBTkQgNCBBTSBGUklEQVkuXG4qIElNUEFDVFMuLi5X
+        SU5EUyBUSElTIFNUUk9ORyBXSUxMIFJFU1VMVCBJTiBUUkVFIERBTUFHRVxu
+        SU5DTFVESU5HIFNPTUUgV0VBS0VORUQgVFJFRVMgQkVJTkcgS05PQ0tFRCBE
+        T1dOLiBTQ0FUVEVSRURcblBPV0VSIE9VVEFHRVMgQVJFIFBPU1NJQkxFIEFO
+        RCBUSElTIElTIFBBUlRJQ1VMQVJMWSBDT05DRVJOSU5HXG5HSVZFTiBUSEUg
+        QklUVEVSTFkgQ09MRCBXSU5EIENISUxMUyBFWFBFQ1RFRCBPVkVSTklHSFQu
+        XG5EUklWSU5HIFdJTEwgQkUgRElGRklDVUxUIElOIE9QRU4gQVJFQVMgQU5E
+        IE9OIEJSSURHRVMuXG4iLCJ1cmkiOiJodHRwczovL2FsZXJ0cy53ZWF0aGVy
+        Lmdvdi9jYXAvd3dhY2FwZ2V0LnBocD94PU1BMTI1NjI2MTFGRDU4LkhpZ2hX
+        aW5kV2FybmluZy4xMjU2MjYxRjhGOTBNQS5CT1hOUFdCT1guMWUzOGJhMTI3
+        OWMyMTg3NWY3YzMzYzZmMTBmYTBmZjEifV0sImZsYWdzIjp7InNvdXJjZXMi
+        OlsiZGFya3NreSIsImxhbXAiLCJnZnMiLCJjbWMiLCJuYW0iLCJyYXAiLCJy
+        dG1hIiwic3JlZiIsImZubW9jIiwiaXNkIiwibndzcGEiLCJtYWRpcyIsIm5l
+        YXJlc3QtcHJlY2lwIl0sImRhcmtza3ktc3RhdGlvbnMiOlsiS0JPWCJdLCJs
+        YW1wLXN0YXRpb25zIjpbIktBU0giLCJLQkVEIiwiS0JPUyIsIktCVlkiLCJL
+        RklUIiwiS0xXTSIsIktNUUUiLCJLT1dEIiwiS1BZTSIsIktTRloiLCJLVEFO
+        Il0sImlzZC1zdGF0aW9ucyI6WyI3MjUwOTAtMTQ3MzkiLCI3MjYwNTQtOTk5
+        OTkiLCI5OTQ5NzEtOTk5OTkiLCI5OTk5OTktMTQ3ODkiLCI5OTk5OTktOTQ3
+        MDEiXSwibWFkaXMtc3RhdGlvbnMiOlsiQTEyNjEiLCJBTjI4NyIsIkFWMDg1
+        IiwiQkhCTTMiLCJDMDIxMCIsIkM2NjEyIiwiRDAwNTYiLCJEMzcwNiIsIkQ3
+        MzU1IiwiRTAxNTIiLCJFMjcyNyIsIkU1MzUxIiwiRTU2NTAiLCJFNjQ4MCIs
+        IkU4NTI4IiwiS0JPUyJdLCJ1bml0cyI6InVzIn19
+    http_version: 
+  recorded_at: Thu, 15 Dec 2016 20:59:46 GMT
+- request:
+    method: get
+    uri: https://api.seatgeek.com/2/events?client_id=NjQyNzQ3N3wxNDgxNzU1NDYz&venue.city=Boston
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - openresty
+      Date:
+      - Thu, 15 Dec 2016 20:59:46 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Etag:
+      - '"64fe61b37e8f44006f9c4fba0f22679fabff132d"'
+      Cache-Control:
+      - max-age=1800
+      Access-Control-Allow-Origin:
+      - "*"
+      X-Varnish:
+      - '1297616774'
+      Age:
+      - '0'
+      Via:
+      - 1.1 varnish
+      X-Content-Type-Options:
+      - nosniff
+      X-Xss-Protection:
+      - 1; mode=block
+    body:
+      encoding: ASCII-8BIT
+      string: '{"meta":{"per_page":10,"total":1191,"page":1,"took":5,"geolocation":null},"in_hand":{},"events":[{"links":[],"id":3623154,"stats":{"listing_count":null,"average_price":null,"lowest_price_good_deals":null,"lowest_price":null,"highest_price":null},"title":"Coco
+        Jones","announce_date":"2016-11-20T00:00:00","score":0.520313,"date_tbd":false,"type":"concert","datetime_local":"2016-12-15T03:30:00","visible_until_utc":"2016-12-16T05:00:00","time_tbd":true,"taxonomies":[{"parent_id":null,"id":2000000,"name":"concert"}],"performers":[{"image":null,"primary":true,"colors":null,"images":{},"has_upcoming_events":true,"id":36008,"genres":[{"id":452,"slug":"pop","name":"Pop","primary":false},{"id":456,"slug":"rock","name":"Rock","primary":true}],"stats":{"event_count":5},"image_license":null,"score":0.439819,"taxonomies":[{"parent_id":null,"id":2000000,"name":"concert"}],"type":"band","short_name":"Coco
+        Jones","home_venue_id":null,"slug":"coco-jones","divisions":null,"name":"Coco
+        Jones","url":"https:\/\/seatgeek.com\/coco-jones-tickets","image_attribution":null}],"url":"https:\/\/seatgeek.com\/coco-jones-tickets\/boston-massachusetts-house-of-blues-boston-2016-12-15-3-30-am\/concert\/3623154","created_at":"2016-11-20T00:00:00","venue":{"city":"Boston","name":"House
+        of Blues Boston","extended_address":"Boston, MA 02215","url":"https:\/\/seatgeek.com\/venues\/house-of-blues-boston\/tickets","country":"US","display_location":"Boston,
+        MA","links":[],"slug":"house-of-blues-boston","state":"MA","score":0.636447,"postal_code":"02215","location":{"lat":42.2913,"lon":-71.0889},"address":"15
+        Lansdowne St.","timezone":"America\/New_York","id":517},"short_title":"Coco
+        Jones","datetime_utc":"2016-12-15T08:30:00","datetime_tbd":false},{"links":[],"id":3517154,"stats":{"listing_count":1,"average_price":39.0,"lowest_price_good_deals":null,"lowest_price":39.0,"highest_price":39.0},"title":"Street
+        Dogs with Darkbuster","announce_date":"2016-09-13T00:00:00","score":0.411762,"date_tbd":false,"type":"concert","datetime_local":"2016-12-15T18:00:00","visible_until_utc":"2016-12-16T03:00:00","time_tbd":false,"taxonomies":[{"parent_id":null,"id":2000000,"name":"concert"}],"performers":[{"image":"https:\/\/chairnerd.global.ssl.fastly.net\/images\/performers-landscape\/street-dogs-9e4b46\/1707\/huge.jpg","primary":true,"colors":null,"images":{"huge":"https:\/\/chairnerd.global.ssl.fastly.net\/images\/performers-landscape\/street-dogs-9e4b46\/1707\/huge.jpg"},"has_upcoming_events":true,"id":1707,"genres":[{"id":452,"slug":"pop","name":"Pop","primary":false},{"id":456,"slug":"rock","name":"Rock","primary":true},{"id":461,"slug":"punk","name":"Punk","primary":false}],"stats":{"event_count":4},"image_license":null,"score":0.348906,"taxonomies":[{"parent_id":null,"id":2000000,"name":"concert"}],"type":"band","short_name":"Street
+        Dogs","home_venue_id":null,"slug":"street-dogs","divisions":null,"name":"Street
+        Dogs","url":"https:\/\/seatgeek.com\/street-dogs-tickets","image_attribution":null},{"image":null,"colors":null,"images":{},"has_upcoming_events":true,"id":192101,"genres":[{"id":456,"slug":"rock","name":"Rock","primary":false},{"id":457,"slug":"alternative","name":"Alternative","primary":true},{"id":461,"slug":"punk","name":"Punk","primary":false}],"stats":{"event_count":3},"image_license":null,"score":0.48973,"taxonomies":[{"parent_id":null,"id":2000000,"name":"concert"}],"type":"band","short_name":"Darkbuster","home_venue_id":null,"slug":"darkbuster","divisions":null,"name":"Darkbuster","url":"https:\/\/seatgeek.com\/darkbuster-tickets","image_attribution":null}],"url":"https:\/\/seatgeek.com\/street-dogs-with-darkbuster-tickets\/boston-massachusetts-brighton-music-hall-2016-12-15-6-pm\/concert\/3517154","created_at":"2016-09-13T00:00:00","venue":{"city":"Boston","name":"Brighton
+        Music Hall","extended_address":"Boston, MA 02134","url":"https:\/\/seatgeek.com\/venues\/brighton-music-hall\/tickets","country":"US","display_location":"Boston,
+        MA","links":[],"slug":"brighton-music-hall","state":"MA","score":0.481129,"postal_code":"02134","location":{"lat":42.3529,"lon":-71.1326},"address":"158
+        Brighton Avenue","timezone":"America\/New_York","id":1446},"short_title":"Street
+        Dogs with Darkbuster","datetime_utc":"2016-12-15T23:00:00","general_admission":true,"datetime_tbd":false},{"links":[],"id":3375115,"stats":{"listing_count":302,"average_price":102.0,"lowest_price_good_deals":57.0,"lowest_price":57.0,"highest_price":12860.0},"title":"Anaheim
+        Ducks at Boston Bruins","announce_date":"2016-06-23T00:00:00","score":0.766178,"date_tbd":false,"type":"nhl","datetime_local":"2016-12-15T19:00:00","visible_until_utc":"2016-12-16T04:00:00","time_tbd":false,"taxonomies":[{"parent_id":null,"id":1000000,"name":"sports"},{"parent_id":1000000,"id":1040000,"name":"hockey"},{"parent_id":1040000,"id":1040100,"name":"nhl"}],"performers":[{"image":"https:\/\/chairnerd.global.ssl.fastly.net\/images\/performers-landscape\/boston-bruins-2519e9\/2123\/huge.jpg","primary":true,"colors":{"all":["#000000","#FFC422"],"iconic":"#FFC422","primary":["#000000","#FFC422"]},"images":{"huge":"https:\/\/chairnerd.global.ssl.fastly.net\/images\/performers-landscape\/boston-bruins-2519e9\/2123\/huge.jpg"},"has_upcoming_events":true,"id":2123,"stats":{"event_count":51},"image_license":null,"score":0.77019,"taxonomies":[{"parent_id":null,"id":1000000,"name":"sports"},{"parent_id":1000000,"id":1040000,"name":"hockey"},{"parent_id":1040000,"id":1040100,"name":"nhl"}],"type":"nhl","short_name":"Bruins","home_venue_id":1544,"slug":"boston-bruins","divisions":[{"display_name":"Eastern
+        Conference","short_name":null,"division_level":1,"display_type":"Conference","taxonomy_id":1040100,"slug":null},{"display_name":"Eastern
+        - Atlantic","short_name":"Atlantic","division_level":2,"display_type":"Division","taxonomy_id":1040100,"slug":"eastern-atlantic"}],"home_team":true,"name":"Boston
+        Bruins","url":"https:\/\/seatgeek.com\/boston-bruins-tickets","image_attribution":"https:\/\/www.flickr.com\/photos\/77297539@N06\/14177423467\/in\/photolist-nAP14D-7jh1hR-nRh6yY-nAQLaH-nTeTdL-9UQ2PU-nT2tZT-nAQJNz-nAQKaB-pRMa9-nAPV48-9UMc8t-pRMaC-nAQART-9UMeJM-9UQ78S-9UMbBZ-9UPPDJ-5w63XD-9UMfvt-9ULZna-9UQ4LL-9UPZwS-4CPWJH-4vhjiR-9UQmw5-9UMuW6-"},{"image":"https:\/\/chairnerd.global.ssl.fastly.net\/images\/performers-landscape\/anaheim-ducks-4b2988\/2143\/huge.jpg","colors":{"all":["#000000","#91764B","#EF5225"],"iconic":"#91764B","primary":["#000000","#91764B"]},"images":{"huge":"https:\/\/chairnerd.global.ssl.fastly.net\/images\/performers-landscape\/anaheim-ducks-4b2988\/2143\/huge.jpg"},"has_upcoming_events":true,"id":2143,"away_team":true,"stats":{"event_count":52},"image_license":null,"score":0.681326,"taxonomies":[{"parent_id":null,"id":1000000,"name":"sports"},{"parent_id":1000000,"id":1040000,"name":"hockey"},{"parent_id":1040000,"id":1040100,"name":"nhl"}],"type":"nhl","short_name":"Ducks","home_venue_id":133,"slug":"anaheim-ducks","divisions":[{"display_name":"Western
+        Conference","short_name":null,"division_level":1,"display_type":"Conference","taxonomy_id":1040100,"slug":null},{"display_name":"Western
+        - Pacific","short_name":"Pacific","division_level":2,"display_type":"Division","taxonomy_id":1040100,"slug":"western-pacific"}],"name":"Anaheim
+        Ducks","url":"https:\/\/seatgeek.com\/anaheim-ducks-tickets","image_attribution":"https:\/\/en.wikipedia.org\/wiki\/Honda_Center#\/media\/File:Honda-pano.jpg"}],"url":"https:\/\/seatgeek.com\/ducks-at-bruins-tickets\/12-15-2016-boston-massachusetts-td-garden\/nhl\/3375115","created_at":"2016-06-23T00:00:00","venue":{"city":"Boston","name":"TD
+        Garden","extended_address":"Boston, MA 02114","url":"https:\/\/seatgeek.com\/venues\/td-garden\/tickets","country":"US","display_location":"Boston,
+        MA","links":[],"slug":"td-garden","state":"MA","score":0.853082,"postal_code":"02114","location":{"lat":42.3653,"lon":-71.0618},"address":"100
+        Legends Way","timezone":"America\/New_York","id":1544},"short_title":"Ducks
+        at Bruins","datetime_utc":"2016-12-16T00:00:00","datetime_tbd":false},{"links":[],"id":3424888,"stats":{"listing_count":40,"average_price":77.0,"lowest_price_good_deals":77.0,"lowest_price":77.0,"highest_price":867.0},"title":"The
+        Nutcracker - Boston","announce_date":"2016-07-16T00:00:00","score":0.560085,"date_tbd":false,"type":"dance_performance_tour","datetime_local":"2016-12-15T19:30:00","visible_until_utc":"2016-12-16T04:30:00","time_tbd":false,"taxonomies":[{"parent_id":null,"id":3000000,"name":"theater"},{"parent_id":3000000,"id":3060000,"name":"dance_performance_tour"}],"performers":[{"image":"https:\/\/chairnerd.global.ssl.fastly.net\/images\/performers-landscape\/the-nutcracker-87d3ec\/7746\/huge.jpg","primary":true,"colors":null,"images":{"huge":"https:\/\/chairnerd.global.ssl.fastly.net\/images\/performers-landscape\/the-nutcracker-87d3ec\/7746\/huge.jpg"},"has_upcoming_events":true,"id":7746,"stats":{"event_count":844},"image_license":null,"score":0.465655,"taxonomies":[{"parent_id":null,"id":3000000,"name":"theater"},{"parent_id":3000000,"id":3060000,"name":"dance_performance_tour"}],"type":"theater_dance_performance_tour","short_name":"The
+        Nutcracker","home_venue_id":null,"slug":"the-nutcracker","divisions":null,"name":"The
+        Nutcracker","url":"https:\/\/seatgeek.com\/the-nutcracker-tickets","image_attribution":null},{"image":null,"colors":null,"images":{},"has_upcoming_events":true,"id":337886,"stats":{"event_count":261},"image_license":null,"score":0.504446,"taxonomies":[{"parent_id":null,"id":3000000,"name":"theater"},{"parent_id":3000000,"id":3050000,"name":"family"}],"type":"theater_family","short_name":"Nutcracker","home_venue_id":null,"slug":"nutcracker-1","divisions":null,"name":"Nutcracker","url":"https:\/\/seatgeek.com\/nutcracker-1-tickets","image_attribution":null}],"url":"https:\/\/seatgeek.com\/the-nutcracker-boston-tickets\/dance\/2016-12-15-7-30-pm\/3424888","created_at":"2016-07-16T00:00:00","venue":{"city":"Boston","name":"Boston
+        Opera House","extended_address":"Boston, MA 02111","url":"https:\/\/seatgeek.com\/venues\/boston-opera-house\/tickets","country":"US","display_location":"Boston,
+        MA","links":[],"slug":"boston-opera-house","state":"MA","score":0.620406,"postal_code":"02111","location":{"lat":42.3586,"lon":-71.0567},"address":"539
+        Washington Street","timezone":"America\/New_York","id":2501},"short_title":"The
+        Nutcracker - Boston","datetime_utc":"2016-12-16T00:30:00","datetime_tbd":false},{"links":[],"id":3424667,"stats":{"listing_count":9,"average_price":106.0,"lowest_price_good_deals":84.0,"lowest_price":84.0,"highest_price":144.0},"title":"Blue
+        Man Group - Boston","announce_date":"2016-07-16T00:00:00","score":0.499393,"date_tbd":false,"type":"broadway_tickets_national","datetime_local":"2016-12-15T19:30:00","visible_until_utc":"2016-12-16T04:30:00","time_tbd":false,"taxonomies":[{"parent_id":null,"id":3000000,"name":"theater"},{"parent_id":3000000,"id":3030000,"name":"broadway_tickets_national"}],"performers":[{"image":"https:\/\/chairnerd.global.ssl.fastly.net\/images\/performers-landscape\/blue-man-group-fee240\/5194\/huge.jpg","primary":true,"colors":null,"images":{"huge":"https:\/\/chairnerd.global.ssl.fastly.net\/images\/performers-landscape\/blue-man-group-fee240\/5194\/huge.jpg"},"has_upcoming_events":true,"id":5194,"stats":{"event_count":835},"image_license":null,"score":0.395813,"taxonomies":[{"parent_id":null,"id":3000000,"name":"theater"},{"parent_id":3000000,"id":3030000,"name":"broadway_tickets_national"}],"type":"theater_broadway_national_tours","short_name":"Blue
+        Man Group","home_venue_id":null,"slug":"blue-man-group","divisions":null,"name":"Blue
+        Man Group","url":"https:\/\/seatgeek.com\/blue-man-group-tickets","image_attribution":null}],"url":"https:\/\/seatgeek.com\/blue-man-group-boston-tickets\/charles-playhouse-2016-12-15-7-30-pm\/broadway\/3424667","created_at":"2016-07-16T00:00:00","venue":{"city":"Boston","name":"Charles
+        Playhouse","extended_address":"Boston, MA 02116","url":"https:\/\/seatgeek.com\/venues\/charles-playhouse\/tickets","country":"US","display_location":"Boston,
+        MA","links":[],"slug":"charles-playhouse","state":"MA","score":0.424178,"postal_code":"02116","location":{"lat":42.3503,"lon":-71.066},"address":"74
+        Warrenton Street","timezone":"America\/New_York","id":3188},"short_title":"Blue
+        Man Group - Boston","datetime_utc":"2016-12-16T00:30:00","datetime_tbd":false},{"links":[],"id":3320361,"stats":{"listing_count":null,"average_price":null,"lowest_price_good_deals":null,"lowest_price":null,"highest_price":null},"title":"Nate
+        Bargatze","announce_date":"2016-05-23T00:00:00","score":0.449825,"date_tbd":false,"type":"comedy","datetime_local":"2016-12-15T20:00:00","visible_until_utc":"2016-12-16T05:00:00","time_tbd":false,"taxonomies":[{"parent_id":null,"id":3000000,"name":"theater"},{"parent_id":3000000,"id":3040000,"name":"comedy"}],"performers":[{"image":null,"primary":true,"colors":null,"images":{},"has_upcoming_events":true,"id":20947,"stats":{"event_count":12},"image_license":null,"score":0.461686,"taxonomies":[{"parent_id":null,"id":2000000,"name":"concert"}],"type":"band","short_name":"Nate
+        Bargatze","home_venue_id":null,"slug":"nate-bargatze","divisions":null,"name":"Nate
+        Bargatze","url":"https:\/\/seatgeek.com\/nate-bargatze-tickets","image_attribution":null}],"url":"https:\/\/seatgeek.com\/nate-bargatze-tickets\/comedy\/2016-12-15-8-pm\/3320361","created_at":"2016-05-23T00:00:00","venue":{"city":"Boston","name":"Laugh
+        Boston","extended_address":"Boston, MA 02210","url":"https:\/\/seatgeek.com\/venues\/laugh-boston\/tickets","country":"US","display_location":"Boston,
+        MA","links":[],"slug":"laugh-boston","state":"MA","score":0.329042,"postal_code":"02210","location":{"lat":42.35,"lon":-71.04},"address":"425
+        Summer St","timezone":"America\/New_York","id":57227},"short_title":"Nate
+        Bargatze","datetime_utc":"2016-12-16T01:00:00","general_admission":true,"datetime_tbd":false},{"links":[],"id":3630493,"stats":{"listing_count":null,"average_price":null,"lowest_price_good_deals":null,"lowest_price":null,"highest_price":null},"title":"Shear
+        Madness - Boston","announce_date":"2016-11-24T00:00:00","score":0.321793,"date_tbd":false,"type":"broadway_tickets_national","datetime_local":"2016-12-15T20:00:00","visible_until_utc":"2016-12-16T05:00:00","time_tbd":false,"taxonomies":[{"parent_id":null,"id":3000000,"name":"theater"},{"parent_id":3000000,"id":3030000,"name":"broadway_tickets_national"}],"performers":[{"image":"https:\/\/chairnerd.global.ssl.fastly.net\/images\/performers-landscape\/shear-madness-2612d9\/11748\/huge.jpg","primary":true,"colors":null,"images":{"huge":"https:\/\/chairnerd.global.ssl.fastly.net\/images\/performers-landscape\/shear-madness-2612d9\/11748\/huge.jpg"},"has_upcoming_events":true,"id":11748,"stats":{"event_count":247},"image_license":null,"score":0.343276,"taxonomies":[{"parent_id":null,"id":3000000,"name":"theater"},{"parent_id":3000000,"id":3030000,"name":"broadway_tickets_national"}],"type":"theater_broadway_national_tours","short_name":"Shear
+        Madness","home_venue_id":null,"slug":"shear-madness","divisions":null,"name":"Shear
+        Madness","url":"https:\/\/seatgeek.com\/shear-madness-tickets","image_attribution":null}],"url":"https:\/\/seatgeek.com\/shear-madness-boston-tickets\/charles-playhouse-second-stage-2016-12-15-8-pm\/broadway\/3630493","created_at":"2016-11-24T00:00:00","venue":{"city":"Boston","name":"Charles
+        Playhouse Second Stage","extended_address":"Boston, MA 02116","url":"https:\/\/seatgeek.com\/venues\/charles-playhouse-second-stage\/tickets","country":"US","display_location":"Boston,
+        MA","links":[],"slug":"charles-playhouse-second-stage","state":"MA","score":0.0,"postal_code":"02116","location":{"lat":42.35,"lon":-71.066},"address":"74
+        Warrenton Street","timezone":"America\/New_York","id":51387},"short_title":"Shear
+        Madness - Boston","datetime_utc":"2016-12-16T01:00:00","datetime_tbd":false},{"links":[],"id":3610021,"stats":{"listing_count":0,"average_price":null,"lowest_price_good_deals":null,"lowest_price":null,"highest_price":null},"title":"Wallace
+        Roney","announce_date":"2016-11-17T00:00:00","score":0.288037,"date_tbd":false,"type":"concert","datetime_local":"2016-12-15T20:00:00","visible_until_utc":"2016-12-16T05:00:00","time_tbd":false,"taxonomies":[{"parent_id":null,"id":2000000,"name":"concert"}],"performers":[{"image":null,"primary":true,"colors":null,"images":{},"has_upcoming_events":true,"id":106751,"genres":[{"id":465,"slug":"blues","name":"Blues","primary":false},{"id":468,"slug":"jazz","name":"Jazz","primary":true},{"id":473,"slug":"hard-rock","name":"Hard
+        Rock","primary":false}],"stats":{"event_count":1},"image_license":null,"score":0.0,"taxonomies":[{"parent_id":null,"id":2000000,"name":"concert"}],"type":"band","short_name":"Wallace
+        Roney","home_venue_id":null,"slug":"wallace-roney","divisions":null,"name":"Wallace
+        Roney","url":"https:\/\/seatgeek.com\/wallace-roney-tickets","image_attribution":null}],"url":"https:\/\/seatgeek.com\/wallace-roney-tickets\/boston-massachusetts-scullers-jazz-club-1-2016-12-15-8-pm\/concert\/3610021","created_at":"2016-11-17T00:00:00","venue":{"city":"Boston","name":"Scullers
+        Jazz Club","extended_address":"Boston, MA 02134","url":"https:\/\/seatgeek.com\/venues\/scullers-jazz-club-1\/tickets","country":"US","display_location":"Boston,
+        MA","links":[],"slug":"scullers-jazz-club-1","state":"MA","score":0.356909,"postal_code":"02134","location":{"lat":42.3602,"lon":-71.1181},"address":"400
+        Soldiers Field Road","timezone":"America\/New_York","id":1826},"short_title":"Wallace
+        Roney","datetime_utc":"2016-12-16T01:00:00","general_admission":true,"datetime_tbd":false},{"links":[],"id":3610037,"stats":{"listing_count":null,"average_price":null,"lowest_price_good_deals":null,"lowest_price":null,"highest_price":null},"title":"Barrington
+        Levy with Mighty Mystic (18+)","announce_date":"2016-11-17T00:00:00","score":0.515292,"date_tbd":false,"type":"concert","datetime_local":"2016-12-15T20:00:00","visible_until_utc":"2016-12-16T05:00:00","time_tbd":false,"taxonomies":[{"parent_id":null,"id":2000000,"name":"concert"}],"performers":[{"image":"https:\/\/chairnerd.global.ssl.fastly.net\/images\/performers-landscape\/barrington-levy-b11470\/7649\/huge.jpg","primary":true,"colors":null,"images":{"huge":"https:\/\/chairnerd.global.ssl.fastly.net\/images\/performers-landscape\/barrington-levy-b11470\/7649\/huge.jpg"},"has_upcoming_events":true,"id":7649,"genres":[{"id":457,"slug":"alternative","name":"Alternative","primary":false},{"id":469,"slug":"reggae","name":"Reggae","primary":true}],"stats":{"event_count":3},"image_license":null,"score":0.537733,"taxonomies":[{"parent_id":null,"id":2000000,"name":"concert"}],"type":"band","short_name":"Barrington
+        Levy","home_venue_id":null,"slug":"barrington-levy","divisions":null,"name":"Barrington
+        Levy","url":"https:\/\/seatgeek.com\/barrington-levy-tickets","image_attribution":null},{"image":null,"colors":null,"images":{},"has_upcoming_events":true,"id":28107,"genres":[{"id":469,"slug":"reggae","name":"Reggae","primary":true}],"stats":{"event_count":1},"image_license":null,"score":0.272001,"taxonomies":[{"parent_id":null,"id":2000000,"name":"concert"}],"type":"band","short_name":"Mighty
+        Mystic","home_venue_id":null,"slug":"mighty-mystic","divisions":null,"name":"Mighty
+        Mystic","url":"https:\/\/seatgeek.com\/mighty-mystic-tickets","image_attribution":null}],"url":"https:\/\/seatgeek.com\/barrington-levy-with-mighty-mystic-18-tickets\/boston-massachusetts-paradise-rock-club-2016-12-15-8-pm\/concert\/3610037","created_at":"2016-11-17T00:00:00","venue":{"city":"Boston","name":"Paradise
+        Rock Club","extended_address":"Boston, MA 02215","url":"https:\/\/seatgeek.com\/venues\/paradise-rock-club\/tickets","country":"US","display_location":"Boston,
+        MA","links":[],"slug":"paradise-rock-club","state":"MA","score":0.5253,"postal_code":"02215","location":{"lat":42.352,"lon":-71.1195},"address":"967
+        Commonwealth Avenue","timezone":"America\/New_York","id":540},"short_title":"Barrington
+        Levy with Mighty Mystic (18+)","datetime_utc":"2016-12-16T01:00:00","general_admission":true,"datetime_tbd":false},{"links":[],"id":3585811,"stats":{"listing_count":null,"average_price":null,"lowest_price_good_deals":null,"lowest_price":null,"highest_price":null},"title":"Break
+        Science with Exmag","announce_date":"2016-11-01T00:00:00","score":0.498771,"date_tbd":false,"type":"concert","datetime_local":"2016-12-15T21:00:00","visible_until_utc":"2016-12-16T06:00:00","time_tbd":false,"taxonomies":[{"parent_id":null,"id":2000000,"name":"concert"}],"performers":[{"image":"https:\/\/chairnerd.global.ssl.fastly.net\/images\/performers-landscape\/break-science-95a6d6\/9472\/huge.jpg","primary":true,"colors":null,"images":{"huge":"https:\/\/chairnerd.global.ssl.fastly.net\/images\/performers-landscape\/break-science-95a6d6\/9472\/huge.jpg"},"has_upcoming_events":true,"id":9472,"genres":[{"id":452,"slug":"pop","name":"Pop","primary":false},{"id":491,"slug":"hip-hop","name":"Hip-Hop","primary":true},{"id":493,"slug":"rap","name":"Rap","primary":false}],"stats":{"event_count":5},"image_license":null,"score":0.484373,"taxonomies":[{"parent_id":null,"id":2000000,"name":"concert"}],"type":"band","short_name":"Break
+        Science","home_venue_id":null,"slug":"break-science","divisions":null,"name":"Break
+        Science","url":"https:\/\/seatgeek.com\/break-science-tickets","image_attribution":"http:\/\/www.okayfuture.com\/wp-content\/uploads\/2013\/09\/magnumpr_BreakScience2013.jpeg"},{"image":null,"colors":null,"images":{},"has_upcoming_events":true,"id":254117,"genres":[{"id":477,"slug":"electronic","name":"Electronic","primary":true},{"id":976,"slug":"techno","name":"Techno","primary":false}],"stats":{"event_count":2},"image_license":null,"score":0.528563,"taxonomies":[{"parent_id":null,"id":2000000,"name":"concert"}],"type":"band","short_name":"Exmag","home_venue_id":null,"slug":"exmag","divisions":null,"name":"Exmag","url":"https:\/\/seatgeek.com\/exmag-tickets","image_attribution":null}],"url":"https:\/\/seatgeek.com\/break-science-with-exmag-tickets\/boston-massachusetts-royale-1-2016-12-15-9-pm\/concert\/3585811","created_at":"2016-11-01T00:00:00","venue":{"city":"Boston","name":"Royale","extended_address":"Boston,
+        MA 02116","url":"https:\/\/seatgeek.com\/venues\/royale-1\/tickets","country":"US","display_location":"Boston,
+        MA","links":[],"slug":"royale-1","state":"MA","score":0.471746,"postal_code":"02116","location":{"lat":42.3581,"lon":-71.1303},"address":"279
+        Tremont Street","timezone":"America\/New_York","id":75931},"short_title":"Break
+        Science with Exmag","datetime_utc":"2016-12-16T02:00:00","general_admission":true,"datetime_tbd":false}]}'
+    http_version: 
+  recorded_at: Thu, 15 Dec 2016 20:59:46 GMT
+- request:
+    method: get
+    uri: http://api.nytimes.com/svc/topstories/v1/home.json?api-key=60ab88cd172848b89847a03038949c16
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Accept-Ranges:
+      - bytes
+      Access-Control-Allow-Credentials:
+      - 'false'
+      Access-Control-Allow-Headers:
+      - "*"
+      Access-Control-Allow-Methods:
+      - GET
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Max-Age:
+      - '86400'
+      Cache-Control:
+      - max-age=42
+      Content-Type:
+      - text/json
+      Date:
+      - Thu, 15 Dec 2016 20:59:47 GMT
+      Etag:
+      - '"a4caf033151815eac79efe32279982d7"'
+      Expires:
+      - Thu, 15 Dec 2016 21:00:29 GMT
+      Last-Modified:
+      - Thu, 15 Dec 2016 20:52:33 GMT
+      Server:
+      - AmazonS3
+      Via:
+      - kong/0.9.5
+      X-Amz-Id-2:
+      - s9tda4YkJ0djzXnYKE13qxVBrYzwDJCUb3IU18V8IAUK4gh9oTZIign4WKJ4Jvf8Jd3Ir+76qUQ=
+      X-Amz-Request-Id:
+      - 06D77696ED62A543
+      X-Kong-Proxy-Latency:
+      - '48'
+      X-Kong-Upstream-Latency:
+      - '10'
+      X-Ratelimit-Limit-Day:
+      - '1000'
+      X-Ratelimit-Limit-Second:
+      - '5'
+      X-Ratelimit-Remaining-Day:
+      - '983'
+      X-Ratelimit-Remaining-Second:
+      - '4'
+      Content-Length:
+      - '79415'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"status":"OK","copyright":"Copyright (c) 2016 The New York Times Company.
+        All Rights Reserved.","section":"home","last_updated":"2016-12-15T15:52:02-05:00","num_results":30,"results":[{"section":"N.Y.
+        \/ Region","subsection":"","title":"Democrats Eye G.O.P. Tactic: Blitz President
+        With Lawsuits","abstract":"Liberal state attorneys general around the country
+        have vowed to use their power to check and balance Donald J. Trump\u2019s
+        Washington. Republicans may have set the stage by using the courts to block
+        parts of President Obama\u2019s agenda.","url":"http:\/\/www.nytimes.com\/2016\/12\/14\/nyregion\/donald-trump-democrats-lawsuits.html","byline":"By
+        VIVIAN YEE","item_type":"Article","updated_date":"2016-12-14T20:50:37-5:00","created_date":"2016-12-14T20:50:38-5:00","published_date":"2016-12-14T20:50:38-5:00","material_type_facet":"News","kicker":"","des_facet":["United
+        States Politics and Government","Attorneys General","Suits and Litigation
+        (Civil)","States (US)","Federal-State Relations (US)"],"org_facet":"","per_facet":["Trump,
+        Donald J","Healey, Maura (1971- )","Schneiderman, Eric T","Mills, Janet T
+        (1947- )","Becerra, Xavier","Donovan, T J (1974- )"],"geo_facet":"","multimedia":[{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/11\/nyregion\/15AG1\/15AG1-thumbStandard.jpg","format":"Standard
+        Thumbnail","height":75,"width":75,"type":"image","subtype":"photo","caption":"Attorney
+        General Eric T. Schneiderman of New York last year in Brooklyn. He sued President-elect
+        Donald J. Trump over Trump University, negotiating a $25 million settlement,
+        and has promised to push the E.P.A. to uphold environmental laws.","copyright":"Sam
+        Hodgson for The New York Times"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/11\/nyregion\/15AG1\/15AG1-thumbLarge.jpg","format":"thumbLarge","height":150,"width":150,"type":"image","subtype":"photo","caption":"Attorney
+        General Eric T. Schneiderman of New York last year in Brooklyn. He sued President-elect
+        Donald J. Trump over Trump University, negotiating a $25 million settlement,
+        and has promised to push the E.P.A. to uphold environmental laws.","copyright":"Sam
+        Hodgson for The New York Times"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/11\/nyregion\/15AG1\/00AG1-articleInline.jpg","format":"Normal","height":127,"width":190,"type":"image","subtype":"photo","caption":"Attorney
+        General Eric T. Schneiderman of New York last year in Brooklyn. He sued President-elect
+        Donald J. Trump over Trump University, negotiating a $25 million settlement,
+        and has promised to push the E.P.A. to uphold environmental laws.","copyright":"Sam
+        Hodgson for The New York Times"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/11\/nyregion\/15AG1\/00AG1-mediumThreeByTwo210.jpg","format":"mediumThreeByTwo210","height":140,"width":210,"type":"image","subtype":"photo","caption":"Attorney
+        General Eric T. Schneiderman of New York last year in Brooklyn. He sued President-elect
+        Donald J. Trump over Trump University, negotiating a $25 million settlement,
+        and has promised to push the E.P.A. to uphold environmental laws.","copyright":"Sam
+        Hodgson for The New York Times"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/11\/nyregion\/15AG1\/00AG1-superJumbo.jpg","format":"superJumbo","height":1365,"width":2048,"type":"image","subtype":"photo","caption":"Attorney
+        General Eric T. Schneiderman of New York last year in Brooklyn. He sued President-elect
+        Donald J. Trump over Trump University, negotiating a $25 million settlement,
+        and has promised to push the E.P.A. to uphold environmental laws.","copyright":"Sam
+        Hodgson for The New York Times"}]},{"section":"U.S.","subsection":"Politics","title":"Trump
+        Falsely Says Claim of Hacking Came After Election","abstract":"Mr. Trump\u2019s
+        Twitter posts, while ignoring the facts, did raise substantive questions over
+        the Obama administration\u2019s response to the cyberattack by Russia.","url":"http:\/\/www.nytimes.com\/2016\/12\/15\/us\/politics\/russia-hack-election-trump-obama.html","byline":"By
+        JULIE HIRSCHFELD DAVIS and DAVID E. SANGER","item_type":"Article","updated_date":"2016-12-15T14:32:50-5:00","created_date":"2016-12-15T14:32:50-5:00","published_date":"2016-12-15T14:32:50-5:00","material_type_facet":"News","kicker":"","des_facet":["Cyberwarfare
+        and Defense","United States Politics and Government","Presidential Election
+        of 2016","United States International Relations"],"org_facet":"","per_facet":"","geo_facet":"","multimedia":[{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/16\/us\/16trumphack\/16trumphack-thumbStandard.jpg","format":"Standard
+        Thumbnail","height":75,"width":75,"type":"image","subtype":"photo","caption":"President-elect
+        Donald J. Trump at a \u201cthank you\u201d rally in West Allis, Wis., on Tuesday.","copyright":"Todd
+        Heisler\/The New York Times"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/16\/us\/16trumphack\/16trumphack-thumbLarge.jpg","format":"thumbLarge","height":150,"width":150,"type":"image","subtype":"photo","caption":"President-elect
+        Donald J. Trump at a \u201cthank you\u201d rally in West Allis, Wis., on Tuesday.","copyright":"Todd
+        Heisler\/The New York Times"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/16\/us\/16trumphack\/16trumphack-articleInline.jpg","format":"Normal","height":127,"width":190,"type":"image","subtype":"photo","caption":"President-elect
+        Donald J. Trump at a \u201cthank you\u201d rally in West Allis, Wis., on Tuesday.","copyright":"Todd
+        Heisler\/The New York Times"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/16\/us\/16trumphack\/16trumphack-mediumThreeByTwo210.jpg","format":"mediumThreeByTwo210","height":140,"width":210,"type":"image","subtype":"photo","caption":"President-elect
+        Donald J. Trump at a \u201cthank you\u201d rally in West Allis, Wis., on Tuesday.","copyright":"Todd
+        Heisler\/The New York Times"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/16\/us\/16trumphack\/16trumphack-superJumbo.jpg","format":"superJumbo","height":1365,"width":2048,"type":"image","subtype":"photo","caption":"President-elect
+        Donald J. Trump at a \u201cthank you\u201d rally in West Allis, Wis., on Tuesday.","copyright":"Todd
+        Heisler\/The New York Times"}]},{"section":"U.S.","subsection":"Politics","title":"G.O.P.
+        Resistance Builds to Bolton as State Dept. Deputy","abstract":"Mr. Trump\u2019s
+        consideration of John R. Bolton, a combative hard-liner on foreign policy,
+        has led to some misgivings among Republicans.","url":"http:\/\/www.nytimes.com\/2016\/12\/14\/us\/politics\/john-bolton-state-dept-deputy.html","byline":"By
+        JEREMY W. PETERS and MAGGIE HABERMAN","item_type":"Article","updated_date":"2016-12-15T00:46:45-5:00","created_date":"2016-12-14T21:21:07-5:00","published_date":"2016-12-14T21:21:07-5:00","material_type_facet":"News","kicker":"","des_facet":["United
+        States International Relations","Appointments and Executive Changes","United
+        States Politics and Government"],"org_facet":["State Department"],"per_facet":["Bolton,
+        John R","Trump, Donald J","Bush, George W","Tillerson, Rex W"],"geo_facet":"","multimedia":[{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/15\/us\/15BOLTON-01\/15BOLTON-01-thumbStandard-v2.jpg","format":"Standard
+        Thumbnail","height":75,"width":75,"type":"image","subtype":"photo","caption":"John
+        R. Bolton, a former under secretary at the State Department and United Nations
+        ambassador, at Trump Tower this month.","copyright":"Sam Hodgson for The New
+        York Times"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/15\/us\/15BOLTON-01\/15BOLTON-01-thumbLarge-v2.jpg","format":"thumbLarge","height":150,"width":150,"type":"image","subtype":"photo","caption":"John
+        R. Bolton, a former under secretary at the State Department and United Nations
+        ambassador, at Trump Tower this month.","copyright":"Sam Hodgson for The New
+        York Times"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/15\/us\/15BOLTON-01\/15BOLTON-01-articleInline.jpg","format":"Normal","height":127,"width":190,"type":"image","subtype":"photo","caption":"John
+        R. Bolton, a former under secretary at the State Department and United Nations
+        ambassador, at Trump Tower this month.","copyright":"Sam Hodgson for The New
+        York Times"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/15\/us\/15BOLTON-01\/15BOLTON-01-mediumThreeByTwo210.jpg","format":"mediumThreeByTwo210","height":140,"width":210,"type":"image","subtype":"photo","caption":"John
+        R. Bolton, a former under secretary at the State Department and United Nations
+        ambassador, at Trump Tower this month.","copyright":"Sam Hodgson for The New
+        York Times"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/15\/us\/15BOLTON-01\/15BOLTON-01-superJumbo.jpg","format":"superJumbo","height":1365,"width":2048,"type":"image","subtype":"photo","caption":"John
+        R. Bolton, a former under secretary at the State Department and United Nations
+        ambassador, at Trump Tower this month.","copyright":"Sam Hodgson for The New
+        York Times"}]},{"section":"U.S.","subsection":"","title":"California Today:
+        Tracking the Bullet Train\u2019s Progress","abstract":"Thursday: An update
+        on the state\u2019s high-speed rail project, a billion hacked Yahoo accounts,
+        and some advice: grab an umbrella.","url":"http:\/\/www.nytimes.com\/2016\/12\/15\/us\/california-today-bullet-train.html","byline":"By
+        MIKE McPHATE","item_type":"Article","updated_date":"2016-12-15T08:46:48-5:00","created_date":"2016-12-15T08:46:49-5:00","published_date":"2016-12-15T08:46:49-5:00","material_type_facet":"briefing","kicker":"","des_facet":["California
+        Today"],"org_facet":"","per_facet":"","geo_facet":["California"],"multimedia":[{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/15\/us\/15California-Today-rail\/15California-Today-rail-thumbStandard.jpg","format":"Standard
+        Thumbnail","height":75,"width":75,"type":"image","subtype":"photo","caption":"Work
+        this month on the Cedar Viaduct, a bridge that would allow high-speed trains
+        to pass over Route 99 in Fresno.","copyright":"Courtesy of California High-Speed
+        Rail Authority"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/15\/us\/15California-Today-rail\/15California-Today-rail-thumbLarge.jpg","format":"thumbLarge","height":150,"width":150,"type":"image","subtype":"photo","caption":"Work
+        this month on the Cedar Viaduct, a bridge that would allow high-speed trains
+        to pass over Route 99 in Fresno.","copyright":"Courtesy of California High-Speed
+        Rail Authority"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/15\/us\/15California-Today-rail\/15California-Today-rail-articleInline.jpg","format":"Normal","height":126,"width":190,"type":"image","subtype":"photo","caption":"Work
+        this month on the Cedar Viaduct, a bridge that would allow high-speed trains
+        to pass over Route 99 in Fresno.","copyright":"Courtesy of California High-Speed
+        Rail Authority"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/15\/us\/15California-Today-rail\/15California-Today-rail-mediumThreeByTwo210.jpg","format":"mediumThreeByTwo210","height":140,"width":210,"type":"image","subtype":"photo","caption":"Work
+        this month on the Cedar Viaduct, a bridge that would allow high-speed trains
+        to pass over Route 99 in Fresno.","copyright":"Courtesy of California High-Speed
+        Rail Authority"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/15\/us\/15California-Today-rail\/15California-Today-rail-superJumbo.jpg","format":"superJumbo","height":1360,"width":2048,"type":"image","subtype":"photo","caption":"Work
+        this month on the Cedar Viaduct, a bridge that would allow high-speed trains
+        to pass over Route 99 in Fresno.","copyright":"Courtesy of California High-Speed
+        Rail Authority"}]},{"section":"U.S.","subsection":"Politics","title":"Transition
+        Briefing: White House Roles Seen for Ivanka Trump and Jared Kushner","abstract":"President-elect
+        Donald J. Trump was back on Twitter, questioning Russian hacking, lashing
+        out at Vanity Fair and cryptically defending his business interests.","url":"http:\/\/www.nytimes.com\/2016\/12\/15\/us\/politics\/donald-trump-transition.html","byline":"By
+        MAGGIE HABERMAN, THOMAS KAPLAN and CECILIA KANG","item_type":"Article","updated_date":"2016-12-15T12:30:29-5:00","created_date":"2016-12-15T07:25:59-5:00","published_date":"2016-12-15T07:25:59-5:00","material_type_facet":"News","kicker":"","des_facet":["United
+        States Politics and Government","Conflicts of Interest"],"org_facet":"","per_facet":["Trump,
+        Donald J","McMorris Rodgers, Cathy","Trump, Donald J Jr","Mulvaney, Mick"],"geo_facet":"","multimedia":[{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/16\/us\/16transitionbriefing\/16transitionbriefing-thumbStandard.jpg","format":"Standard
+        Thumbnail","height":75,"width":75,"type":"image","subtype":"photo","caption":"President-elect
+        Donald J. Trump and Vice President-elect Mike Pence met with leaders from
+        the technology industry in New York on Wednesday. They are now considering
+        candidates to lead the Office of Management and Budget.","copyright":"Kevin
+        Hagen for The New York Times"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/16\/us\/16transitionbriefing\/16transitionbriefing-thumbLarge.jpg","format":"thumbLarge","height":150,"width":150,"type":"image","subtype":"photo","caption":"President-elect
+        Donald J. Trump and Vice President-elect Mike Pence met with leaders from
+        the technology industry in New York on Wednesday. They are now considering
+        candidates to lead the Office of Management and Budget.","copyright":"Kevin
+        Hagen for The New York Times"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/16\/us\/16transitionbriefing\/16transitionbriefing-articleInline.jpg","format":"Normal","height":127,"width":190,"type":"image","subtype":"photo","caption":"President-elect
+        Donald J. Trump and Vice President-elect Mike Pence met with leaders from
+        the technology industry in New York on Wednesday. They are now considering
+        candidates to lead the Office of Management and Budget.","copyright":"Kevin
+        Hagen for The New York Times"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/16\/us\/16transitionbriefing\/16transitionbriefing-mediumThreeByTwo210.jpg","format":"mediumThreeByTwo210","height":140,"width":210,"type":"image","subtype":"photo","caption":"President-elect
+        Donald J. Trump and Vice President-elect Mike Pence met with leaders from
+        the technology industry in New York on Wednesday. They are now considering
+        candidates to lead the Office of Management and Budget.","copyright":"Kevin
+        Hagen for The New York Times"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/16\/us\/16transitionbriefing\/16transitionbriefing-superJumbo.jpg","format":"superJumbo","height":1366,"width":2048,"type":"image","subtype":"photo","caption":"President-elect
+        Donald J. Trump and Vice President-elect Mike Pence met with leaders from
+        the technology industry in New York on Wednesday. They are now considering
+        candidates to lead the Office of Management and Budget.","copyright":"Kevin
+        Hagen for The New York Times"}]},{"section":"U.S.","subsection":"Politics","title":"Republicans
+        in North Carolina Seek Caps on Governor\u2019s Power","abstract":"G.O.P. lawmakers
+        introduced measures to limit the power of Roy Cooper, the incoming Democratic
+        governor, to control election boards, and to require State Senate approval
+        of his cabinet members.","url":"http:\/\/www.nytimes.com\/2016\/12\/14\/us\/politics\/north-carolina-governor-roy-cooper-republicans.html","byline":"By
+        TRIP GABRIEL","item_type":"Article","updated_date":"2016-12-14T22:27:57-5:00","created_date":"2016-12-14T22:27:57-5:00","published_date":"2016-12-14T22:27:57-5:00","material_type_facet":"News","kicker":"","des_facet":["State
+        Legislatures","Elections, Governors"],"org_facet":["Republican Party"],"per_facet":["Cooper,
+        Roy A","McCrory, Pat"],"geo_facet":["North Carolina"],"multimedia":[{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/15\/us\/15carolina_web1\/15carolina_web1-thumbStandard.jpg","format":"Standard
+        Thumbnail","height":75,"width":75,"type":"image","subtype":"photo","caption":"Roy
+        Cooper speaking to a crowd of supporters in Raleigh, N.C., a day after his
+        opponent, Gov. Pat McCrory, conceded the governor\u2019s election.","copyright":"Ben
+        McKeown\/Associated Press"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/15\/us\/15carolina_web1\/15carolina_web1-thumbLarge.jpg","format":"thumbLarge","height":150,"width":150,"type":"image","subtype":"photo","caption":"Roy
+        Cooper speaking to a crowd of supporters in Raleigh, N.C., a day after his
+        opponent, Gov. Pat McCrory, conceded the governor\u2019s election.","copyright":"Ben
+        McKeown\/Associated Press"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/15\/us\/15carolina_web1\/15carolina_web1-articleInline.jpg","format":"Normal","height":127,"width":190,"type":"image","subtype":"photo","caption":"Roy
+        Cooper speaking to a crowd of supporters in Raleigh, N.C., a day after his
+        opponent, Gov. Pat McCrory, conceded the governor\u2019s election.","copyright":"Ben
+        McKeown\/Associated Press"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/15\/us\/15carolina_web1\/15carolina_web1-mediumThreeByTwo210.jpg","format":"mediumThreeByTwo210","height":140,"width":210,"type":"image","subtype":"photo","caption":"Roy
+        Cooper speaking to a crowd of supporters in Raleigh, N.C., a day after his
+        opponent, Gov. Pat McCrory, conceded the governor\u2019s election.","copyright":"Ben
+        McKeown\/Associated Press"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/15\/us\/15carolina_web1\/15carolina_web1-superJumbo.jpg","format":"superJumbo","height":1365,"width":2048,"type":"image","subtype":"photo","caption":"Roy
+        Cooper speaking to a crowd of supporters in Raleigh, N.C., a day after his
+        opponent, Gov. Pat McCrory, conceded the governor\u2019s election.","copyright":"Ben
+        McKeown\/Associated Press"}]},{"section":"U.S.","subsection":"Politics","title":"Are
+        Working-Class Whites a Lost Cause for Democrats?","abstract":"The party is
+        at odds over whether it should tailor its message to the young and nonwhite
+        constituencies that propelled President Obama, or make an effort to court
+        moderate voters.","url":"http:\/\/www.nytimes.com\/2016\/12\/15\/us\/politics\/democrats-joe-biden-hillary-clinton.html","byline":"By
+        JONATHAN MARTIN and ALEXANDER BURNS","item_type":"Article","updated_date":"2016-12-15T05:00:23-5:00","created_date":"2016-12-15T05:00:24-5:00","published_date":"2016-12-15T05:00:24-5:00","material_type_facet":"News","kicker":"","des_facet":["Presidential
+        Election of 2016","United States Politics and Government","Rural Areas","Whites"],"org_facet":["Democratic
+        Party"],"per_facet":["Biden, Joseph R Jr","Clinton, Hillary Rodham"],"geo_facet":"","multimedia":[{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/15\/us\/15DEMS\/15DEMS-thumbStandard.jpg","format":"Standard
+        Thumbnail","height":75,"width":75,"type":"image","subtype":"photo","caption":"Vice
+        President Joseph R. Biden Jr. in Washington on Tuesday. He lamented last week
+        that Hillary Clinton had not done enough to reach white working-class voters
+        during her bid for the White House.","copyright":"Al Drago\/The New York Times"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/15\/us\/15DEMS\/15DEMS-thumbLarge.jpg","format":"thumbLarge","height":150,"width":150,"type":"image","subtype":"photo","caption":"Vice
+        President Joseph R. Biden Jr. in Washington on Tuesday. He lamented last week
+        that Hillary Clinton had not done enough to reach white working-class voters
+        during her bid for the White House.","copyright":"Al Drago\/The New York Times"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/15\/us\/15DEMS\/15DEMS-articleInline.jpg","format":"Normal","height":127,"width":190,"type":"image","subtype":"photo","caption":"Vice
+        President Joseph R. Biden Jr. in Washington on Tuesday. He lamented last week
+        that Hillary Clinton had not done enough to reach white working-class voters
+        during her bid for the White House.","copyright":"Al Drago\/The New York Times"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/15\/us\/15DEMS\/15DEMS-mediumThreeByTwo210.jpg","format":"mediumThreeByTwo210","height":140,"width":210,"type":"image","subtype":"photo","caption":"Vice
+        President Joseph R. Biden Jr. in Washington on Tuesday. He lamented last week
+        that Hillary Clinton had not done enough to reach white working-class voters
+        during her bid for the White House.","copyright":"Al Drago\/The New York Times"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/15\/us\/15DEMS\/15DEMS-superJumbo.jpg","format":"superJumbo","height":1368,"width":2048,"type":"image","subtype":"photo","caption":"Vice
+        President Joseph R. Biden Jr. in Washington on Tuesday. He lamented last week
+        that Hillary Clinton had not done enough to reach white working-class voters
+        during her bid for the White House.","copyright":"Al Drago\/The New York Times"}]},{"section":"The
+        Upshot","subsection":"","title":"The Upshot: Obama Economy Has Unfinished
+        Business","abstract":"The economy is clearly in much better shape than it
+        was eight years ago \u2014 but that is a slightly misleading comparison.","url":"http:\/\/www.nytimes.com\/2016\/12\/15\/upshot\/heres-what-the-white-house-views-as-the-unfinished-business-of-the-obama-economy.html","byline":"By
+        NEIL IRWIN","item_type":"Article","updated_date":"2016-12-15T14:27:04-5:00","created_date":"2016-12-15T11:46:33-5:00","published_date":"2016-12-15T11:46:33-5:00","material_type_facet":"News","kicker":"","des_facet":["United
+        States Economy","Recession and Depression","Economic Conditions and Trends"],"org_facet":"","per_facet":["Clinton,
+        Hillary Rodham"],"geo_facet":"","multimedia":[{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/16\/upshot\/16up-econ\/16up-econ-thumbStandard-v3.jpg","format":"Standard
+        Thumbnail","height":75,"width":75,"type":"image","subtype":"photo","caption":"President
+        Obama is leaving behind an economy in much better shape than the one he inherited,
+        but also with long-term weaknesses that his Council of Economic Advisers acknowledge
+        in a new report.","copyright":"Chip Somodevilla\/Getty Images"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/16\/upshot\/16up-econ\/16up-econ-thumbLarge-v3.jpg","format":"thumbLarge","height":150,"width":150,"type":"image","subtype":"photo","caption":"President
+        Obama is leaving behind an economy in much better shape than the one he inherited,
+        but also with long-term weaknesses that his Council of Economic Advisers acknowledge
+        in a new report.","copyright":"Chip Somodevilla\/Getty Images"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/16\/upshot\/16up-econ\/16up-econ-articleInline.jpg","format":"Normal","height":127,"width":190,"type":"image","subtype":"photo","caption":"President
+        Obama is leaving behind an economy in much better shape than the one he inherited,
+        but also with long-term weaknesses that his Council of Economic Advisers acknowledge
+        in a new report.","copyright":"Chip Somodevilla\/Getty Images"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/16\/upshot\/16up-econ\/16up-econ-mediumThreeByTwo210.jpg","format":"mediumThreeByTwo210","height":140,"width":210,"type":"image","subtype":"photo","caption":"President
+        Obama is leaving behind an economy in much better shape than the one he inherited,
+        but also with long-term weaknesses that his Council of Economic Advisers acknowledge
+        in a new report.","copyright":"Chip Somodevilla\/Getty Images"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/16\/upshot\/16up-econ\/16up-econ-superJumbo.jpg","format":"superJumbo","height":1365,"width":2048,"type":"image","subtype":"photo","caption":"President
+        Obama is leaving behind an economy in much better shape than the one he inherited,
+        but also with long-term weaknesses that his Council of Economic Advisers acknowledge
+        in a new report.","copyright":"Chip Somodevilla\/Getty Images"}]},{"section":"Technology","subsection":"","title":"Facebook
+        Takes Steps to Limit the Tide of Fake News","abstract":"With help from groups
+        like Snopes and PolitiFact, Facebook said it has begun introducing a series
+        of experiments to limit misinformation and false articles on its site.","url":"http:\/\/www.nytimes.com\/2016\/12\/15\/technology\/facebook-fake-news.html","byline":"By
+        MIKE ISAAC","item_type":"Article","updated_date":"2016-12-15T13:00:27-5:00","created_date":"2016-12-15T13:00:28-5:00","published_date":"2016-12-15T13:00:28-5:00","material_type_facet":"News","kicker":"","des_facet":["News
+        and News Media","Computers and the Internet","Social Media"],"org_facet":["Facebook
+        Inc"],"per_facet":["Zuckerberg, Mark E"],"geo_facet":"","multimedia":[{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/15\/business\/15FACEBOOK2\/15FACEBOOK2-thumbStandard.jpg","format":"Standard
+        Thumbnail","height":75,"width":75,"type":"image","subtype":"photo","caption":"The
+        new fake news feature on Facebook, as the site makes an effort to flag articles
+        that are not true.","copyright":""},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/15\/business\/15FACEBOOK2\/15FACEBOOK2-thumbLarge.jpg","format":"thumbLarge","height":150,"width":150,"type":"image","subtype":"photo","caption":"The
+        new fake news feature on Facebook, as the site makes an effort to flag articles
+        that are not true.","copyright":""},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/15\/business\/15FACEBOOK2\/15FACEBOOK2-articleInline.jpg","format":"Normal","height":107,"width":190,"type":"image","subtype":"photo","caption":"The
+        new fake news feature on Facebook, as the site makes an effort to flag articles
+        that are not true.","copyright":""},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/15\/business\/15FACEBOOK2\/15FACEBOOK2-mediumThreeByTwo210.jpg","format":"mediumThreeByTwo210","height":140,"width":210,"type":"image","subtype":"photo","caption":"The
+        new fake news feature on Facebook, as the site makes an effort to flag articles
+        that are not true.","copyright":""},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/15\/business\/15FACEBOOK2\/15FACEBOOK2-superJumbo.jpg","format":"superJumbo","height":1080,"width":1919,"type":"image","subtype":"photo","caption":"The
+        new fake news feature on Facebook, as the site makes an effort to flag articles
+        that are not true.","copyright":""}]},{"section":"N.Y. \/ Region","subsection":"","title":"Young
+        Immigrants Fear Losing Work Status Under Trump","abstract":"More than 740,000
+        young undocumented immigrants are allowed to work under an Obama administration
+        directive, but Mr. Trump could take that away.","url":"http:\/\/www.nytimes.com\/2016\/12\/15\/nyregion\/once-accepted-soon-rejected-new-yorks-young-immigrants-uncertain-under-trump.html","byline":"By
+        LIZ ROBBINS","item_type":"Article","updated_date":"2016-12-15T05:00:22-5:00","created_date":"2016-12-15T05:00:22-5:00","published_date":"2016-12-15T05:00:22-5:00","material_type_facet":"News","kicker":"","des_facet":["Immigration
+        and Emigration","Deferred Action for Childhood Arrivals","Illegal Immigration"],"org_facet":["Citizenship
+        and Immigration Services (US)","Teach for America"],"per_facet":["Trump, Donald
+        J"],"geo_facet":["New York City"],"multimedia":[{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/07\/nyregion\/00DACA2\/00DACA2-thumbStandard.jpg","format":"Standard
+        Thumbnail","height":75,"width":75,"type":"image","subtype":"photo","caption":"Chandrapaul
+        Latchman, 23, fears he is at risk because he has a work permit under the Deferred
+        Action for Childhood Arrivals program. He works at JP MorganChase.","copyright":"Joshua
+        Bright for The New York Times"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/07\/nyregion\/00DACA2\/00DACA2-thumbLarge.jpg","format":"thumbLarge","height":150,"width":150,"type":"image","subtype":"photo","caption":"Chandrapaul
+        Latchman, 23, fears he is at risk because he has a work permit under the Deferred
+        Action for Childhood Arrivals program. He works at JP MorganChase.","copyright":"Joshua
+        Bright for The New York Times"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/07\/nyregion\/00DACA2\/00DACA2-articleInline.jpg","format":"Normal","height":121,"width":190,"type":"image","subtype":"photo","caption":"Chandrapaul
+        Latchman, 23, fears he is at risk because he has a work permit under the Deferred
+        Action for Childhood Arrivals program. He works at JP MorganChase.","copyright":"Joshua
+        Bright for The New York Times"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/07\/nyregion\/00DACA2\/00DACA2-mediumThreeByTwo210.jpg","format":"mediumThreeByTwo210","height":140,"width":210,"type":"image","subtype":"photo","caption":"Chandrapaul
+        Latchman, 23, fears he is at risk because he has a work permit under the Deferred
+        Action for Childhood Arrivals program. He works at JP MorganChase.","copyright":"Joshua
+        Bright for The New York Times"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/07\/nyregion\/00DACA2\/00DACA2-superJumbo.jpg","format":"superJumbo","height":1366,"width":2048,"type":"image","subtype":"photo","caption":"Chandrapaul
+        Latchman, 23, fears he is at risk because he has a work permit under the Deferred
+        Action for Childhood Arrivals program. He works at JP MorganChase.","copyright":"Joshua
+        Bright for The New York Times"}]},{"section":"Briefing","subsection":"","title":"Your
+        Morning Briefing","abstract":"Here\u2019s what you need to know to start your
+        day.","url":"http:\/\/www.nytimes.com\/2016\/12\/15\/briefing\/asia-briefing.html","byline":"By
+        CHARLES McDERMID","item_type":"Article","updated_date":"2016-12-15T15:04:42-5:00","created_date":"2016-12-15T13:57:11-5:00","published_date":"2016-12-15T13:57:11-5:00","material_type_facet":"briefing","kicker":"","des_facet":"","org_facet":"","per_facet":"","geo_facet":"","multimedia":[{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/16\/world\/asia\/1216asia-brief-slide-DU2P\/1216asia-brief-slide-DU2P-thumbStandard.jpg","format":"Standard
+        Thumbnail","height":75,"width":75,"type":"image","subtype":"photo","caption":"","copyright":"Liu
+        Rui\/Xinhua, via Associated Press.."},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/16\/world\/asia\/1216asia-brief-slide-DU2P\/1216asia-brief-slide-DU2P-thumbLarge.jpg","format":"thumbLarge","height":150,"width":150,"type":"image","subtype":"photo","caption":"","copyright":"Liu
+        Rui\/Xinhua, via Associated Press.."},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/16\/world\/asia\/1216asia-brief-slide-DU2P\/1216asia-brief-slide-DU2P-articleInline.jpg","format":"Normal","height":127,"width":190,"type":"image","subtype":"photo","caption":"","copyright":"Liu
+        Rui\/Xinhua, via Associated Press.."},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/16\/world\/asia\/1216asia-brief-slide-DU2P\/1216asia-brief-slide-DU2P-mediumThreeByTwo210.jpg","format":"mediumThreeByTwo210","height":140,"width":210,"type":"image","subtype":"photo","caption":"","copyright":"Liu
+        Rui\/Xinhua, via Associated Press.."},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/16\/world\/asia\/1216asia-brief-slide-DU2P\/1216asia-brief-slide-DU2P-superJumbo.jpg","format":"superJumbo","height":1365,"width":2048,"type":"image","subtype":"photo","caption":"","copyright":"Liu
+        Rui\/Xinhua, via Associated Press.."}]},{"section":"Business Day","subsection":"","title":"How
+        to Keep Your Office Holiday Party From Going Off the Rails","abstract":"The
+        office party can be a fun way for co-workers to get together to celebrate,
+        an opportunity to introduce yourself to executives or a memorable event for
+        all the wrong reasons.","url":"http:\/\/www.nytimes.com\/2016\/12\/14\/business\/holiday-party-tips.html","byline":"By
+        CHRISTOPHER MELE","item_type":"Article","updated_date":"2016-12-14T09:51:06-5:00","created_date":"2016-12-14T09:51:07-5:00","published_date":"2016-12-14T09:51:07-5:00","material_type_facet":"News","kicker":"","des_facet":["Parties
+        (Social)","Human Resources","Workplace Environment","Holidays and Special
+        Occasions"],"org_facet":"","per_facet":"","geo_facet":"","multimedia":[{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/08\/business\/00xp-holidayparties_web1\/00xp-holidayparties_web1-thumbStandard.jpg","format":"Standard
+        Thumbnail","height":75,"width":75,"type":"image","subtype":"photo","caption":"Experts
+        recommend limiting access to alcohol at office holiday parties.","copyright":"Joshua
+        Bright for The New York Times"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/08\/business\/00xp-holidayparties_web1\/00xp-holidayparties_web1-thumbLarge.jpg","format":"thumbLarge","height":150,"width":150,"type":"image","subtype":"photo","caption":"Experts
+        recommend limiting access to alcohol at office holiday parties.","copyright":"Joshua
+        Bright for The New York Times"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/08\/business\/00xp-holidayparties_web1\/00xp-holidayparties_web1-articleInline.jpg","format":"Normal","height":125,"width":190,"type":"image","subtype":"photo","caption":"Experts
+        recommend limiting access to alcohol at office holiday parties.","copyright":"Joshua
+        Bright for The New York Times"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/08\/business\/00xp-holidayparties_web1\/00xp-holidayparties_web1-mediumThreeByTwo210.jpg","format":"mediumThreeByTwo210","height":140,"width":210,"type":"image","subtype":"photo","caption":"Experts
+        recommend limiting access to alcohol at office holiday parties.","copyright":"Joshua
+        Bright for The New York Times"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/08\/business\/00xp-holidayparties_web1\/00xp-holidayparties_web1-superJumbo.jpg","format":"superJumbo","height":1343,"width":2048,"type":"image","subtype":"photo","caption":"Experts
+        recommend limiting access to alcohol at office holiday parties.","copyright":"Joshua
+        Bright for The New York Times"}]},{"section":"U.S.","subsection":"","title":"Dylann
+        Roof Is Guilty in Charleston Church Massacre","abstract":"The jury reached
+        its verdict after a few hours of deliberation in the case of Dylann S. Roof,
+        a white supremacist who killed nine black people at Emanuel African Methodist
+        Episcopal Church.","url":"http:\/\/www.nytimes.com\/2016\/12\/15\/us\/dylann-roof-trial.html","byline":"By
+        KEVIN SACK and ALAN BLINDER","item_type":"Article","updated_date":"2016-12-15T15:23:45-5:00","created_date":"2016-12-15T13:43:09-5:00","published_date":"2016-12-15T13:43:09-5:00","material_type_facet":"News","kicker":"","des_facet":["Charleston,
+        SC, Shooting (2015)"],"org_facet":["Emanuel African Methodist Episcopal Church
+        (Charleston, SC)"],"per_facet":["Roof, Dylann Storm"],"geo_facet":"","multimedia":""},{"section":"U.S.","subsection":"","title":"At
+        Dylann Roof Trial, Churchgoers Sit in Quiet Agony","abstract":"Family members
+        and friends of the nine victims of the massacre at Emanuel A.M.E. Church in
+        Charleston have endured the defendant\u2019s trial with stoicism and grace.","url":"http:\/\/www.nytimes.com\/2016\/12\/15\/us\/dylann-roof-trial-charleston-church-killings.html","byline":"By
+        KEVIN SACK","item_type":"Article","updated_date":"2016-12-15T05:00:23-5:00","created_date":"2016-12-15T05:00:24-5:00","published_date":"2016-12-15T05:00:24-5:00","material_type_facet":"News","kicker":"","des_facet":["Charleston,
+        SC, Shooting (2015)","Murders, Attempted Murders and Homicides"],"org_facet":["Emanuel
+        African Methodist Episcopal Church (Charleston, SC)"],"per_facet":["Pinckney,
+        Clementa C (1973-2015)","Roof, Dylann Storm"],"geo_facet":"","multimedia":[{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/15\/us\/15families-2\/15families-2-thumbStandard-v2.jpg","format":"Standard
+        Thumbnail","height":75,"width":75,"type":"image","subtype":"photo","caption":"The
+        Rev. Anthony B. Thompson, whose wife, Myra, was killed in the shooting. He
+        skipped the trial on the day when photographs of the carnage were shown.","copyright":"Travis
+        Dove for The New York Times"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/15\/us\/15families-2\/15families-2-thumbLarge-v2.jpg","format":"thumbLarge","height":150,"width":150,"type":"image","subtype":"photo","caption":"The
+        Rev. Anthony B. Thompson, whose wife, Myra, was killed in the shooting. He
+        skipped the trial on the day when photographs of the carnage were shown.","copyright":"Travis
+        Dove for The New York Times"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/15\/us\/15families-2\/15families-2-articleInline-v2.jpg","format":"Normal","height":127,"width":190,"type":"image","subtype":"photo","caption":"The
+        Rev. Anthony B. Thompson, whose wife, Myra, was killed in the shooting. He
+        skipped the trial on the day when photographs of the carnage were shown.","copyright":"Travis
+        Dove for The New York Times"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/15\/us\/15families-2\/15families-2-mediumThreeByTwo210-v2.jpg","format":"mediumThreeByTwo210","height":140,"width":210,"type":"image","subtype":"photo","caption":"The
+        Rev. Anthony B. Thompson, whose wife, Myra, was killed in the shooting. He
+        skipped the trial on the day when photographs of the carnage were shown.","copyright":"Travis
+        Dove for The New York Times"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/15\/us\/15families-2\/15families-2-superJumbo.jpg","format":"superJumbo","height":1365,"width":2048,"type":"image","subtype":"photo","caption":"The
+        Rev. Anthony B. Thompson, whose wife, Myra, was killed in the shooting. He
+        skipped the trial on the day when photographs of the carnage were shown.","copyright":"Travis
+        Dove for The New York Times"}]},{"section":"Books","subsection":"","title":"Book
+        Review: A Fictional Look at Aleppo\u2019s Despair Before the War","abstract":"Khaled
+        Khalifa\u2019s episodic novel focuses on one family in Aleppo, his native
+        city, and stops several years short of the Syrian civil war.","url":"http:\/\/www.nytimes.com\/2016\/12\/14\/books\/review-no-knives-in-the-kitchens-of-this-city-describes-a-syrian-hell.html","byline":"By
+        JENNIFER SENIOR","item_type":"Article","updated_date":"2016-12-14T18:25:11-5:00","created_date":"2016-12-14T18:25:12-5:00","published_date":"2016-12-14T18:25:12-5:00","material_type_facet":"Review","kicker":"","des_facet":["Books
+        and Literature","No Knives in the Kitchens of This City (Book)"],"org_facet":"","per_facet":["Khalifa,
+        Khaled"],"geo_facet":"","multimedia":[{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/15\/arts\/15BOOKKHALIFAJP\/15BOOKKHALIFAJP-thumbStandard-v3.jpg","format":"Standard
+        Thumbnail","height":75,"width":75,"type":"image","subtype":"photo","caption":"","copyright":"Sonny
+        Figueroa\/The New York Times"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/15\/arts\/15BOOKKHALIFAJP\/15BOOKKHALIFAJP-thumbLarge-v3.jpg","format":"thumbLarge","height":150,"width":150,"type":"image","subtype":"photo","caption":"","copyright":"Sonny
+        Figueroa\/The New York Times"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/15\/arts\/15BOOKKHALIFAJP\/15BOOKKHALIFAJP-articleInline-v3.jpg","format":"Normal","height":278,"width":190,"type":"image","subtype":"photo","caption":"","copyright":"Sonny
+        Figueroa\/The New York Times"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/15\/arts\/15BOOKKHALIFAJP\/15BOOKKHALIFAJP-mediumThreeByTwo210-v3.jpg","format":"mediumThreeByTwo210","height":140,"width":210,"type":"image","subtype":"photo","caption":"","copyright":"Sonny
+        Figueroa\/The New York Times"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/15\/arts\/15BOOKKHALIFAJP\/15BOOKKHALIFAJP-superJumbo-v3.jpg","format":"superJumbo","height":1470,"width":1004,"type":"image","subtype":"photo","caption":"","copyright":"Sonny
+        Figueroa\/The New York Times"}]},{"section":"World","subsection":"Middle East","title":"1,000
+        Syrian Civilians Evacuate Embattled Aleppo","abstract":"The evacuation from
+        rebel-held districts was hailed by President Bashar al-Assad as a historic
+        event on par with world wars.","url":"http:\/\/www.nytimes.com\/2016\/12\/15\/world\/middleeast\/aleppo-syria-evacuation-deal.html","byline":"By
+        BEN HUBBARD and HWAIDA SAAD","item_type":"Article","updated_date":"2016-12-15T13:06:17-5:00","created_date":"2016-12-15T05:42:21-5:00","published_date":"2016-12-15T05:42:21-5:00","material_type_facet":"News","kicker":"","des_facet":["International
+        Relations","Defense and Military Forces","Civilian Casualties"],"org_facet":"","per_facet":["Assad,
+        Bashar al-"],"geo_facet":["Aleppo (Syria)"],"multimedia":[{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/16\/world\/16Syria3\/16Syria3-thumbStandard.jpg","format":"Standard
+        Thumbnail","height":75,"width":75,"type":"image","subtype":"photo","caption":"An
+        older man was evacuated from a rebel-held neighborhood of Aleppo, Syria, on
+        Thursday.","copyright":"Karam Al-Masri\/Agence France-Presse \u2014 Getty
+        Images"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/16\/world\/16Syria3\/16Syria3-thumbLarge.jpg","format":"thumbLarge","height":150,"width":150,"type":"image","subtype":"photo","caption":"An
+        older man was evacuated from a rebel-held neighborhood of Aleppo, Syria, on
+        Thursday.","copyright":"Karam Al-Masri\/Agence France-Presse \u2014 Getty
+        Images"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/16\/world\/16Syria3\/16Syria3-articleInline.jpg","format":"Normal","height":127,"width":190,"type":"image","subtype":"photo","caption":"An
+        older man was evacuated from a rebel-held neighborhood of Aleppo, Syria, on
+        Thursday.","copyright":"Karam Al-Masri\/Agence France-Presse \u2014 Getty
+        Images"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/16\/world\/16Syria3\/16Syria3-mediumThreeByTwo210.jpg","format":"mediumThreeByTwo210","height":140,"width":210,"type":"image","subtype":"photo","caption":"An
+        older man was evacuated from a rebel-held neighborhood of Aleppo, Syria, on
+        Thursday.","copyright":"Karam Al-Masri\/Agence France-Presse \u2014 Getty
+        Images"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/16\/world\/16Syria3\/16Syria3-superJumbo.jpg","format":"superJumbo","height":1365,"width":2048,"type":"image","subtype":"photo","caption":"An
+        older man was evacuated from a rebel-held neighborhood of Aleppo, Syria, on
+        Thursday.","copyright":"Karam Al-Masri\/Agence France-Presse \u2014 Getty
+        Images"}]},{"section":"U.S.","subsection":"Politics","title":"How Moscow Aimed
+        a Perfect Weapon at the U.S. Election","abstract":"A Times investigation reveals
+        missed signals, slow responses and a continuing underestimation of the seriousness
+        of a campaign of cyberespionage to disrupt the presidential race.","url":"http:\/\/www.nytimes.com\/2016\/12\/13\/us\/politics\/russia-hack-election-dnc.html","byline":"By
+        ERIC LIPTON, DAVID E. SANGER and SCOTT SHANE","item_type":"Article","updated_date":"2016-12-13T20:36:58-5:00","created_date":"2016-12-13T14:43:38-5:00","published_date":"2016-12-13T14:43:38-5:00","material_type_facet":"News","kicker":"","des_facet":["Cyberwarfare
+        and Defense","Presidential Election of 2016","United States Politics and Government","Democratic
+        National Convention"],"org_facet":["Democratic National Committee","Federal
+        Bureau of Investigation","WikiLeaks","CrowdStrike Inc"],"per_facet":["Trump,
+        Donald J","Clinton, Hillary Rodham","Tanden, Neera","Assange, Julian P"],"geo_facet":["Russia"],"multimedia":[{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/14\/us\/14hack-top1-sub\/14hack-top1-sub-thumbStandard.jpg","format":"Standard
+        Thumbnail","height":75,"width":75,"type":"image","subtype":"photo","caption":"A
+        filing cabinet broken into in 1972 as part of the Watergate burglary sits
+        beside a computer server that Russian hackers breached during the 2016 presidential
+        campaign at the Democratic National Committee\u2019s headquarters in Washington.","copyright":"Justin
+        T. Gellerson for The New York Times"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/14\/us\/14hack-top1-sub\/14hack-top1-sub-thumbLarge.jpg","format":"thumbLarge","height":150,"width":150,"type":"image","subtype":"photo","caption":"A
+        filing cabinet broken into in 1972 as part of the Watergate burglary sits
+        beside a computer server that Russian hackers breached during the 2016 presidential
+        campaign at the Democratic National Committee\u2019s headquarters in Washington.","copyright":"Justin
+        T. Gellerson for The New York Times"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/14\/us\/14hack-top1-sub\/14hack-top1-sub-articleInline.jpg","format":"Normal","height":136,"width":190,"type":"image","subtype":"photo","caption":"A
+        filing cabinet broken into in 1972 as part of the Watergate burglary sits
+        beside a computer server that Russian hackers breached during the 2016 presidential
+        campaign at the Democratic National Committee\u2019s headquarters in Washington.","copyright":"Justin
+        T. Gellerson for The New York Times"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/14\/us\/14hack-top1-sub\/14hack-top1-sub-mediumThreeByTwo210.jpg","format":"mediumThreeByTwo210","height":140,"width":210,"type":"image","subtype":"photo","caption":"A
+        filing cabinet broken into in 1972 as part of the Watergate burglary sits
+        beside a computer server that Russian hackers breached during the 2016 presidential
+        campaign at the Democratic National Committee\u2019s headquarters in Washington.","copyright":"Justin
+        T. Gellerson for The New York Times"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/14\/us\/14hack-top1-sub\/14hack-top1-sub-superJumbo.jpg","format":"superJumbo","height":1463,"width":2048,"type":"image","subtype":"photo","caption":"A
+        filing cabinet broken into in 1972 as part of the Watergate burglary sits
+        beside a computer server that Russian hackers breached during the 2016 presidential
+        campaign at the Democratic National Committee\u2019s headquarters in Washington.","copyright":"Justin
+        T. Gellerson for The New York Times"}]},{"section":"U.S.","subsection":"Politics","title":"Democratic
+        House Candidates Were Also Targets","abstract":"The fallout for nearly a dozen
+        congressional candidates underscores the effect of the Russian influence operation.","url":"http:\/\/www.nytimes.com\/2016\/12\/13\/us\/politics\/house-democrats-hacking-dccc.html","byline":"By
+        ERIC LIPTON and SCOTT SHANE","item_type":"Article","updated_date":"2016-12-13T21:36:33-5:00","created_date":"2016-12-13T20:02:03-5:00","published_date":"2016-12-13T20:02:03-5:00","material_type_facet":"News","kicker":"","des_facet":["Cyberwarfare
+        and Defense","Presidential Election of 2016","Elections, House of Representatives"],"org_facet":["Democratic
+        Congressional Campaign Committee","Democratic National Committee"],"per_facet":["Taddeo,
+        Annette","Garcia, Joe (1963- )","Shea-Porter, Carol","Parrish, Mike (1963-
+        )","Lujan, Ben Ray"],"geo_facet":["Russia","Florida","New Hampshire","Pennsylvania","New
+        Mexico","United States"],"multimedia":[{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/14\/us\/HackDCCC1\/HackDCCC1-thumbStandard.jpg","format":"Standard
+        Thumbnail","height":75,"width":75,"type":"image","subtype":"photo","caption":"Annette
+        Taddeo lost a Democratic primary for a House seat in Florida after documents
+        uncovered by Russian hackers were published by reporters and bloggers.","copyright":"Scott
+        McIntyre for The New York Times"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/14\/us\/HackDCCC1\/HackDCCC1-thumbLarge.jpg","format":"thumbLarge","height":150,"width":150,"type":"image","subtype":"photo","caption":"Annette
+        Taddeo lost a Democratic primary for a House seat in Florida after documents
+        uncovered by Russian hackers were published by reporters and bloggers.","copyright":"Scott
+        McIntyre for The New York Times"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/14\/us\/HackDCCC1\/HackDCCC1-articleInline.jpg","format":"Normal","height":127,"width":190,"type":"image","subtype":"photo","caption":"Annette
+        Taddeo lost a Democratic primary for a House seat in Florida after documents
+        uncovered by Russian hackers were published by reporters and bloggers.","copyright":"Scott
+        McIntyre for The New York Times"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/14\/us\/HackDCCC1\/HackDCCC1-mediumThreeByTwo210.jpg","format":"mediumThreeByTwo210","height":140,"width":210,"type":"image","subtype":"photo","caption":"Annette
+        Taddeo lost a Democratic primary for a House seat in Florida after documents
+        uncovered by Russian hackers were published by reporters and bloggers.","copyright":"Scott
+        McIntyre for The New York Times"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/14\/us\/HackDCCC1\/HackDCCC1-superJumbo.jpg","format":"superJumbo","height":1365,"width":2048,"type":"image","subtype":"photo","caption":"Annette
+        Taddeo lost a Democratic primary for a House seat in Florida after documents
+        uncovered by Russian hackers were published by reporters and bloggers.","copyright":"Scott
+        McIntyre for The New York Times"}]},{"section":"U.S.","subsection":"Politics","title":"With
+        Election Near, Obama Delayed Blaming Russia","abstract":"The administration
+        was concerned that any statement by President Obama would be viewed as politicizing
+        intelligence, the White House said.","url":"http:\/\/www.nytimes.com\/2016\/12\/14\/us\/politics\/obama-russia-hack-democrats.html","byline":"By
+        GARDINER HARRIS","item_type":"Article","updated_date":"2016-12-14T20:05:00-5:00","created_date":"2016-12-14T20:05:01-5:00","published_date":"2016-12-14T20:05:01-5:00","material_type_facet":"News","kicker":"","des_facet":["Cyberwarfare
+        and Defense","Classified Information and State Secrets","Espionage and Intelligence
+        Services"],"org_facet":["Democratic National Committee","Federal Bureau of
+        Investigation"],"per_facet":["Trump, Donald J"],"geo_facet":["Russia"],"multimedia":[{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/15\/us\/15obama\/15obama-thumbStandard.jpg","format":"Standard
+        Thumbnail","height":75,"width":75,"type":"image","subtype":"photo","caption":"The
+        administration deliberated for months whether to blame Russia for a cyberattack
+        because President Obama did not want to be viewed as politicizing intelligence,
+        the White House said on Wednesday.","copyright":"Al Drago\/The New York Times"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/15\/us\/15obama\/15obama-thumbLarge.jpg","format":"thumbLarge","height":150,"width":150,"type":"image","subtype":"photo","caption":"The
+        administration deliberated for months whether to blame Russia for a cyberattack
+        because President Obama did not want to be viewed as politicizing intelligence,
+        the White House said on Wednesday.","copyright":"Al Drago\/The New York Times"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/15\/us\/15obama\/15obama-articleInline.jpg","format":"Normal","height":127,"width":190,"type":"image","subtype":"photo","caption":"The
+        administration deliberated for months whether to blame Russia for a cyberattack
+        because President Obama did not want to be viewed as politicizing intelligence,
+        the White House said on Wednesday.","copyright":"Al Drago\/The New York Times"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/15\/us\/15obama\/15obama-mediumThreeByTwo210.jpg","format":"mediumThreeByTwo210","height":140,"width":210,"type":"image","subtype":"photo","caption":"The
+        administration deliberated for months whether to blame Russia for a cyberattack
+        because President Obama did not want to be viewed as politicizing intelligence,
+        the White House said on Wednesday.","copyright":"Al Drago\/The New York Times"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/15\/us\/15obama\/15obama-superJumbo.jpg","format":"superJumbo","height":1366,"width":2048,"type":"image","subtype":"photo","caption":"The
+        administration deliberated for months whether to blame Russia for a cyberattack
+        because President Obama did not want to be viewed as politicizing intelligence,
+        the White House said on Wednesday.","copyright":"Al Drago\/The New York Times"}]},{"section":"Business
+        Day","subsection":"","title":"Generic Drug Giants Charged in Price-Fixing
+        Schemes","abstract":"Teva and Mylan are among those named in what officials
+        said was a broad investigation that could produce more charges.","url":"http:\/\/www.nytimes.com\/2016\/12\/15\/business\/generic-drug-price-lawsuit-teva-mylan.html","byline":"By
+        KATIE THOMAS","item_type":"Article","updated_date":"2016-12-15T12:48:27-5:00","created_date":"2016-12-15T12:48:28-5:00","published_date":"2016-12-15T12:48:28-5:00","material_type_facet":"News","kicker":"","des_facet":["Suits
+        and Litigation (Civil)","Antitrust Laws and Competition Issues","Prices (Fares,
+        Fees and Rates)","Drugs (Pharmaceuticals)","Generic Brands and Products"],"org_facet":["Mylan
+        Inc","Heritage Pharmaceuticals Inc","Teva Pharmaceutical Industries Ltd"],"per_facet":"","geo_facet":"","multimedia":[{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/16\/business\/16DRUG\/16DRUG-thumbStandard.jpg","format":"Standard
+        Thumbnail","height":75,"width":75,"type":"image","subtype":"photo","caption":"A
+        Teva pharmaceutical factory in Godollo, Hungary. Teva, the world\u2019s largest
+        generic-drug maker, is among the six companies accused of price fixing.","copyright":"Akos
+        Stiller\/Bloomberg"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/16\/business\/16DRUG\/16DRUG-thumbLarge.jpg","format":"thumbLarge","height":150,"width":150,"type":"image","subtype":"photo","caption":"A
+        Teva pharmaceutical factory in Godollo, Hungary. Teva, the world\u2019s largest
+        generic-drug maker, is among the six companies accused of price fixing.","copyright":"Akos
+        Stiller\/Bloomberg"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/16\/business\/16DRUG\/16DRUG-articleInline.jpg","format":"Normal","height":128,"width":190,"type":"image","subtype":"photo","caption":"A
+        Teva pharmaceutical factory in Godollo, Hungary. Teva, the world\u2019s largest
+        generic-drug maker, is among the six companies accused of price fixing.","copyright":"Akos
+        Stiller\/Bloomberg"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/16\/business\/16DRUG\/16DRUG-mediumThreeByTwo210.jpg","format":"mediumThreeByTwo210","height":140,"width":210,"type":"image","subtype":"photo","caption":"A
+        Teva pharmaceutical factory in Godollo, Hungary. Teva, the world\u2019s largest
+        generic-drug maker, is among the six companies accused of price fixing.","copyright":"Akos
+        Stiller\/Bloomberg"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/16\/business\/16DRUG\/16DRUG-superJumbo.jpg","format":"superJumbo","height":1381,"width":2048,"type":"image","subtype":"photo","caption":"A
+        Teva pharmaceutical factory in Godollo, Hungary. Teva, the world\u2019s largest
+        generic-drug maker, is among the six companies accused of price fixing.","copyright":"Akos
+        Stiller\/Bloomberg"}]},{"section":"N.Y. \/ Region","subsection":"","title":"A
+        Man Is Shot, and Only the Police Are Kept in the Dark","abstract":"Adrian
+        Maldonado was killed after a drug deal at a Bronx housing complex. Rumors
+        focused on a spurned lover, but witnesses were reluctant to come forward over
+        fears of reprisals.","url":"http:\/\/www.nytimes.com\/2016\/12\/14\/nyregion\/bronx-murder-40th-precinct-adrian-maldonado.html","byline":"By
+        JAMES C. McKINLEY Jr., ASHLEY SOUTHALL and AL BAKER","item_type":"Article","updated_date":"2016-12-14T19:23:55-5:00","created_date":"2016-12-14T19:23:56-5:00","published_date":"2016-12-14T19:23:56-5:00","material_type_facet":"News","kicker":"","des_facet":["Murders,
+        Attempted Murders and Homicides","Series","Public and Subsidized Housing","Gangs","Murder
+        in the 4-0 (Series)"],"org_facet":"","per_facet":["Maldonado, Adrian (1992-2016)"],"geo_facet":["South
+        Bronx (Bronx, NY)","New York City","Bronx (NYC)"],"multimedia":[{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/14\/nyregion\/00BXMURDER1\/00BXMURDER1-thumbStandard.jpg","format":"Standard
+        Thumbnail","height":75,"width":75,"type":"image","subtype":"photo","caption":"A
+        memorial to Adrian Maldonado on Courtlandt Avenue and East 151st Street in
+        the Bronx. Mr. Maldonado was fatally shot after a drug deal at a nearby housing
+        complex in July.","copyright":"Edwin J. Torres for The New York Times"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/14\/nyregion\/00BXMURDER1\/00BXMURDER1-thumbLarge.jpg","format":"thumbLarge","height":150,"width":150,"type":"image","subtype":"photo","caption":"A
+        memorial to Adrian Maldonado on Courtlandt Avenue and East 151st Street in
+        the Bronx. Mr. Maldonado was fatally shot after a drug deal at a nearby housing
+        complex in July.","copyright":"Edwin J. Torres for The New York Times"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/14\/nyregion\/00BXMURDER1\/00BXMURDER1-articleInline-v4.jpg","format":"Normal","height":149,"width":190,"type":"image","subtype":"photo","caption":"A
+        memorial to Adrian Maldonado on Courtlandt Avenue and East 151st Street in
+        the Bronx. Mr. Maldonado was fatally shot after a drug deal at a nearby housing
+        complex in July.","copyright":"Edwin J. Torres for The New York Times"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/14\/nyregion\/00BXMURDER1\/00BXMURDER1-mediumThreeByTwo210.jpg","format":"mediumThreeByTwo210","height":140,"width":210,"type":"image","subtype":"photo","caption":"A
+        memorial to Adrian Maldonado on Courtlandt Avenue and East 151st Street in
+        the Bronx. Mr. Maldonado was fatally shot after a drug deal at a nearby housing
+        complex in July.","copyright":"Edwin J. Torres for The New York Times"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/14\/nyregion\/00BXMURDER1\/00BXMURDER1-superJumbo.jpg","format":"superJumbo","height":1367,"width":2048,"type":"image","subtype":"photo","caption":"A
+        memorial to Adrian Maldonado on Courtlandt Avenue and East 151st Street in
+        the Bronx. Mr. Maldonado was fatally shot after a drug deal at a nearby housing
+        complex in July.","copyright":"Edwin J. Torres for The New York Times"}]},{"section":"N.Y.
+        \/ Region","subsection":"","title":"Drug 85 Times as Potent as Marijuana Spawned
+        \u2018Zombies\u2019","abstract":"A new study offers the first detailed look
+        at a drug that has caused dozens in Brooklyn to overdose and offers a window
+        into the evolving world of synthetic drugs.","url":"http:\/\/www.nytimes.com\/2016\/12\/14\/nyregion\/zombielike-state-was-caused-by-synthetic-marijuana.html","byline":"By
+        MARC SANTORA","item_type":"Article","updated_date":"2016-12-14T17:18:33-5:00","created_date":"2016-12-14T17:18:34-5:00","published_date":"2016-12-14T17:18:34-5:00","material_type_facet":"News","kicker":"","des_facet":["Synthetic
+        Cannabinoids","Drug Abuse and Traffic","Drugs (Pharmaceuticals)"],"org_facet":["New
+        England Journal of Medicine","Pfizer Inc"],"per_facet":"","geo_facet":["Brooklyn
+        (NYC)"],"multimedia":[{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/15\/nyregion\/15ZOMBIE1\/15ZOMBIE1-thumbStandard.jpg","format":"Standard
+        Thumbnail","height":75,"width":75,"type":"image","subtype":"photo","caption":"Emergency
+        workers treated a woman in Brooklyn in July in an area where people overdosed
+        on a synthetic cannabinoid more potent than marijuana.","copyright":"Christopher
+        Lee for The New York Times"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/15\/nyregion\/15ZOMBIE1\/15ZOMBIE1-thumbLarge.jpg","format":"thumbLarge","height":150,"width":150,"type":"image","subtype":"photo","caption":"Emergency
+        workers treated a woman in Brooklyn in July in an area where people overdosed
+        on a synthetic cannabinoid more potent than marijuana.","copyright":"Christopher
+        Lee for The New York Times"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/15\/nyregion\/15ZOMBIE1\/15ZOMBIE1-articleInline.jpg","format":"Normal","height":127,"width":190,"type":"image","subtype":"photo","caption":"Emergency
+        workers treated a woman in Brooklyn in July in an area where people overdosed
+        on a synthetic cannabinoid more potent than marijuana.","copyright":"Christopher
+        Lee for The New York Times"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/15\/nyregion\/15ZOMBIE1\/15ZOMBIE1-mediumThreeByTwo210.jpg","format":"mediumThreeByTwo210","height":140,"width":210,"type":"image","subtype":"photo","caption":"Emergency
+        workers treated a woman in Brooklyn in July in an area where people overdosed
+        on a synthetic cannabinoid more potent than marijuana.","copyright":"Christopher
+        Lee for The New York Times"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/15\/nyregion\/15ZOMBIE1\/15ZOMBIE1-superJumbo.jpg","format":"superJumbo","height":1365,"width":2048,"type":"image","subtype":"photo","caption":"Emergency
+        workers treated a woman in Brooklyn in July in an area where people overdosed
+        on a synthetic cannabinoid more potent than marijuana.","copyright":"Christopher
+        Lee for The New York Times"}]},{"section":"World","subsection":"Europe","title":"Ruling
+        Paves Way for Transfer of Art Trove Including Nazi-Looted Works","abstract":"The
+        German owner of the 1,500 artworks was of sound mind when he bequeathed them
+        to a museum in Switzerland, a court in Munich ruled.","url":"http:\/\/www.nytimes.com\/2016\/12\/15\/world\/europe\/cornelius-gurlitt-nazi-art-court.html","byline":"By
+        MELISSA EDDY and ALISON SMALE","item_type":"Article","updated_date":"2016-12-15T07:12:08-5:00","created_date":"2016-12-15T07:12:08-5:00","published_date":"2016-12-15T07:12:08-5:00","material_type_facet":"News","kicker":"","des_facet":["Arts
+        and Antiquities Looting","Holocaust and the Nazi Era","Decisions and Verdicts"],"org_facet":["Kunstmuseum
+        Bern"],"per_facet":["Gurlitt, Cornelius","Matisse, Henri","Werner, Uta"],"geo_facet":"","multimedia":[{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/16\/world\/16GURLITT\/16GURLITT-thumbStandard.jpg","format":"Standard
+        Thumbnail","height":75,"width":75,"type":"image","subtype":"photo","caption":"Some
+        of the roughly 1,500 artworks Cornelius Gurlitt kept for years in his Munich
+        apartment.","copyright":"Staatsanwaltschaft Augsburg, via Agence France-Presse
+        \u2014 Getty Images"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/16\/world\/16GURLITT\/16GURLITT-thumbLarge.jpg","format":"thumbLarge","height":150,"width":150,"type":"image","subtype":"photo","caption":"Some
+        of the roughly 1,500 artworks Cornelius Gurlitt kept for years in his Munich
+        apartment.","copyright":"Staatsanwaltschaft Augsburg, via Agence France-Presse
+        \u2014 Getty Images"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/16\/world\/16GURLITT\/16GURLITT-articleInline.jpg","format":"Normal","height":201,"width":190,"type":"image","subtype":"photo","caption":"Some
+        of the roughly 1,500 artworks Cornelius Gurlitt kept for years in his Munich
+        apartment.","copyright":"Staatsanwaltschaft Augsburg, via Agence France-Presse
+        \u2014 Getty Images"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/16\/world\/16GURLITT\/16GURLITT-mediumThreeByTwo210.jpg","format":"mediumThreeByTwo210","height":140,"width":210,"type":"image","subtype":"photo","caption":"Some
+        of the roughly 1,500 artworks Cornelius Gurlitt kept for years in his Munich
+        apartment.","copyright":"Staatsanwaltschaft Augsburg, via Agence France-Presse
+        \u2014 Getty Images"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/16\/world\/16GURLITT\/16GURLITT-superJumbo.jpg","format":"superJumbo","height":2048,"width":1939,"type":"image","subtype":"photo","caption":"Some
+        of the roughly 1,500 artworks Cornelius Gurlitt kept for years in his Munich
+        apartment.","copyright":"Staatsanwaltschaft Augsburg, via Agence France-Presse
+        \u2014 Getty Images"}]},{"section":"World","subsection":"Europe","title":"Rodents
+        Run Wild in Paris. Blame the European Union.","abstract":"Rat invasion is
+        an old problem in Paris, and also a new one. New methods of poisoning the
+        creatures aren\u2019t working so well.","url":"http:\/\/www.nytimes.com\/2016\/12\/15\/world\/europe\/paris-rats.html","byline":"By
+        ALISSA J. RUBIN","item_type":"Article","updated_date":"2016-12-15T09:53:31-5:00","created_date":"2016-12-15T09:53:31-5:00","published_date":"2016-12-15T09:53:31-5:00","material_type_facet":"News","kicker":"","des_facet":["Rats","Poisoning
+        and Poisons","Pesticides"],"org_facet":"","per_facet":"","geo_facet":["Paris
+        (France)"],"multimedia":[{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/15\/world\/16Parisrats3\/16Parisrats3-thumbStandard-v2.jpg","format":"Standard
+        Thumbnail","height":75,"width":75,"type":"image","subtype":"photo","caption":"Nine
+        parks and green spaces in Paris have been closed either partly or entirely
+        because of a rat problem.","copyright":"Pierre Terdjman for The New York Times"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/15\/world\/16Parisrats3\/16Parisrats3-thumbLarge.jpg","format":"thumbLarge","height":150,"width":150,"type":"image","subtype":"photo","caption":"Nine
+        parks and green spaces in Paris have been closed either partly or entirely
+        because of a rat problem.","copyright":"Pierre Terdjman for The New York Times"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/15\/world\/16Parisrats3\/16Parisrats3-articleInline.jpg","format":"Normal","height":127,"width":190,"type":"image","subtype":"photo","caption":"Nine
+        parks and green spaces in Paris have been closed either partly or entirely
+        because of a rat problem.","copyright":"Pierre Terdjman for The New York Times"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/15\/world\/16Parisrats3\/16Parisrats3-mediumThreeByTwo210.jpg","format":"mediumThreeByTwo210","height":140,"width":210,"type":"image","subtype":"photo","caption":"Nine
+        parks and green spaces in Paris have been closed either partly or entirely
+        because of a rat problem.","copyright":"Pierre Terdjman for The New York Times"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/15\/world\/16Parisrats3\/16Parisrats3-superJumbo.jpg","format":"superJumbo","height":1366,"width":2048,"type":"image","subtype":"photo","caption":"Nine
+        parks and green spaces in Paris have been closed either partly or entirely
+        because of a rat problem.","copyright":"Pierre Terdjman for The New York Times"}]},{"section":"World","subsection":"Middle
+        East","title":"Israel\u2019s Parliament Draws a Line on Short Hemlines","abstract":"Dozens
+        of female employees arrived at the Knesset in above-the-knee outfits to protest
+        what they said was a sudden shift in enforcing a longstanding dress code.","url":"http:\/\/www.nytimes.com\/2016\/12\/14\/world\/middleeast\/israel-parliament-short-skirts-protest-women.html","byline":"By
+        ISABEL KERSHNER","item_type":"Article","updated_date":"2016-12-14T13:13:52-5:00","created_date":"2016-12-14T13:13:53-5:00","published_date":"2016-12-14T13:13:53-5:00","material_type_facet":"News","kicker":"","des_facet":["Politics
+        and Government","Dresses","Women and Girls","Demonstrations, Protests and
+        Riots"],"org_facet":"","per_facet":"","geo_facet":["Israel","Jerusalem (Israel)"],"multimedia":""},{"section":"N.Y.
+        \/ Region","subsection":"","title":"Unusual New Resident of Manhattan Has
+        People Talking","abstract":"A male deer who has settled in Jackie Robinson
+        Park in Harlem, a block from a subway entrance, has his new neighbors worried
+        about his safety.","url":"http:\/\/www.nytimes.com\/2016\/12\/14\/nyregion\/harlem-jackie-robinson-park-reindeer.html","byline":"By
+        ANDY NEWMAN","item_type":"Article","updated_date":"2016-12-14T22:49:09-5:00","created_date":"2016-12-14T22:49:10-5:00","published_date":"2016-12-14T22:49:10-5:00","material_type_facet":"News","kicker":"","des_facet":["Deer"],"org_facet":["Parks
+        and Recreation Department (NYC)"],"per_facet":"","geo_facet":["Harlem (Manhattan,
+        NY)"],"multimedia":[{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/15\/nyregion\/15DEER1\/15DEER1-thumbStandard.jpg","format":"Standard
+        Thumbnail","height":75,"width":75,"type":"image","subtype":"photo","caption":"A
+        male deer who has settled in Jackie Robinson Park in Harlem is drawing delighted,
+        and concerned, crowds.","copyright":"Emon Hassan for The New York Times"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/15\/nyregion\/15DEER1\/15DEER1-thumbLarge.jpg","format":"thumbLarge","height":150,"width":150,"type":"image","subtype":"photo","caption":"A
+        male deer who has settled in Jackie Robinson Park in Harlem is drawing delighted,
+        and concerned, crowds.","copyright":"Emon Hassan for The New York Times"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/15\/nyregion\/15DEER1\/15DEER1-articleInline.jpg","format":"Normal","height":130,"width":190,"type":"image","subtype":"photo","caption":"A
+        male deer who has settled in Jackie Robinson Park in Harlem is drawing delighted,
+        and concerned, crowds.","copyright":"Emon Hassan for The New York Times"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/15\/nyregion\/15DEER1\/15DEER1-mediumThreeByTwo210.jpg","format":"mediumThreeByTwo210","height":140,"width":210,"type":"image","subtype":"photo","caption":"A
+        male deer who has settled in Jackie Robinson Park in Harlem is drawing delighted,
+        and concerned, crowds.","copyright":"Emon Hassan for The New York Times"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/15\/nyregion\/15DEER1\/15DEER1-superJumbo.jpg","format":"superJumbo","height":1365,"width":2048,"type":"image","subtype":"photo","caption":"A
+        male deer who has settled in Jackie Robinson Park in Harlem is drawing delighted,
+        and concerned, crowds.","copyright":"Emon Hassan for The New York Times"}]},{"section":"World","subsection":"Asia
+        Pacific","title":"Miss World Contestant Who Challenged China Is Allowed to
+        Speak Once More","abstract":"Pageant organizers gave Anastasia Lin permission
+        on Wednesday to speak to the news media, ending a three-week standoff over
+        her criticism of human rights abuses in China.","url":"http:\/\/www.nytimes.com\/2016\/12\/14\/world\/asia\/anastasia-lin-miss-world-china-canada.html","byline":"By
+        ANDREW JACOBS","item_type":"Article","updated_date":"2016-12-14T20:27:14-5:00","created_date":"2016-12-14T20:27:15-5:00","published_date":"2016-12-14T20:27:15-5:00","material_type_facet":"News","kicker":"","des_facet":["Human
+        Rights and Human Rights Violations","Censorship","Beauty Contests","Transplants"],"org_facet":["Miss
+        World Ltd"],"per_facet":["Lin, Anastasia (1990- )"],"geo_facet":["China","Canada"],"multimedia":[{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/15\/world\/14pageant\/14pageant-thumbStandard.jpg","format":"Standard
+        Thumbnail","height":75,"width":75,"type":"image","subtype":"photo","caption":"Anastasia
+        Lin, Canada\u2019s Miss World entrant, spoke out about murky, government-sanctioned
+        organ transplant programs in China.","copyright":"Pablo Martinez Monsivais\/Associated
+        Press"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/15\/world\/14pageant\/14pageant-thumbLarge.jpg","format":"thumbLarge","height":150,"width":150,"type":"image","subtype":"photo","caption":"Anastasia
+        Lin, Canada\u2019s Miss World entrant, spoke out about murky, government-sanctioned
+        organ transplant programs in China.","copyright":"Pablo Martinez Monsivais\/Associated
+        Press"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/15\/world\/14pageant\/14pageant-articleInline.jpg","format":"Normal","height":130,"width":190,"type":"image","subtype":"photo","caption":"Anastasia
+        Lin, Canada\u2019s Miss World entrant, spoke out about murky, government-sanctioned
+        organ transplant programs in China.","copyright":"Pablo Martinez Monsivais\/Associated
+        Press"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/15\/world\/14pageant\/14pageant-mediumThreeByTwo210.jpg","format":"mediumThreeByTwo210","height":140,"width":210,"type":"image","subtype":"photo","caption":"Anastasia
+        Lin, Canada\u2019s Miss World entrant, spoke out about murky, government-sanctioned
+        organ transplant programs in China.","copyright":"Pablo Martinez Monsivais\/Associated
+        Press"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/15\/world\/14pageant\/14pageant-superJumbo.jpg","format":"superJumbo","height":1397,"width":2048,"type":"image","subtype":"photo","caption":"Anastasia
+        Lin, Canada\u2019s Miss World entrant, spoke out about murky, government-sanctioned
+        organ transplant programs in China.","copyright":"Pablo Martinez Monsivais\/Associated
+        Press"}]},{"section":"N.Y. \/ Region","subsection":"","title":"Muslim Woman
+        Made Up Hate Crime on Subway, Police Say","abstract":"The woman, 18, claimed
+        that three men attacked her on a Manhattan subway on Dec. 1 and tried to pull
+        off her hijab. The police said the story was false.","url":"http:\/\/www.nytimes.com\/2016\/12\/14\/nyregion\/manhattan-yasmin-seweid-false-hate-crime.html","byline":"By
+        CHRISTOPHER MELE","item_type":"Article","updated_date":"2016-12-14T19:45:26-5:00","created_date":"2016-12-14T19:45:26-5:00","published_date":"2016-12-14T19:45:26-5:00","material_type_facet":"News","kicker":"","des_facet":["Muslim
+        Veiling","Hate Crimes","Assaults","Discrimination","Muslim Americans"],"org_facet":"","per_facet":["Seweid,
+        Yasmin"],"geo_facet":["Manhattan (NYC)"],"multimedia":[{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/15\/nyregion\/15xp-false-mobile\/15xp-false-mobile-thumbStandard.jpg","format":"Standard
+        Thumbnail","height":75,"width":75,"type":"image","subtype":"photo","caption":"","copyright":""},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/15\/nyregion\/15xp-false-mobile\/15xp-false-mobile-thumbLarge.jpg","format":"thumbLarge","height":150,"width":150,"type":"image","subtype":"photo","caption":"","copyright":""},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/15\/nyregion\/15xp-false-mobile\/15xp-false-mobile-articleInline.jpg","format":"Normal","height":190,"width":190,"type":"image","subtype":"photo","caption":"","copyright":""},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/15\/nyregion\/15xp-false-mobile\/15xp-false-mobile-mediumThreeByTwo210-v2.jpg","format":"mediumThreeByTwo210","height":140,"width":210,"type":"image","subtype":"photo","caption":"","copyright":""},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/15\/nyregion\/15xp-false-mobile\/15xp-false-mobile-superJumbo.jpg","format":"superJumbo","height":420,"width":420,"type":"image","subtype":"photo","caption":"","copyright":""}]},{"section":"Fashion
+        & Style","subsection":"","title":"How to Have a Dinner Party: Friends Not
+        Required","abstract":"Flummoxed by the old-fashioned pastime of entertaining
+        at home, our reporter tries out online services designed to bring together
+        strangers.","url":"http:\/\/www.nytimes.com\/2016\/12\/14\/fashion\/dinner-party-apps.html","byline":"By
+        HANNAH SELIGSON","item_type":"Article","updated_date":"2016-12-15T09:22:31-5:00","created_date":"2016-12-14T14:44:14-5:00","published_date":"2016-12-14T14:44:14-5:00","material_type_facet":"News","kicker":"","des_facet":["Parties
+        (Social)","Food","Computers and the Internet","Mobile Applications","Millennial
+        Generation"],"org_facet":["Feastly Inc","10 Chairs NYC","EatWith Media Ltd","OneTable"],"per_facet":"","geo_facet":"","multimedia":[{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/15\/fashion\/15DINNER\/15DINNER-thumbStandard.jpg","format":"Standard
+        Thumbnail","height":75,"width":75,"type":"image","subtype":"photo","caption":"Enjoying
+        soup and wine at a dinner in Harlem organized by EatWith, a communal dining
+        service that is now in more than 200 cities around the world.","copyright":"Andrew
+        White for The New York Times"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/15\/fashion\/15DINNER\/15DINNER-thumbLarge.jpg","format":"thumbLarge","height":150,"width":150,"type":"image","subtype":"photo","caption":"Enjoying
+        soup and wine at a dinner in Harlem organized by EatWith, a communal dining
+        service that is now in more than 200 cities around the world.","copyright":"Andrew
+        White for The New York Times"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/15\/fashion\/15DINNER\/15DINNER-articleInline.jpg","format":"Normal","height":127,"width":190,"type":"image","subtype":"photo","caption":"Enjoying
+        soup and wine at a dinner in Harlem organized by EatWith, a communal dining
+        service that is now in more than 200 cities around the world.","copyright":"Andrew
+        White for The New York Times"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/15\/fashion\/15DINNER\/15DINNER-mediumThreeByTwo210.jpg","format":"mediumThreeByTwo210","height":140,"width":210,"type":"image","subtype":"photo","caption":"Enjoying
+        soup and wine at a dinner in Harlem organized by EatWith, a communal dining
+        service that is now in more than 200 cities around the world.","copyright":"Andrew
+        White for The New York Times"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/15\/fashion\/15DINNER\/15DINNER-superJumbo.jpg","format":"superJumbo","height":1365,"width":2048,"type":"image","subtype":"photo","caption":"Enjoying
+        soup and wine at a dinner in Harlem organized by EatWith, a communal dining
+        service that is now in more than 200 cities around the world.","copyright":"Andrew
+        White for The New York Times"}]},{"section":"Business Day","subsection":"International
+        Business","title":"Lagarde Case Is \u2018Weak,\u2019 French Prosecutor Says,
+        Raising Chances of Acquittal","abstract":"The prosecutor wrapped up a four-day
+        trial against Christine Lagarde, the head of the International Monetary Fund,
+        who is accused of \u201cnegligence by a person in a position of public authority.\u201d","url":"http:\/\/www.nytimes.com\/2016\/12\/15\/business\/international\/france-lagarde-imf-trial.html","byline":"By
+        LIZ ALDERMAN","item_type":"Article","updated_date":"2016-12-15T13:48:30-5:00","created_date":"2016-12-15T13:48:31-5:00","published_date":"2016-12-15T13:48:31-5:00","material_type_facet":"News","kicker":"","des_facet":["Politics
+        and Government","Decisions and Verdicts"],"org_facet":["International Monetary
+        Fund","Credit Lyonnais Sa"],"per_facet":["Lagarde, Christine"],"geo_facet":["France"],"multimedia":[{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/13\/business\/16LAGARDE\/16LAGARDE-thumbStandard.jpg","format":"Standard
+        Thumbnail","height":75,"width":75,"type":"image","subtype":"photo","caption":"Christine
+        Lagarde, chief of the International Monetary Fund, before the start of her
+        trial in Paris this week.","copyright":"Martin Bureau\/Agence France-Presse
+        \u2014 Getty Images"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/13\/business\/16LAGARDE\/16LAGARDE-thumbLarge.jpg","format":"thumbLarge","height":150,"width":150,"type":"image","subtype":"photo","caption":"Christine
+        Lagarde, chief of the International Monetary Fund, before the start of her
+        trial in Paris this week.","copyright":"Martin Bureau\/Agence France-Presse
+        \u2014 Getty Images"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/13\/business\/16LAGARDE\/13LAGARDE-1481582156607-articleInline.jpg","format":"Normal","height":127,"width":190,"type":"image","subtype":"photo","caption":"Christine
+        Lagarde, chief of the International Monetary Fund, before the start of her
+        trial in Paris this week.","copyright":"Martin Bureau\/Agence France-Presse
+        \u2014 Getty Images"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/13\/business\/16LAGARDE\/16LAGARDE-mediumThreeByTwo210.jpg","format":"mediumThreeByTwo210","height":140,"width":210,"type":"image","subtype":"photo","caption":"Christine
+        Lagarde, chief of the International Monetary Fund, before the start of her
+        trial in Paris this week.","copyright":"Martin Bureau\/Agence France-Presse
+        \u2014 Getty Images"},{"url":"https:\/\/static01.nyt.com\/images\/2016\/12\/13\/business\/16LAGARDE\/13LAGARDE-1481582156607-superJumbo.jpg","format":"superJumbo","height":1364,"width":2048,"type":"image","subtype":"photo","caption":"Christine
+        Lagarde, chief of the International Monetary Fund, before the start of her
+        trial in Paris this week.","copyright":"Martin Bureau\/Agence France-Presse
+        \u2014 Getty Images"}]}]}'
+    http_version: 
+  recorded_at: Thu, 15 Dec 2016 20:59:47 GMT
+recorded_with: VCR 2.5.0
